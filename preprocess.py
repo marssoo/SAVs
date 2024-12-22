@@ -1,12 +1,18 @@
 #### 
 import json
 import random
+# from datasets import load_dataset
+import PIL
+from PIL import ImageDraw, Image
+from PIL import ImageFont
+import ast
+import numpy as np
 ####
 
 def open_data(dataset_name, path):
 
     jsonl_format_dataset = ["vizwiz", "wino"]
-    list_format_dataset = ["vlguard", "MHalu", "eurosat", "airplane", "sst2", "mnli"]
+    list_format_dataset = ["vlguard", "MHalu", "eurosat", "airplane"]
 
 
     with open(path, 'r') as json_file:
@@ -31,14 +37,14 @@ def get_format_func(cur_dataset):
         return format_blink
     if cur_dataset == "natural":
         return format_natural
+    if cur_dataset == "mmmu":
+        return format_mmmu
+    if cur_dataset == "wino":
+        return format_wino
     if cur_dataset == "eurosat":
         return format_eurosat
     if cur_dataset == "airplane":
         return format_airplane
-    if cur_dataset == "sst2":
-        return format_sst2
-    if cur_dataset == "mnli":
-        return format_mnli
 
 
 
@@ -79,8 +85,12 @@ def vizwiz_sample_balance(all_data):
     return unanswerable_sample + other_sample
 
 
+
+
 def format_vizwiz(all_data, cur_item=None, num_shot=0, model_helper=None, split="train"):
     prompt = '<image>\n{} \nWhen the provided information is insufficient, respond with Unanswerable.\nAnswer the question using a single word or phrase.'
+    #prompt = "<image>\n{} Answer the question using a single word or phrase."
+
     image_list = []
 
     if cur_item is None:
@@ -116,6 +126,8 @@ def format_MHalu(all_data, cur_item=None, num_shot=0, model_helper=None, split="
 
     prompt = "<image>\nClaim:{}. Is the Claim hallucinating? Answer the question with Yes or No."
 
+    if "zhaobin" not in image and "coco2014_2024-02-22_2010" not in image:
+        image = "/home/zhaobin/Qwen-VL/data/hallucination/images/data/image-to-text/" + image.split("/")[-1]
 
     image_list = []
     few_shot_prompt = ""
@@ -124,7 +136,8 @@ def format_MHalu(all_data, cur_item=None, num_shot=0, model_helper=None, split="
         for sample in hallu_sample:
             few_shot_prompt += prompt.format(sample['claim']) + f" {label_to_yesno[sample['claim_label']]}\n"
             sample_img = sample["image_path"]
-
+            if "zhaobin" not in sample_img and "coco2014_2024-02-22_2010" not in sample_img:
+                sample_img = "/home/zhaobin/Qwen-VL/data/hallucination/images/data/image-to-text/" + sample_img.split("/")[-1]
             image_list.append(sample_img)
 
     image_list.append(image)
@@ -286,6 +299,95 @@ def format_natural(all_data, cur_item=None, num_shot=0, model_helper=None, split
     return prompt, image_list, cur_ans, -1
 
 
+def format_mmmu(all_data, cur_item=None, num_shot=0, model_helper=None, split="train"):
+
+    def put_options(question, options, question_type):
+
+        if question_type == "open":
+            new_question = question + "\nAnswer the question using a single word or phrase."
+
+        else:
+            all_letter = ["A", "B", "C", "D", "E", "F", "G", "H", "I"]
+
+            options = ast.literal_eval(options)
+            options = [n.strip() for n in options]
+
+
+            new_question = question + "\n"
+            for idx in range(len(options)):
+
+                new_question += f"{all_letter[idx]}.{options[idx]}\n"
+            
+            new_question = new_question + "\nAnswer with the option's letter from the given choices directly."
+
+        return new_question
+    
+
+    def put_image(question, cur_item):
+        question_image = []
+
+        for i in range(1, 8):
+            if cur_item[f'image_{i}'] is not None:
+                question_image.append(cur_item[f'image_{i}'])
+                question = question.replace(f"<image {i}>", "<image>\n")
+        
+        if question.count("<image>") != len(question_image):
+            question = question.replace("<image>\n", "")
+            for _ in range(len(question_image)):
+                question = "<image>\n" + question
+
+
+        return question, question_image
+        
+
+    question, options, answer, question_type = cur_item["question"], cur_item["options"], cur_item["answer"], cur_item["question_type"]
+    question = put_options(question, options, question_type)
+    question, image_list = put_image(question, cur_item)
+
+    return question, image_list, answer, cur_item["id"]
+
+
+def wino_balance_sample(all_data):
+    yes_data = random.sample(all_data[0], 2)
+    no_data = random.sample(all_data[1], 2)
+    return yes_data + no_data
+
+
+def format_wino(all_data, cur_item=None, num_shot=0, model_helper=None, split="train"):
+
+    prompt = "<image>\n Does this figure show {}? Please answer yes or no."
+
+    image_list = []
+
+    if cur_item is None:
+        data = json.loads(random.sample(all_data, 1)[0])
+    else:
+        data = json.loads(cur_item)
+    # data = cur_item
+    image, caption, answer = data['image'], data['caption'], data['answer']
+
+    if "npy" in image:
+        image = Image.fromarray(np.load(image)[:, :, [2, 1, 0]], 'RGB')
+
+    few_shot_prompt = ''
+    if num_shot > 0:
+
+        #sampled_data = wino_balance_sample(all_data)
+        ###TODO: FOR MTV
+        sampled_data = random.sample(all_data, num_shot)
+        for sample in sampled_data:
+            sample = json.loads(sample.strip())
+            few_shot_prompt += prompt.format(sample['caption']) + f" {sample['answer']}\n"
+            image_list.append("/home/zhaobin/LLaVA/playground/data/eval/wino/images/" + sample["image"] + ".png")
+            ###FOR EQBENCH
+            #image_list.append(sample["image"])
+
+    full_text = few_shot_prompt + prompt.format(caption)
+    image_list.append("/home/zhaobin/LLaVA/playground/data/eval/wino/images/" + image + ".png")
+    ###FOR EQBENCH
+    #image_list.append(image)
+
+    return full_text, image_list, answer, -1
 
 
 def format_eurosat(all_data, cur_item=None, num_shot=0, model_helper=None, split="train"):
@@ -299,13 +401,6 @@ def format_eurosat(all_data, cur_item=None, num_shot=0, model_helper=None, split
     
     image_list = []
     few_shot_prompt = ""
-    # if num_shot > 0:
-    #     for class_label in all_data.keys():
-    #         if class_label in cur_question:
-    #             sample = random.sample(all_data[class_label], 1)[0]
-    #             few_shot_prompt += f"<image>\nThis is a {class_label}.\n"
-    #             image_list.append(sample['image'])
-
     if num_shot > 0:
         samples = random.sample(all_data, 4)
         for sample in samples:
@@ -337,48 +432,5 @@ def format_airplane(all_data, cur_item=None, num_shot=0, model_helper=None, spli
     
     final_text = few_shot_prompt + prompt.format(cur_question)
     image_list.append(cur_image)
-
-    return final_text, image_list, cur_answer, -1
-
-
-def format_sst2(all_data, cur_item=None, num_shot=0, model_helper=None, split="train"):
-    #inst = "For each snippet of text, label the sentiment of the text as positive or negative. The answer should be exact ’positive’ or ’negative’.\n"
-    inst = ""
-    prompt = "Sentiment:{}\nLabel:"
-
-    if cur_item is None:
-        cur_item = random.sample(all_data, 1)[0]
-    cur_question, cur_answer = cur_item['sentence'], cur_item['label']
-
-    
-    image_list = []
-    few_shot_prompt = ""
-    if num_shot > 0:
-        samples = random.sample(all_data, num_shot)
-        for sample in samples:
-            few_shot_prompt += prompt.format(sample['sentence']) + f" {sample['label']}\n"
-    
-    final_text = inst + few_shot_prompt + prompt.format(cur_question)
-
-    return final_text, image_list, cur_answer, -1
-
-
-def format_mnli(all_data, cur_item=None, num_shot=0, model_helper=None, split="train"):
-    inst = ""
-    prompt = "Premise:{}\nHypothesis:{}\nLabel:"
-
-    if cur_item is None:
-        cur_item = random.sample(all_data, 1)[0]
-    cur_pre, cur_hyp, cur_answer = cur_item['premise'], cur_item['hypothesis'], cur_item['label']
-
-    
-    image_list = []
-    few_shot_prompt = ""
-    if num_shot > 0:
-        samples = random.sample(all_data, num_shot)
-        for sample in samples:
-            few_shot_prompt += prompt.format(sample['premise'], sample['hypothesis']) + f" {sample['label']}\n"
-    
-    final_text = inst + few_shot_prompt + prompt.format(cur_pre, cur_hyp)
 
     return final_text, image_list, cur_answer, -1

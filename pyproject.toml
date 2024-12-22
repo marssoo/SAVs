@@ -1,0 +1,80 @@
+[build-system]
+requires = ["setuptools>=42", "wheel", "torch>=2.0.0", "numpy>=1.26.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "SAVs"
+version = "0.1.0"
+description = "A Few-Shot Feature Extraction Method for LMMs to Perform Discriminative Vision-Language Tasks"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Chancharik Mitra", email = "cmitra@cs.cmu.edu" },
+    { name = "Brandon Huang", email = "zhaobin@berkeley.edu"},
+    { name = "Tianning (Ray) Chai", email="raychai@berkeley.edu"}
+]
+keywords = ["deep learning", "vision-language", "feature extraction"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3.10",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
+dependencies = [
+    "torch>=2.0.1",
+    "torchvision>=0.15.2",
+    "numpy>=1.26.0",
+    "pandas>=2.2.0",
+    "transformers>=4.42.0",
+    "scikit-learn>=1.5.0",
+    "matplotlib>=3.8.0",
+    "datasets>=2.19.0",
+    "timm>=0.9.0",
+    "aiohttp>=3.9.0",
+    "albumentations>=1.3.0",
+    "filelock>=3.13.0",
+    "huggingface-hub>=0.23.0",
+    "omegaconf>=2.3.0",
+    "diffusers>=0.20.0",
+    "deepspeed>=0.10.0",
+    "scipy>=1.11.0",
+    "pydantic>=1.10.0",
+    "xformers>=0.0.20",
+    "sentence-transformers>=3.0.0"
+]
+requires-python = ">=3.10"
+
+[project.urls]
+homepage = "https://github.com/yourusername/your-ml-package"
+repository = "https://github.com/yourusername/your-ml-package"
+documentation = "https://yourusername.github.io/your-ml-package"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["your_ml_package*"]
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.black]
+line-length = 88
+target-version = ["py310"]
+
+[tool.isort]
+profile = "black"
+
+[tool.mypy]
+plugins = ["pydantic.mypy"]
+
+[tool.coverage.run]
+branch = true
+source = ["your_ml_package"]
+
+[tool.pylint.messages_control]
+disable = [
+    "missing-docstring",
+    "invalid-name",
+    "too-many-arguments",
+    "too-few-public-methods"
+]
