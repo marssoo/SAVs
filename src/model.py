@@ -66,7 +66,6 @@ class llavaOVHelper:
             return (input_ids, None, None)
 
         image_list = load_images(image_list)
-        print(image_list)
         image_sizes = [image.size for image in image_list]
 
         image_tensors = process_images(image_list, self.processor, self.model.config)

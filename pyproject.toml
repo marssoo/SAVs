@@ -42,7 +42,12 @@ dependencies = [
     "pydantic>=1.10.0",
     "xformers>=0.0.20",
     "sentence-transformers>=3.0.0",
-    "open-clip-torch"
+    "open-clip-torch",
+    "flash-attn",
+    "baukit @ git+https://github.com/davidbau/baukit",
+    "llava @ git+https://github.com/LLaVA-VL/LLaVA-NeXT.git",
+    "qwen-vl-utils[decord]",
+    "accelerate==0.26.0"
 ]
 requires-python = ">=3.10"
 

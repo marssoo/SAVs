@@ -1,0 +1,42 @@
+Metadata-Version: 2.2
+Name: SAVs
+Version: 0.1.0
+Summary: A Few-Shot Feature Extraction Method for LMMs to Perform Discriminative Vision-Language Tasks
+Author-email: Chancharik Mitra <cmitra@cs.cmu.edu>, Brandon Huang <zhaobin@berkeley.edu>, "Tianning (Ray) Chai" <raychai@berkeley.edu>
+Project-URL: homepage, https://github.com/yourusername/your-ml-package
+Project-URL: repository, https://github.com/yourusername/your-ml-package
+Project-URL: documentation, https://yourusername.github.io/your-ml-package
+Keywords: deep learning,vision-language,feature extraction
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: torch>=2.0.1
+Requires-Dist: torchvision>=0.15.2
+Requires-Dist: numpy>=1.26.0
+Requires-Dist: pandas>=2.2.0
+Requires-Dist: transformers>=4.42.0
+Requires-Dist: scikit-learn>=1.5.0
+Requires-Dist: matplotlib>=3.8.0
+Requires-Dist: datasets>=2.19.0
+Requires-Dist: timm>=0.9.0
+Requires-Dist: aiohttp>=3.9.0
+Requires-Dist: albumentations>=1.3.0
+Requires-Dist: filelock>=3.13.0
+Requires-Dist: huggingface-hub>=0.23.0
+Requires-Dist: omegaconf>=2.3.0
+Requires-Dist: diffusers>=0.20.0
+Requires-Dist: deepspeed>=0.10.0
+Requires-Dist: scipy>=1.11.0
+Requires-Dist: pydantic>=1.10.0
+Requires-Dist: xformers>=0.0.20
+Requires-Dist: sentence-transformers>=3.0.0
+Requires-Dist: open-clip-torch
+Requires-Dist: flash-attn
+Requires-Dist: baukit@ git+https://github.com/davidbau/baukit
+Requires-Dist: llava@ git+https://github.com/LLaVA-VL/LLaVA-NeXT.git
+Requires-Dist: qwen-vl-utils[decord]
+Requires-Dist: accelerate==0.26.0
