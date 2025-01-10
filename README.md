@@ -1,6 +1,6 @@
 # Sparse Attention Vectors (SAVs)
 ---
-*SAVs are a lightweight few-shot method for extracting truly multimodal features (from image, text, and interleaved inputs) from generative large multimodal models to enable state-of-the-art performance on any vision-language task with discrete labels (e.g. classification or safety alignment*
+*SAVs are a lightweight few-shot method for extracting truly multimodal features (from image, text, and interleaved inputs) from generative large multimodal models to enable state-of-the-art performance on any vision-language task with discrete labels (e.g. classification or safety alignment).*
 
 
 <p align="center">
@@ -16,9 +16,53 @@
   <img src=images/teaser.png />
 </p>
 
-Generative Large Multimodal Models (LMMs) like LLaVA and Qwen-VL excel at a wide variety of vision-language (VL) tasks such as image captioning or visual question answering. Despite strong performance, LMMs are not directly suited for foundational discriminative vision-language tasks (i.e., tasks requiring discrete label predictions) such as image classification and multiple-choice VQA. One key challenge in utilizing LMMs for discriminative tasks is the extraction of useful features from generative models. To overcome this issue, we propose an approach for finding features in the model's latent space to more effectively leverage LMMs for discriminative tasks. Toward this end, we present <b>Sparse Attention Vectors (SAVs)</b> -- a finetuning-free method that leverages sparse attention head activations (fewer than 1% of the heads) in LMMs as strong features for VL tasks. With only few-shot examples, SAVs demonstrate state-of-the-art performance compared to a variety of few-shot and finetuned baselines on a collection of discriminative tasks. Our experiments also imply that SAVs can scale in performance with additional examples and generalize to similar tasks, establishing SAVs as both effective and robust multimodal feature representations.
 
-For more information, please refer to our paper!
+**Key Problem:**
+- Large Multimodal Models (LMMs) excel at generative tasks but aren't directly suited for discriminative vision-language tasks (classification, multiple-choice VQA)
+- Need better ways to extract useful features from these models for discrete label predictions
+
+**Our Solution - SAVs:**
+- A finetuning-free method that extracts sparse attention head activations from LMMs
+- Uses less than 1% of attention heads as features
+
+**Key Benefits:**
+- Works with any discriminative vision-language task requiring discrete labels
+- Achieves state-of-the-art performance with just few-shot examples
+- Outperforms both few-shot and finetuned baselines (including LoRA)
+- Scales well with additional examples
+- Generalizes effectively to similar tasks
+- Requires no model finetuning
+- Creates robust, truly **multimodal** feature representations
+  <p align="center">
+    <table>
+      <tr>
+       <th></th>
+       <th>CLIP</th>
+       <th>SigLIP</th>
+       <th style="border-left: 2px solid black; border-right: 2px solid black;"><b>SAVs</b></th>
+      </tr>
+      <tr>
+       <td>Image Input</td>
+       <td>✓</td>
+       <td>✓</td>
+       <td style="border-left: 2px solid black; border-right: 2px solid black;">✓</td>
+      </tr>
+      <tr>
+       <td>Text Input</td>
+       <td>✓</td>
+       <td>✓</td>
+       <td style="border-left: 2px solid black; border-right: 2px solid black;">✓</td>
+      </tr>
+      <tr>
+       <td>Interleaved Input</td>
+       <td>✗</td>
+       <td>✗</td>
+       <td style="border-left: 2px solid black; border-right: 2px solid black;">✓</td>
+      </tr>
+    </table>
+  </p>
+
+For more information, please refer to our [paper](https://arxiv.org/abs/2412.00142)!
 
 ### 💻 Setup
 ---
@@ -33,6 +77,33 @@ conda activate savs
 pip install -e .
 ```
 #### Running SAVs
+
+We have provided a simple script `run.py` that both extracts SAVs using the `mllm_encode` method and then applies SAVs to a provided test dataset using `mllm_classify`. The outputs of `mllm_encode` are given as a dictionary with the following fields:
+
+1. 'activations' - a PyTorch tensor of size `[num_classes, num_heads, head_dim]`
+2. 'top_heads' - a list with tuples that give the indices of the top heads as `(layer_idx, head_idx, optional_head_tag)`
+3. 'int_to_str' - a dictionary mapping of integers to string names of the class labels (e.g. `{0 : 'cat', 1 : 'dog'}`) for indexing the activations
+
+While we use these activation vectors for discrete-label or discriminative VL tasks, we encourage you to find other uses for these features!
+
+To run SAVs, use the following command:
+
+```python 
+python3 -m src.run \
+    --model_name model_name \
+    --data_name dataset_name \
+    --train_path /path/to/train.json \
+    --val_path /path/to/test.json
+```
+You may choose to change the default number of examples and heads used. But we find 20 examples and 20 heads is enough to yield state-of-the-art performance on a variety of VL tasks: **outperforming even LoRA at this sample complexity!**
+#### Models
+Our codebase has two models set up by default: LLaVA-OneVision-7B ('llava_ov') and Qwen2-VL ('qwen2_vl'). Adding a model is very easy. Simply follow the `ModelHelper` class template in `models.py`.
+
+#### Datasets
+Our method can be applied to any discriminative, discrete-label VL task. We provide a variety of examples on how to format datasets (found in the 'data' folder). Adding a new dataset is simple:
+
+1. Format a training and test set as shown in our examples. If we already provide the training set (and the number of examples suits your use), format the test set identically.
+2. Add the respective formatting function in `preprocess.py`. Use the given examples for reference.
 
 ### 📝 Citation
 ---
