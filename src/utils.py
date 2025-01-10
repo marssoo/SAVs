@@ -55,6 +55,17 @@ def load_model(model_name, cur_dataset, lora_path=None):
         model.eval()
         model.requires_grad_(False)
         model_helper = llavaOVHelper(model, tokenizer, image_processor, cur_dataset)
+    elif model_name == "qwen2vl":
+        from transformers import Qwen2VLForConditionalGeneration
+
+        model = Qwen2VLForConditionalGeneration.from_pretrained( "Qwen/Qwen2-VL-7B-Instruct", torch_dtype=torch.bfloat16, device_map="auto", attn_implementation="flash_attention_2")
+
+        model.eval()
+        model.requires_grad_(False)
+        
+        processor = AutoProcessor.from_pretrained("Qwen/Qwen2-VL-7B-Instruct")
+
+        model_helper = Qwen2Helper(model, processor, cur_dataset)
 
     return model_helper
 
