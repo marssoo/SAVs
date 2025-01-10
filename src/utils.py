@@ -269,7 +269,9 @@ def mllm_encode(model, train_data, num_head):
         top_heads.append(all_heads[item])
 
     top_class_activations, str_to_int, int_to_str = get_class_activations(train_data, model, top_heads)
-
+    print(f'actications {top_class_activations.shape}')
+    print(f'top heads {top_heads}')
+    print(f'int_to_str {int_to_str}')
     return {"activations":top_class_activations, "top_heads": top_heads, "int_to_str":int_to_str}
 
 
