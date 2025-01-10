@@ -1,7 +1,7 @@
 #!/bin/bash
 export CUDA_VISIBLE_DEVICES=0
-python3 -m run \
+python3 -m src.run \
     --model_name llava_ov \
-    --data_name MHalu \
-    --train_path placeholder \
-    --val_path placeholder 
+    --data_name pets \
+    --train_path data/pets_train.json \
+    --val_path data/pets_train.json

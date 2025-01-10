@@ -1,0 +1,40 @@
+{"image": "data/vizwiz/train/VizWiz_train_00000011.jpg", "question": "What is the sodium content of this can of food?", "question_id": 11, "label": "unanswerable"}
+{"image": "data/vizwiz/train/VizWiz_train_00000014.jpg", "question": "What flavor are these?", "question_id": 14, "label": "unanswerable"}
+{"image": "data/vizwiz/train/VizWiz_train_00000017.jpg", "question": "What is the name of this product? What is the name of this product?", "question_id": 17, "label": "unanswerable"}
+{"image": "data/vizwiz/train/VizWiz_train_00000019.jpg", "question": "Can I ask about anything or any information without taking any pictures?", "question_id": 19, "label": "unanswerable"}
+{"image": "data/vizwiz/train/VizWiz_train_00000021.jpg", "question": "Alright, and what does this label say?", "question_id": 21, "label": "unanswerable"}
+{"image": "data/vizwiz/train/VizWiz_train_00000026.jpg", "question": "What is this?", "question_id": 26, "label": "unanswerable"}
+{"image": "data/vizwiz/train/VizWiz_train_00000027.jpg", "question": "Am I right when I say that this string is blank?", "question_id": 27, "label": "unanswerable"}
+{"image": "data/vizwiz/train/VizWiz_train_00000028.jpg", "question": "What can is this?", "question_id": 28, "label": "unanswerable"}
+{"image": "data/vizwiz/train/VizWiz_train_00000030.jpg", "question": "What is in here?", "question_id": 30, "label": "unanswerable"}
+{"image": "data/vizwiz/train/VizWiz_train_00000033.jpg", "question": "This is a medication bottle and I'd just like to know if there is a label and dosage information visible. Thank you.", "question_id": 33, "label": "unanswerable"}
+{"image": "data/vizwiz/train/VizWiz_train_00000034.jpg", "question": "Are these low cut or crew ?", "question_id": 34, "label": "unanswerable"}
+{"image": "data/vizwiz/train/VizWiz_train_00000036.jpg", "question": "How much money is this?", "question_id": 36, "label": "unanswerable"}
+{"image": "data/vizwiz/train/VizWiz_train_00000037.jpg", "question": "What brand are these speakers?", "question_id": 37, "label": "unanswerable"}
+{"image": "data/vizwiz/train/VizWiz_train_00000038.jpg", "question": "What's the name of this CD?", "question_id": 38, "label": "unanswerable"}
+{"image": "data/vizwiz/train/VizWiz_train_00000042.jpg", "question": "What is this? No, wait.", "question_id": 42, "label": "unanswerable"}
+{"image": "data/vizwiz/train/VizWiz_train_00000045.jpg", "question": "What is this?", "question_id": 45, "label": "unanswerable"}
+{"image": "data/vizwiz/train/VizWiz_train_00000046.jpg", "question": "What is this?", "question_id": 46, "label": "unanswerable"}
+{"image": "data/vizwiz/train/VizWiz_train_00000047.jpg", "question": "Does the back of this box show what languages are supported in the movie?", "question_id": 47, "label": "unanswerable"}
+{"image": "data/vizwiz/train/VizWiz_train_00000050.jpg", "question": "Can you tell me the flavor of this yogurt please?", "question_id": 50, "label": "unanswerable"}
+{"image": "data/vizwiz/train/VizWiz_train_00000051.jpg", "question": "is this cookie dough?", "question_id": 51, "label": "unanswerable"}
+{"image": "data/vizwiz/train/VizWiz_train_00000000.jpg", "question": "What's the name of this product?", "question_id": 0, "label": "answerable"}
+{"image": "data/vizwiz/train/VizWiz_train_00000001.jpg", "question": "Can you tell me what is in this can please?", "question_id": 1, "label": "answerable"}
+{"image": "data/vizwiz/train/VizWiz_train_00000002.jpg", "question": "Is this enchilada sauce or is this tomatoes?  Thank you.", "question_id": 2, "label": "answerable"}
+{"image": "data/vizwiz/train/VizWiz_train_00000003.jpg", "question": "What is the captcha on this screenshot?", "question_id": 3, "label": "answerable"}
+{"image": "data/vizwiz/train/VizWiz_train_00000004.jpg", "question": "What is this item?", "question_id": 4, "label": "answerable"}
+{"image": "data/vizwiz/train/VizWiz_train_00000005.jpg", "question": "What's this?", "question_id": 5, "label": "answerable"}
+{"image": "data/vizwiz/train/VizWiz_train_00000006.jpg", "question": "What is in this bottle?", "question_id": 6, "label": "answerable"}
+{"image": "data/vizwiz/train/VizWiz_train_00000007.jpg", "question": "This item.", "question_id": 7, "label": "answerable"}
+{"image": "data/vizwiz/train/VizWiz_train_00000008.jpg", "question": "What color do these look?", "question_id": 8, "label": "answerable"}
+{"image": "data/vizwiz/train/VizWiz_train_00000009.jpg", "question": "Surface look clean? Thank you.", "question_id": 9, "label": "answerable"}
+{"image": "data/vizwiz/train/VizWiz_train_00000010.jpg", "question": "Is this.", "question_id": 10, "label": "answerable"}
+{"image": "data/vizwiz/train/VizWiz_train_00000012.jpg", "question": "what is this?", "question_id": 12, "label": "answerable"}
+{"image": "data/vizwiz/train/VizWiz_train_00000013.jpg", "question": "What kind of drink is this?", "question_id": 13, "label": "answerable"}
+{"image": "data/vizwiz/train/VizWiz_train_00000015.jpg", "question": "What color... what color is this skirt?", "question_id": 15, "label": "answerable"}
+{"image": "data/vizwiz/train/VizWiz_train_00000016.jpg", "question": "How much money is on the table?", "question_id": 16, "label": "answerable"}
+{"image": "data/vizwiz/train/VizWiz_train_00000018.jpg", "question": "What is this? ", "question_id": 18, "label": "answerable"}
+{"image": "data/vizwiz/train/VizWiz_train_00000020.jpg", "question": "What is this game?", "question_id": 20, "label": "answerable"}
+{"image": "data/vizwiz/train/VizWiz_train_00000022.jpg", "question": "What is in this can?", "question_id": 22, "label": "answerable"}
+{"image": "data/vizwiz/train/VizWiz_train_00000023.jpg", "question": "What is this movie?", "question_id": 23, "label": "answerable"}
+{"image": "data/vizwiz/train/VizWiz_train_00000024.jpg", "question": "Can you see the piece of mail and can you tell me who this mail is for?", "question_id": 24, "label": "answerable"}

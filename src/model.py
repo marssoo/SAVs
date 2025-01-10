@@ -2,7 +2,7 @@ from PIL import Image
 import torch
 import copy
 import requests
-from preprocess import *
+from .preprocess import *
 
 
 from llava.constants import IMAGE_TOKEN_INDEX, DEFAULT_IMAGE_TOKEN, DEFAULT_IM_START_TOKEN, DEFAULT_IM_END_TOKEN, IGNORE_INDEX
@@ -66,6 +66,7 @@ class llavaOVHelper:
             return (input_ids, None, None)
 
         image_list = load_images(image_list)
+        print(image_list)
         image_sizes = [image.size for image in image_list]
 
         image_tensors = process_images(image_list, self.processor, self.model.config)

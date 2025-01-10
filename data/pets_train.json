@@ -1,0 +1,4202 @@
+[
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Abyssinian_201.jpg",
+        "question": "What type of animal is in the image?\nA. Abyssinian B. Birman C. japanese D. basset",
+        "answer": "A",
+        "label": "Abyssinian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Abyssinian_202.jpg",
+        "question": "What type of animal is in the image?\nA. leonberger B. Abyssinian C. beagle D. Bombay",
+        "answer": "B",
+        "label": "Abyssinian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Abyssinian_204.jpg",
+        "question": "What type of animal is in the image?\nA. Abyssinian B. samoyed C. scottish D. Russian",
+        "answer": "A",
+        "label": "Abyssinian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Abyssinian_205.jpg",
+        "question": "What type of animal is in the image?\nA. Birman B. beagle C. chihuahua D. Abyssinian",
+        "answer": "D",
+        "label": "Abyssinian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Abyssinian_206.jpg",
+        "question": "What type of animal is in the image?\nA. Egyptian B. samoyed C. Abyssinian D. leonberger",
+        "answer": "C",
+        "label": "Abyssinian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Abyssinian_207.jpg",
+        "question": "What type of animal is in the image?\nA. Bengal B. leonberger C. english D. Abyssinian",
+        "answer": "D",
+        "label": "Abyssinian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Abyssinian_20.jpg",
+        "question": "What type of animal is in the image?\nA. shiba B. beagle C. Abyssinian D. pug",
+        "answer": "C",
+        "label": "Abyssinian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Abyssinian_210.jpg",
+        "question": "What type of animal is in the image?\nA. Russian B. Abyssinian C. British D. Bengal",
+        "answer": "B",
+        "label": "Abyssinian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Abyssinian_212.jpg",
+        "question": "What type of animal is in the image?\nA. Russian B. Abyssinian C. german D. scottish",
+        "answer": "B",
+        "label": "Abyssinian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Abyssinian_213.jpg",
+        "question": "What type of animal is in the image?\nA. Abyssinian B. havanese C. leonberger D. Persian",
+        "answer": "A",
+        "label": "Abyssinian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Abyssinian_215.jpg",
+        "question": "What type of animal is in the image?\nA. Abyssinian B. german C. boxer D. Sphynx",
+        "answer": "A",
+        "label": "Abyssinian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Abyssinian_216.jpg",
+        "question": "What type of animal is in the image?\nA. Russian B. Abyssinian C. saint D. havanese",
+        "answer": "B",
+        "label": "Abyssinian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Abyssinian_217.jpg",
+        "question": "What type of animal is in the image?\nA. boxer B. Abyssinian C. japanese D. Russian",
+        "answer": "B",
+        "label": "Abyssinian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Abyssinian_219.jpg",
+        "question": "What type of animal is in the image?\nA. Abyssinian B. Ragdoll C. saint D. Persian",
+        "answer": "A",
+        "label": "Abyssinian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Abyssinian_21.jpg",
+        "question": "What type of animal is in the image?\nA. saint B. scottish C. Abyssinian D. Birman",
+        "answer": "C",
+        "label": "Abyssinian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Abyssinian_220.jpg",
+        "question": "What type of animal is in the image?\nA. Abyssinian B. Maine C. shiba D. great",
+        "answer": "A",
+        "label": "Abyssinian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Abyssinian_221.jpg",
+        "question": "What type of animal is in the image?\nA. Abyssinian B. Birman C. shiba D. pomeranian",
+        "answer": "A",
+        "label": "Abyssinian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Abyssinian_223.jpg",
+        "question": "What type of animal is in the image?\nA. Birman B. scottish C. wheaten D. Abyssinian",
+        "answer": "D",
+        "label": "Abyssinian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Abyssinian_224.jpg",
+        "question": "What type of animal is in the image?\nA. staffordshire B. havanese C. Bengal D. Abyssinian",
+        "answer": "D",
+        "label": "Abyssinian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Abyssinian_225.jpg",
+        "question": "What type of animal is in the image?\nA. Abyssinian B. saint C. Sphynx D. english",
+        "answer": "A",
+        "label": "Abyssinian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/american_bulldog_203.jpg",
+        "question": "What type of animal is in the image?\nA. Bombay B. Bengal C. chihuahua D. american",
+        "answer": "D",
+        "label": "american"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/american_bulldog_205.jpg",
+        "question": "What type of animal is in the image?\nA. american B. havanese C. german D. saint",
+        "answer": "A",
+        "label": "american"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/american_bulldog_207.jpg",
+        "question": "What type of animal is in the image?\nA. Sphynx B. american C. British D. Ragdoll",
+        "answer": "B",
+        "label": "american"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/american_bulldog_208.jpg",
+        "question": "What type of animal is in the image?\nA. american B. havanese C. Egyptian D. basset",
+        "answer": "A",
+        "label": "american"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/american_bulldog_209.jpg",
+        "question": "What type of animal is in the image?\nA. english B. shiba C. american D. pomeranian",
+        "answer": "C",
+        "label": "american"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/american_bulldog_20.jpg",
+        "question": "What type of animal is in the image?\nA. pomeranian B. Bombay C. american D. pug",
+        "answer": "C",
+        "label": "american"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/american_bulldog_211.jpg",
+        "question": "What type of animal is in the image?\nA. american B. Siamese C. scottish D. Birman",
+        "answer": "A",
+        "label": "american"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/american_bulldog_212.jpg",
+        "question": "What type of animal is in the image?\nA. Egyptian B. american C. pug D. great",
+        "answer": "B",
+        "label": "american"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/american_bulldog_214.jpg",
+        "question": "What type of animal is in the image?\nA. Birman B. Abyssinian C. Egyptian D. american",
+        "answer": "D",
+        "label": "american"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/american_bulldog_216.jpg",
+        "question": "What type of animal is in the image?\nA. american B. British C. keeshond D. chihuahua",
+        "answer": "A",
+        "label": "american"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/american_bulldog_217.jpg",
+        "question": "What type of animal is in the image?\nA. great B. german C. shiba D. american",
+        "answer": "D",
+        "label": "american"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/american_bulldog_218.jpg",
+        "question": "What type of animal is in the image?\nA. Abyssinian B. yorkshire C. american D. pug",
+        "answer": "C",
+        "label": "american"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/american_bulldog_21.jpg",
+        "question": "What type of animal is in the image?\nA. Siamese B. Birman C. american D. chihuahua",
+        "answer": "C",
+        "label": "american"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/american_bulldog_220.jpg",
+        "question": "What type of animal is in the image?\nA. chihuahua B. Bombay C. leonberger D. american",
+        "answer": "D",
+        "label": "american"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/american_bulldog_221.jpg",
+        "question": "What type of animal is in the image?\nA. Maine B. Birman C. american D. japanese",
+        "answer": "C",
+        "label": "american"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/american_bulldog_224.jpg",
+        "question": "What type of animal is in the image?\nA. scottish B. american C. Maine D. wheaten",
+        "answer": "B",
+        "label": "american"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/american_bulldog_22.jpg",
+        "question": "What type of animal is in the image?\nA. pug B. english C. american D. miniature",
+        "answer": "C",
+        "label": "american"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/american_bulldog_23.jpg",
+        "question": "What type of animal is in the image?\nA. Egyptian B. american C. boxer D. japanese",
+        "answer": "B",
+        "label": "american"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/american_bulldog_24.jpg",
+        "question": "What type of animal is in the image?\nA. german B. staffordshire C. beagle D. american",
+        "answer": "D",
+        "label": "american"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/american_bulldog_25.jpg",
+        "question": "What type of animal is in the image?\nA. saint B. havanese C. pug D. american",
+        "answer": "D",
+        "label": "american"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/basset_hound_191.jpg",
+        "question": "What type of animal is in the image?\nA. Maine B. basset C. havanese D. beagle",
+        "answer": "B",
+        "label": "basset"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/basset_hound_192.jpg",
+        "question": "What type of animal is in the image?\nA. beagle B. basset C. english D. Russian",
+        "answer": "B",
+        "label": "basset"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/basset_hound_193.jpg",
+        "question": "What type of animal is in the image?\nA. Bengal B. boxer C. basset D. newfoundland",
+        "answer": "C",
+        "label": "basset"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/basset_hound_194.jpg",
+        "question": "What type of animal is in the image?\nA. miniature B. basset C. english D. Siamese",
+        "answer": "B",
+        "label": "basset"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/basset_hound_195.jpg",
+        "question": "What type of animal is in the image?\nA. miniature B. Sphynx C. basset D. samoyed",
+        "answer": "C",
+        "label": "basset"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/basset_hound_196.jpg",
+        "question": "What type of animal is in the image?\nA. boxer B. basset C. staffordshire D. beagle",
+        "answer": "B",
+        "label": "basset"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/basset_hound_197.jpg",
+        "question": "What type of animal is in the image?\nA. Bengal B. shiba C. saint D. basset",
+        "answer": "D",
+        "label": "basset"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/basset_hound_198.jpg",
+        "question": "What type of animal is in the image?\nA. Birman B. samoyed C. basset D. german",
+        "answer": "C",
+        "label": "basset"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/basset_hound_199.jpg",
+        "question": "What type of animal is in the image?\nA. leonberger B. basset C. Egyptian D. wheaten",
+        "answer": "B",
+        "label": "basset"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/basset_hound_19.jpg",
+        "question": "What type of animal is in the image?\nA. english B. american C. basset D. great",
+        "answer": "C",
+        "label": "basset"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/basset_hound_1.jpg",
+        "question": "What type of animal is in the image?\nA. samoyed B. Maine C. basset D. german",
+        "answer": "C",
+        "label": "basset"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/basset_hound_200.jpg",
+        "question": "What type of animal is in the image?\nA. great B. basset C. Egyptian D. miniature",
+        "answer": "B",
+        "label": "basset"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/basset_hound_20.jpg",
+        "question": "What type of animal is in the image?\nA. samoyed B. basset C. newfoundland D. chihuahua",
+        "answer": "B",
+        "label": "basset"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/basset_hound_21.jpg",
+        "question": "What type of animal is in the image?\nA. Ragdoll B. boxer C. basset D. havanese",
+        "answer": "C",
+        "label": "basset"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/basset_hound_22.jpg",
+        "question": "What type of animal is in the image?\nA. pug B. basset C. leonberger D. Persian",
+        "answer": "B",
+        "label": "basset"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/basset_hound_23.jpg",
+        "question": "What type of animal is in the image?\nA. beagle B. Sphynx C. basset D. pomeranian",
+        "answer": "C",
+        "label": "basset"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/basset_hound_24.jpg",
+        "question": "What type of animal is in the image?\nA. Bengal B. basset C. chihuahua D. shiba",
+        "answer": "B",
+        "label": "basset"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/basset_hound_25.jpg",
+        "question": "What type of animal is in the image?\nA. german B. British C. Ragdoll D. basset",
+        "answer": "D",
+        "label": "basset"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/basset_hound_26.jpg",
+        "question": "What type of animal is in the image?\nA. keeshond B. basset C. pug D. leonberger",
+        "answer": "B",
+        "label": "basset"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/basset_hound_27.jpg",
+        "question": "What type of animal is in the image?\nA. Abyssinian B. Ragdoll C. basset D. chihuahua",
+        "answer": "C",
+        "label": "basset"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/beagle_195.jpg",
+        "question": "What type of animal is in the image?\nA. Siamese B. staffordshire C. beagle D. Abyssinian",
+        "answer": "C",
+        "label": "beagle"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/beagle_196.jpg",
+        "question": "What type of animal is in the image?\nA. Egyptian B. saint C. wheaten D. beagle",
+        "answer": "D",
+        "label": "beagle"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/beagle_197.jpg",
+        "question": "What type of animal is in the image?\nA. boxer B. beagle C. miniature D. keeshond",
+        "answer": "B",
+        "label": "beagle"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/beagle_198.jpg",
+        "question": "What type of animal is in the image?\nA. scottish B. beagle C. Persian D. chihuahua",
+        "answer": "B",
+        "label": "beagle"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/beagle_199.jpg",
+        "question": "What type of animal is in the image?\nA. german B. beagle C. saint D. scottish",
+        "answer": "B",
+        "label": "beagle"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/beagle_19.jpg",
+        "question": "What type of animal is in the image?\nA. yorkshire B. staffordshire C. beagle D. Abyssinian",
+        "answer": "C",
+        "label": "beagle"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/beagle_1.jpg",
+        "question": "What type of animal is in the image?\nA. Russian B. beagle C. german D. chihuahua",
+        "answer": "B",
+        "label": "beagle"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/beagle_200.jpg",
+        "question": "What type of animal is in the image?\nA. beagle B. Russian C. keeshond D. miniature",
+        "answer": "A",
+        "label": "beagle"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/beagle_201.jpg",
+        "question": "What type of animal is in the image?\nA. chihuahua B. yorkshire C. Russian D. beagle",
+        "answer": "D",
+        "label": "beagle"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/beagle_202.jpg",
+        "question": "What type of animal is in the image?\nA. beagle B. great C. havanese D. Birman",
+        "answer": "A",
+        "label": "beagle"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/beagle_203.jpg",
+        "question": "What type of animal is in the image?\nA. Bombay B. beagle C. Russian D. miniature",
+        "answer": "B",
+        "label": "beagle"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/beagle_204.jpg",
+        "question": "What type of animal is in the image?\nA. boxer B. german C. keeshond D. beagle",
+        "answer": "D",
+        "label": "beagle"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/beagle_20.jpg",
+        "question": "What type of animal is in the image?\nA. beagle B. boxer C. havanese D. german",
+        "answer": "A",
+        "label": "beagle"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/beagle_21.jpg",
+        "question": "What type of animal is in the image?\nA. boxer B. Bombay C. Siamese D. beagle",
+        "answer": "D",
+        "label": "beagle"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/beagle_22.jpg",
+        "question": "What type of animal is in the image?\nA. leonberger B. Egyptian C. beagle D. Bengal",
+        "answer": "C",
+        "label": "beagle"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/beagle_23.jpg",
+        "question": "What type of animal is in the image?\nA. Birman B. american C. keeshond D. beagle",
+        "answer": "D",
+        "label": "beagle"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/beagle_24.jpg",
+        "question": "What type of animal is in the image?\nA. basset B. Sphynx C. chihuahua D. beagle",
+        "answer": "D",
+        "label": "beagle"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/beagle_25.jpg",
+        "question": "What type of animal is in the image?\nA. wheaten B. scottish C. Egyptian D. beagle",
+        "answer": "D",
+        "label": "beagle"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/beagle_26.jpg",
+        "question": "What type of animal is in the image?\nA. beagle B. Bombay C. Ragdoll D. staffordshire",
+        "answer": "A",
+        "label": "beagle"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/beagle_27.jpg",
+        "question": "What type of animal is in the image?\nA. Bombay B. Sphynx C. saint D. beagle",
+        "answer": "D",
+        "label": "beagle"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Bengal_192.jpg",
+        "question": "What type of animal is in the image?\nA. Persian B. Bengal C. beagle D. chihuahua",
+        "answer": "B",
+        "label": "Bengal"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Bengal_193.jpg",
+        "question": "What type of animal is in the image?\nA. chihuahua B. Bengal C. japanese D. basset",
+        "answer": "B",
+        "label": "Bengal"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Bengal_194.jpg",
+        "question": "What type of animal is in the image?\nA. chihuahua B. British C. Bengal D. keeshond",
+        "answer": "C",
+        "label": "Bengal"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Bengal_195.jpg",
+        "question": "What type of animal is in the image?\nA. staffordshire B. german C. shiba D. Bengal",
+        "answer": "D",
+        "label": "Bengal"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Bengal_196.jpg",
+        "question": "What type of animal is in the image?\nA. Bengal B. Abyssinian C. keeshond D. english",
+        "answer": "A",
+        "label": "Bengal"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Bengal_197.jpg",
+        "question": "What type of animal is in the image?\nA. shiba B. Bengal C. Siamese D. staffordshire",
+        "answer": "B",
+        "label": "Bengal"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Bengal_198.jpg",
+        "question": "What type of animal is in the image?\nA. Ragdoll B. Bengal C. havanese D. beagle",
+        "answer": "B",
+        "label": "Bengal"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Bengal_199.jpg",
+        "question": "What type of animal is in the image?\nA. Bengal B. Birman C. leonberger D. great",
+        "answer": "A",
+        "label": "Bengal"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Bengal_19.jpg",
+        "question": "What type of animal is in the image?\nA. yorkshire B. miniature C. Bengal D. scottish",
+        "answer": "C",
+        "label": "Bengal"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Bengal_1.jpg",
+        "question": "What type of animal is in the image?\nA. Abyssinian B. newfoundland C. Bengal D. Siamese",
+        "answer": "C",
+        "label": "Bengal"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Bengal_200.jpg",
+        "question": "What type of animal is in the image?\nA. Bombay B. Bengal C. shiba D. scottish",
+        "answer": "B",
+        "label": "Bengal"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Bengal_201.jpg",
+        "question": "What type of animal is in the image?\nA. saint B. Bengal C. beagle D. Sphynx",
+        "answer": "B",
+        "label": "Bengal"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Bengal_20.jpg",
+        "question": "What type of animal is in the image?\nA. Birman B. Bengal C. Russian D. english",
+        "answer": "B",
+        "label": "Bengal"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Bengal_21.jpg",
+        "question": "What type of animal is in the image?\nA. Russian B. Bengal C. pomeranian D. Persian",
+        "answer": "B",
+        "label": "Bengal"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Bengal_22.jpg",
+        "question": "What type of animal is in the image?\nA. Russian B. basset C. Bengal D. great",
+        "answer": "C",
+        "label": "Bengal"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Bengal_23.jpg",
+        "question": "What type of animal is in the image?\nA. keeshond B. Bengal C. miniature D. Birman",
+        "answer": "B",
+        "label": "Bengal"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Bengal_24.jpg",
+        "question": "What type of animal is in the image?\nA. Bengal B. samoyed C. scottish D. saint",
+        "answer": "A",
+        "label": "Bengal"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Bengal_25.jpg",
+        "question": "What type of animal is in the image?\nA. Bengal B. Persian C. american D. miniature",
+        "answer": "A",
+        "label": "Bengal"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Bengal_26.jpg",
+        "question": "What type of animal is in the image?\nA. staffordshire B. keeshond C. newfoundland D. Bengal",
+        "answer": "D",
+        "label": "Bengal"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Bengal_27.jpg",
+        "question": "What type of animal is in the image?\nA. english B. Bengal C. British D. pug",
+        "answer": "B",
+        "label": "Bengal"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Birman_191.jpg",
+        "question": "What type of animal is in the image?\nA. Birman B. Persian C. american D. British",
+        "answer": "A",
+        "label": "Birman"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Birman_192.jpg",
+        "question": "What type of animal is in the image?\nA. wheaten B. newfoundland C. Birman D. Persian",
+        "answer": "C",
+        "label": "Birman"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Birman_193.jpg",
+        "question": "What type of animal is in the image?\nA. american B. havanese C. Birman D. basset",
+        "answer": "C",
+        "label": "Birman"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Birman_194.jpg",
+        "question": "What type of animal is in the image?\nA. Abyssinian B. Birman C. Egyptian D. Maine",
+        "answer": "B",
+        "label": "Birman"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Birman_196.jpg",
+        "question": "What type of animal is in the image?\nA. wheaten B. Birman C. boxer D. saint",
+        "answer": "B",
+        "label": "Birman"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Birman_197.jpg",
+        "question": "What type of animal is in the image?\nA. Birman B. boxer C. german D. english",
+        "answer": "A",
+        "label": "Birman"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Birman_198.jpg",
+        "question": "What type of animal is in the image?\nA. Birman B. beagle C. leonberger D. japanese",
+        "answer": "A",
+        "label": "Birman"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Birman_199.jpg",
+        "question": "What type of animal is in the image?\nA. keeshond B. basset C. japanese D. Birman",
+        "answer": "D",
+        "label": "Birman"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Birman_19.jpg",
+        "question": "What type of animal is in the image?\nA. Birman B. staffordshire C. newfoundland D. english",
+        "answer": "A",
+        "label": "Birman"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Birman_1.jpg",
+        "question": "What type of animal is in the image?\nA. Abyssinian B. samoyed C. miniature D. Birman",
+        "answer": "D",
+        "label": "Birman"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Birman_200.jpg",
+        "question": "What type of animal is in the image?\nA. keeshond B. Sphynx C. Ragdoll D. Birman",
+        "answer": "D",
+        "label": "Birman"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Birman_201.jpg",
+        "question": "What type of animal is in the image?\nA. shiba B. Birman C. Maine D. wheaten",
+        "answer": "B",
+        "label": "Birman"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Birman_20.jpg",
+        "question": "What type of animal is in the image?\nA. samoyed B. Birman C. Persian D. boxer",
+        "answer": "B",
+        "label": "Birman"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Birman_21.jpg",
+        "question": "What type of animal is in the image?\nA. Birman B. pug C. leonberger D. chihuahua",
+        "answer": "A",
+        "label": "Birman"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Birman_22.jpg",
+        "question": "What type of animal is in the image?\nA. scottish B. shiba C. Birman D. British",
+        "answer": "C",
+        "label": "Birman"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Birman_23.jpg",
+        "question": "What type of animal is in the image?\nA. boxer B. Siamese C. Bengal D. Birman",
+        "answer": "D",
+        "label": "Birman"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Birman_24.jpg",
+        "question": "What type of animal is in the image?\nA. saint B. wheaten C. basset D. Birman",
+        "answer": "D",
+        "label": "Birman"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Birman_25.jpg",
+        "question": "What type of animal is in the image?\nA. samoyed B. Birman C. leonberger D. beagle",
+        "answer": "B",
+        "label": "Birman"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Birman_26.jpg",
+        "question": "What type of animal is in the image?\nA. Bombay B. Birman C. great D. Russian",
+        "answer": "B",
+        "label": "Birman"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Birman_27.jpg",
+        "question": "What type of animal is in the image?\nA. shiba B. Birman C. japanese D. basset",
+        "answer": "B",
+        "label": "Birman"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Bombay_200.jpg",
+        "question": "What type of animal is in the image?\nA. British B. Bombay C. pomeranian D. english",
+        "answer": "B",
+        "label": "Bombay"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Bombay_201.jpg",
+        "question": "What type of animal is in the image?\nA. Egyptian B. Bombay C. keeshond D. havanese",
+        "answer": "B",
+        "label": "Bombay"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Bombay_202.jpg",
+        "question": "What type of animal is in the image?\nA. Sphynx B. samoyed C. german D. Bombay",
+        "answer": "D",
+        "label": "Bombay"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Bombay_204.jpg",
+        "question": "What type of animal is in the image?\nA. havanese B. Persian C. miniature D. Bombay",
+        "answer": "D",
+        "label": "Bombay"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Bombay_205.jpg",
+        "question": "What type of animal is in the image?\nA. staffordshire B. beagle C. Bengal D. Bombay",
+        "answer": "D",
+        "label": "Bombay"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Bombay_208.jpg",
+        "question": "What type of animal is in the image?\nA. Bombay B. keeshond C. beagle D. Abyssinian",
+        "answer": "A",
+        "label": "Bombay"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Bombay_20.jpg",
+        "question": "What type of animal is in the image?\nA. yorkshire B. Bombay C. pomeranian D. keeshond",
+        "answer": "B",
+        "label": "Bombay"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Bombay_213.jpg",
+        "question": "What type of animal is in the image?\nA. Bombay B. english C. american D. boxer",
+        "answer": "A",
+        "label": "Bombay"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Bombay_214.jpg",
+        "question": "What type of animal is in the image?\nA. staffordshire B. keeshond C. miniature D. Bombay",
+        "answer": "D",
+        "label": "Bombay"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Bombay_215.jpg",
+        "question": "What type of animal is in the image?\nA. miniature B. Russian C. Bombay D. boxer",
+        "answer": "C",
+        "label": "Bombay"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Bombay_21.jpg",
+        "question": "What type of animal is in the image?\nA. Siamese B. miniature C. Bombay D. Maine",
+        "answer": "C",
+        "label": "Bombay"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Bombay_221.jpg",
+        "question": "What type of animal is in the image?\nA. Russian B. staffordshire C. Ragdoll D. Bombay",
+        "answer": "D",
+        "label": "Bombay"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Bombay_23.jpg",
+        "question": "What type of animal is in the image?\nA. Persian B. Bombay C. newfoundland D. german",
+        "answer": "B",
+        "label": "Bombay"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Bombay_24.jpg",
+        "question": "What type of animal is in the image?\nA. Bombay B. chihuahua C. german D. staffordshire",
+        "answer": "A",
+        "label": "Bombay"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Bombay_25.jpg",
+        "question": "What type of animal is in the image?\nA. British B. Bombay C. havanese D. great",
+        "answer": "B",
+        "label": "Bombay"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Bombay_26.jpg",
+        "question": "What type of animal is in the image?\nA. Ragdoll B. german C. Bombay D. Egyptian",
+        "answer": "C",
+        "label": "Bombay"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Bombay_27.jpg",
+        "question": "What type of animal is in the image?\nA. Bombay B. samoyed C. german D. saint",
+        "answer": "A",
+        "label": "Bombay"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Bombay_29.jpg",
+        "question": "What type of animal is in the image?\nA. samoyed B. Bombay C. Bengal D. pug",
+        "answer": "B",
+        "label": "Bombay"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Bombay_2.jpg",
+        "question": "What type of animal is in the image?\nA. Persian B. scottish C. Bombay D. Birman",
+        "answer": "C",
+        "label": "Bombay"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Bombay_30.jpg",
+        "question": "What type of animal is in the image?\nA. Persian B. boxer C. Bombay D. miniature",
+        "answer": "C",
+        "label": "Bombay"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/boxer_191.jpg",
+        "question": "What type of animal is in the image?\nA. Bombay B. boxer C. beagle D. Maine",
+        "answer": "B",
+        "label": "boxer"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/boxer_192.jpg",
+        "question": "What type of animal is in the image?\nA. boxer B. basset C. newfoundland D. Bombay",
+        "answer": "A",
+        "label": "boxer"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/boxer_193.jpg",
+        "question": "What type of animal is in the image?\nA. boxer B. staffordshire C. Russian D. german",
+        "answer": "A",
+        "label": "boxer"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/boxer_194.jpg",
+        "question": "What type of animal is in the image?\nA. Bengal B. boxer C. Abyssinian D. great",
+        "answer": "B",
+        "label": "boxer"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/boxer_195.jpg",
+        "question": "What type of animal is in the image?\nA. Persian B. British C. Ragdoll D. boxer",
+        "answer": "D",
+        "label": "boxer"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/boxer_196.jpg",
+        "question": "What type of animal is in the image?\nA. leonberger B. Birman C. newfoundland D. boxer",
+        "answer": "D",
+        "label": "boxer"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/boxer_197.jpg",
+        "question": "What type of animal is in the image?\nA. boxer B. scottish C. samoyed D. newfoundland",
+        "answer": "A",
+        "label": "boxer"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/boxer_198.jpg",
+        "question": "What type of animal is in the image?\nA. yorkshire B. British C. miniature D. boxer",
+        "answer": "D",
+        "label": "boxer"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/boxer_199.jpg",
+        "question": "What type of animal is in the image?\nA. basset B. boxer C. staffordshire D. Bengal",
+        "answer": "B",
+        "label": "boxer"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/boxer_19.jpg",
+        "question": "What type of animal is in the image?\nA. german B. boxer C. Siamese D. staffordshire",
+        "answer": "B",
+        "label": "boxer"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/boxer_1.jpg",
+        "question": "What type of animal is in the image?\nA. keeshond B. pomeranian C. boxer D. Egyptian",
+        "answer": "C",
+        "label": "boxer"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/boxer_200.jpg",
+        "question": "What type of animal is in the image?\nA. scottish B. samoyed C. basset D. boxer",
+        "answer": "D",
+        "label": "boxer"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/boxer_20.jpg",
+        "question": "What type of animal is in the image?\nA. samoyed B. boxer C. japanese D. Bengal",
+        "answer": "B",
+        "label": "boxer"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/boxer_21.jpg",
+        "question": "What type of animal is in the image?\nA. Abyssinian B. boxer C. chihuahua D. basset",
+        "answer": "B",
+        "label": "boxer"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/boxer_22.jpg",
+        "question": "What type of animal is in the image?\nA. boxer B. great C. pug D. British",
+        "answer": "A",
+        "label": "boxer"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/boxer_23.jpg",
+        "question": "What type of animal is in the image?\nA. shiba B. boxer C. wheaten D. miniature",
+        "answer": "B",
+        "label": "boxer"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/boxer_24.jpg",
+        "question": "What type of animal is in the image?\nA. chihuahua B. boxer C. Bombay D. leonberger",
+        "answer": "B",
+        "label": "boxer"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/boxer_25.jpg",
+        "question": "What type of animal is in the image?\nA. Ragdoll B. boxer C. Persian D. english",
+        "answer": "B",
+        "label": "boxer"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/boxer_26.jpg",
+        "question": "What type of animal is in the image?\nA. keeshond B. Ragdoll C. Sphynx D. boxer",
+        "answer": "D",
+        "label": "boxer"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/boxer_27.jpg",
+        "question": "What type of animal is in the image?\nA. samoyed B. Sphynx C. boxer D. havanese",
+        "answer": "C",
+        "label": "boxer"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/British_Shorthair_212.jpg",
+        "question": "What type of animal is in the image?\nA. British B. pug C. wheaten D. staffordshire",
+        "answer": "A",
+        "label": "British"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/British_Shorthair_213.jpg",
+        "question": "What type of animal is in the image?\nA. Persian B. Russian C. great D. British",
+        "answer": "D",
+        "label": "British"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/British_Shorthair_218.jpg",
+        "question": "What type of animal is in the image?\nA. staffordshire B. Bengal C. wheaten D. British",
+        "answer": "D",
+        "label": "British"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/British_Shorthair_21.jpg",
+        "question": "What type of animal is in the image?\nA. British B. Birman C. german D. beagle",
+        "answer": "A",
+        "label": "British"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/British_Shorthair_223.jpg",
+        "question": "What type of animal is in the image?\nA. wheaten B. leonberger C. British D. Birman",
+        "answer": "C",
+        "label": "British"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/British_Shorthair_22.jpg",
+        "question": "What type of animal is in the image?\nA. saint B. chihuahua C. Bengal D. British",
+        "answer": "D",
+        "label": "British"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/British_Shorthair_230.jpg",
+        "question": "What type of animal is in the image?\nA. yorkshire B. boxer C. British D. samoyed",
+        "answer": "C",
+        "label": "British"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/British_Shorthair_239.jpg",
+        "question": "What type of animal is in the image?\nA. staffordshire B. British C. Sphynx D. american",
+        "answer": "B",
+        "label": "British"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/British_Shorthair_241.jpg",
+        "question": "What type of animal is in the image?\nA. scottish B. Egyptian C. British D. english",
+        "answer": "C",
+        "label": "British"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/British_Shorthair_248.jpg",
+        "question": "What type of animal is in the image?\nA. keeshond B. leonberger C. japanese D. British",
+        "answer": "D",
+        "label": "British"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/British_Shorthair_258.jpg",
+        "question": "What type of animal is in the image?\nA. boxer B. basset C. British D. Birman",
+        "answer": "C",
+        "label": "British"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/British_Shorthair_25.jpg",
+        "question": "What type of animal is in the image?\nA. British B. Russian C. wheaten D. newfoundland",
+        "answer": "A",
+        "label": "British"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/British_Shorthair_263.jpg",
+        "question": "What type of animal is in the image?\nA. staffordshire B. great C. British D. shiba",
+        "answer": "C",
+        "label": "British"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/British_Shorthair_265.jpg",
+        "question": "What type of animal is in the image?\nA. pomeranian B. yorkshire C. British D. saint",
+        "answer": "C",
+        "label": "British"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/British_Shorthair_266.jpg",
+        "question": "What type of animal is in the image?\nA. pomeranian B. havanese C. saint D. British",
+        "answer": "D",
+        "label": "British"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/British_Shorthair_267.jpg",
+        "question": "What type of animal is in the image?\nA. British B. basset C. wheaten D. pomeranian",
+        "answer": "A",
+        "label": "British"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/British_Shorthair_268.jpg",
+        "question": "What type of animal is in the image?\nA. British B. chihuahua C. wheaten D. Persian",
+        "answer": "A",
+        "label": "British"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/British_Shorthair_269.jpg",
+        "question": "What type of animal is in the image?\nA. boxer B. german C. pomeranian D. British",
+        "answer": "D",
+        "label": "British"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/British_Shorthair_26.jpg",
+        "question": "What type of animal is in the image?\nA. Abyssinian B. British C. american D. wheaten",
+        "answer": "B",
+        "label": "British"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/British_Shorthair_270.jpg",
+        "question": "What type of animal is in the image?\nA. leonberger B. yorkshire C. British D. samoyed",
+        "answer": "C",
+        "label": "British"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/chihuahua_191.jpg",
+        "question": "What type of animal is in the image?\nA. chihuahua B. Ragdoll C. Russian D. japanese",
+        "answer": "A",
+        "label": "chihuahua"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/chihuahua_192.jpg",
+        "question": "What type of animal is in the image?\nA. boxer B. japanese C. great D. chihuahua",
+        "answer": "D",
+        "label": "chihuahua"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/chihuahua_193.jpg",
+        "question": "What type of animal is in the image?\nA. basset B. Egyptian C. miniature D. chihuahua",
+        "answer": "D",
+        "label": "chihuahua"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/chihuahua_194.jpg",
+        "question": "What type of animal is in the image?\nA. chihuahua B. British C. pug D. Sphynx",
+        "answer": "A",
+        "label": "chihuahua"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/chihuahua_195.jpg",
+        "question": "What type of animal is in the image?\nA. Russian B. chihuahua C. german D. Bengal",
+        "answer": "B",
+        "label": "chihuahua"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/chihuahua_196.jpg",
+        "question": "What type of animal is in the image?\nA. chihuahua B. Russian C. havanese D. newfoundland",
+        "answer": "A",
+        "label": "chihuahua"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/chihuahua_197.jpg",
+        "question": "What type of animal is in the image?\nA. Persian B. Birman C. chihuahua D. Abyssinian",
+        "answer": "C",
+        "label": "chihuahua"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/chihuahua_198.jpg",
+        "question": "What type of animal is in the image?\nA. Birman B. chihuahua C. leonberger D. beagle",
+        "answer": "B",
+        "label": "chihuahua"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/chihuahua_199.jpg",
+        "question": "What type of animal is in the image?\nA. keeshond B. havanese C. english D. chihuahua",
+        "answer": "D",
+        "label": "chihuahua"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/chihuahua_19.jpg",
+        "question": "What type of animal is in the image?\nA. chihuahua B. basset C. pomeranian D. american",
+        "answer": "A",
+        "label": "chihuahua"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/chihuahua_1.jpg",
+        "question": "What type of animal is in the image?\nA. american B. Siamese C. Egyptian D. chihuahua",
+        "answer": "D",
+        "label": "chihuahua"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/chihuahua_200.jpg",
+        "question": "What type of animal is in the image?\nA. havanese B. chihuahua C. miniature D. Bombay",
+        "answer": "B",
+        "label": "chihuahua"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/chihuahua_20.jpg",
+        "question": "What type of animal is in the image?\nA. chihuahua B. Bombay C. samoyed D. leonberger",
+        "answer": "A",
+        "label": "chihuahua"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/chihuahua_21.jpg",
+        "question": "What type of animal is in the image?\nA. chihuahua B. Sphynx C. staffordshire D. keeshond",
+        "answer": "A",
+        "label": "chihuahua"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/chihuahua_22.jpg",
+        "question": "What type of animal is in the image?\nA. chihuahua B. pug C. scottish D. Egyptian",
+        "answer": "A",
+        "label": "chihuahua"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/chihuahua_23.jpg",
+        "question": "What type of animal is in the image?\nA. Bombay B. chihuahua C. yorkshire D. keeshond",
+        "answer": "B",
+        "label": "chihuahua"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/chihuahua_24.jpg",
+        "question": "What type of animal is in the image?\nA. staffordshire B. chihuahua C. Abyssinian D. newfoundland",
+        "answer": "B",
+        "label": "chihuahua"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/chihuahua_25.jpg",
+        "question": "What type of animal is in the image?\nA. Persian B. leonberger C. chihuahua D. Siamese",
+        "answer": "C",
+        "label": "chihuahua"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/chihuahua_26.jpg",
+        "question": "What type of animal is in the image?\nA. Birman B. german C. Persian D. chihuahua",
+        "answer": "D",
+        "label": "chihuahua"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/chihuahua_27.jpg",
+        "question": "What type of animal is in the image?\nA. american B. pomeranian C. Ragdoll D. chihuahua",
+        "answer": "D",
+        "label": "chihuahua"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Egyptian_Mau_198.jpg",
+        "question": "What type of animal is in the image?\nA. great B. samoyed C. shiba D. Egyptian",
+        "answer": "D",
+        "label": "Egyptian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Egyptian_Mau_199.jpg",
+        "question": "What type of animal is in the image?\nA. english B. shiba C. Egyptian D. pomeranian",
+        "answer": "C",
+        "label": "Egyptian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Egyptian_Mau_19.jpg",
+        "question": "What type of animal is in the image?\nA. Bombay B. american C. Egyptian D. wheaten",
+        "answer": "C",
+        "label": "Egyptian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Egyptian_Mau_1.jpg",
+        "question": "What type of animal is in the image?\nA. leonberger B. havanese C. Persian D. Egyptian",
+        "answer": "D",
+        "label": "Egyptian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Egyptian_Mau_201.jpg",
+        "question": "What type of animal is in the image?\nA. havanese B. Egyptian C. chihuahua D. Abyssinian",
+        "answer": "B",
+        "label": "Egyptian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Egyptian_Mau_204.jpg",
+        "question": "What type of animal is in the image?\nA. Persian B. keeshond C. Bengal D. Egyptian",
+        "answer": "D",
+        "label": "Egyptian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Egyptian_Mau_207.jpg",
+        "question": "What type of animal is in the image?\nA. Egyptian B. leonberger C. Bombay D. British",
+        "answer": "A",
+        "label": "Egyptian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Egyptian_Mau_209.jpg",
+        "question": "What type of animal is in the image?\nA. Siamese B. Egyptian C. chihuahua D. yorkshire",
+        "answer": "B",
+        "label": "Egyptian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Egyptian_Mau_20.jpg",
+        "question": "What type of animal is in the image?\nA. Abyssinian B. great C. yorkshire D. Egyptian",
+        "answer": "D",
+        "label": "Egyptian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Egyptian_Mau_210.jpg",
+        "question": "What type of animal is in the image?\nA. Egyptian B. samoyed C. german D. staffordshire",
+        "answer": "A",
+        "label": "Egyptian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Egyptian_Mau_212.jpg",
+        "question": "What type of animal is in the image?\nA. yorkshire B. Egyptian C. Birman D. german",
+        "answer": "B",
+        "label": "Egyptian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Egyptian_Mau_213.jpg",
+        "question": "What type of animal is in the image?\nA. miniature B. Egyptian C. german D. leonberger",
+        "answer": "B",
+        "label": "Egyptian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Egyptian_Mau_214.jpg",
+        "question": "What type of animal is in the image?\nA. Egyptian B. British C. Sphynx D. Bengal",
+        "answer": "A",
+        "label": "Egyptian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Egyptian_Mau_215.jpg",
+        "question": "What type of animal is in the image?\nA. shiba B. japanese C. Sphynx D. Egyptian",
+        "answer": "D",
+        "label": "Egyptian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Egyptian_Mau_218.jpg",
+        "question": "What type of animal is in the image?\nA. english B. basset C. staffordshire D. Egyptian",
+        "answer": "D",
+        "label": "Egyptian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Egyptian_Mau_219.jpg",
+        "question": "What type of animal is in the image?\nA. great B. german C. Egyptian D. Ragdoll",
+        "answer": "C",
+        "label": "Egyptian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Egyptian_Mau_21.jpg",
+        "question": "What type of animal is in the image?\nA. wheaten B. Abyssinian C. pomeranian D. Egyptian",
+        "answer": "D",
+        "label": "Egyptian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Egyptian_Mau_220.jpg",
+        "question": "What type of animal is in the image?\nA. shiba B. British C. german D. Egyptian",
+        "answer": "D",
+        "label": "Egyptian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Egyptian_Mau_221.jpg",
+        "question": "What type of animal is in the image?\nA. Egyptian B. basset C. Bombay D. shiba",
+        "answer": "A",
+        "label": "Egyptian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Egyptian_Mau_222.jpg",
+        "question": "What type of animal is in the image?\nA. samoyed B. german C. staffordshire D. Egyptian",
+        "answer": "D",
+        "label": "Egyptian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/english_cocker_spaniel_191.jpg",
+        "question": "What type of animal is in the image?\nA. yorkshire B. leonberger C. english D. basset",
+        "answer": "C",
+        "label": "english"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/english_cocker_spaniel_192.jpg",
+        "question": "What type of animal is in the image?\nA. Abyssinian B. Ragdoll C. chihuahua D. english",
+        "answer": "D",
+        "label": "english"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/english_cocker_spaniel_193.jpg",
+        "question": "What type of animal is in the image?\nA. leonberger B. english C. keeshond D. shiba",
+        "answer": "B",
+        "label": "english"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/english_cocker_spaniel_194.jpg",
+        "question": "What type of animal is in the image?\nA. Maine B. Ragdoll C. english D. Sphynx",
+        "answer": "C",
+        "label": "english"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/english_cocker_spaniel_195.jpg",
+        "question": "What type of animal is in the image?\nA. Sphynx B. japanese C. english D. yorkshire",
+        "answer": "C",
+        "label": "english"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/english_cocker_spaniel_196.jpg",
+        "question": "What type of animal is in the image?\nA. pomeranian B. english C. pug D. Maine",
+        "answer": "B",
+        "label": "english"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/english_cocker_spaniel_197.jpg",
+        "question": "What type of animal is in the image?\nA. leonberger B. shiba C. scottish D. english",
+        "answer": "D",
+        "label": "english"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/english_cocker_spaniel_198.jpg",
+        "question": "What type of animal is in the image?\nA. wheaten B. great C. english D. shiba",
+        "answer": "C",
+        "label": "english"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/english_cocker_spaniel_199.jpg",
+        "question": "What type of animal is in the image?\nA. staffordshire B. Siamese C. english D. keeshond",
+        "answer": "C",
+        "label": "english"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/english_cocker_spaniel_19.jpg",
+        "question": "What type of animal is in the image?\nA. Ragdoll B. english C. beagle D. american",
+        "answer": "B",
+        "label": "english"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/english_cocker_spaniel_1.jpg",
+        "question": "What type of animal is in the image?\nA. Birman B. japanese C. english D. yorkshire",
+        "answer": "C",
+        "label": "english"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/english_cocker_spaniel_200.jpg",
+        "question": "What type of animal is in the image?\nA. samoyed B. english C. shiba D. Egyptian",
+        "answer": "B",
+        "label": "english"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/english_cocker_spaniel_20.jpg",
+        "question": "What type of animal is in the image?\nA. chihuahua B. english C. boxer D. saint",
+        "answer": "B",
+        "label": "english"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/english_cocker_spaniel_21.jpg",
+        "question": "What type of animal is in the image?\nA. english B. staffordshire C. samoyed D. Bengal",
+        "answer": "A",
+        "label": "english"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/english_cocker_spaniel_22.jpg",
+        "question": "What type of animal is in the image?\nA. chihuahua B. yorkshire C. english D. Egyptian",
+        "answer": "C",
+        "label": "english"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/english_cocker_spaniel_23.jpg",
+        "question": "What type of animal is in the image?\nA. english B. pomeranian C. american D. japanese",
+        "answer": "A",
+        "label": "english"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/english_cocker_spaniel_24.jpg",
+        "question": "What type of animal is in the image?\nA. english B. shiba C. havanese D. Bengal",
+        "answer": "A",
+        "label": "english"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/english_cocker_spaniel_25.jpg",
+        "question": "What type of animal is in the image?\nA. shiba B. english C. german D. pomeranian",
+        "answer": "B",
+        "label": "english"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/english_cocker_spaniel_26.jpg",
+        "question": "What type of animal is in the image?\nA. english B. boxer C. scottish D. Sphynx",
+        "answer": "A",
+        "label": "english"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/english_cocker_spaniel_27.jpg",
+        "question": "What type of animal is in the image?\nA. chihuahua B. Abyssinian C. english D. german",
+        "answer": "C",
+        "label": "english"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/german_shorthaired_191.jpg",
+        "question": "What type of animal is in the image?\nA. german B. beagle C. Sphynx D. Persian",
+        "answer": "A",
+        "label": "german"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/german_shorthaired_192.jpg",
+        "question": "What type of animal is in the image?\nA. english B. german C. pomeranian D. wheaten",
+        "answer": "B",
+        "label": "german"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/german_shorthaired_193.jpg",
+        "question": "What type of animal is in the image?\nA. saint B. german C. american D. yorkshire",
+        "answer": "B",
+        "label": "german"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/german_shorthaired_194.jpg",
+        "question": "What type of animal is in the image?\nA. american B. pomeranian C. Birman D. german",
+        "answer": "D",
+        "label": "german"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/german_shorthaired_195.jpg",
+        "question": "What type of animal is in the image?\nA. Sphynx B. german C. Russian D. great",
+        "answer": "B",
+        "label": "german"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/german_shorthaired_196.jpg",
+        "question": "What type of animal is in the image?\nA. staffordshire B. german C. Birman D. miniature",
+        "answer": "B",
+        "label": "german"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/german_shorthaired_197.jpg",
+        "question": "What type of animal is in the image?\nA. miniature B. german C. Siamese D. pug",
+        "answer": "B",
+        "label": "german"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/german_shorthaired_198.jpg",
+        "question": "What type of animal is in the image?\nA. Persian B. samoyed C. Sphynx D. german",
+        "answer": "D",
+        "label": "german"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/german_shorthaired_199.jpg",
+        "question": "What type of animal is in the image?\nA. British B. pomeranian C. german D. newfoundland",
+        "answer": "C",
+        "label": "german"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/german_shorthaired_19.jpg",
+        "question": "What type of animal is in the image?\nA. saint B. Russian C. Siamese D. german",
+        "answer": "D",
+        "label": "german"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/german_shorthaired_1.jpg",
+        "question": "What type of animal is in the image?\nA. german B. samoyed C. great D. american",
+        "answer": "A",
+        "label": "german"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/german_shorthaired_200.jpg",
+        "question": "What type of animal is in the image?\nA. Egyptian B. scottish C. staffordshire D. german",
+        "answer": "D",
+        "label": "german"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/german_shorthaired_20.jpg",
+        "question": "What type of animal is in the image?\nA. saint B. Egyptian C. german D. basset",
+        "answer": "C",
+        "label": "german"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/german_shorthaired_21.jpg",
+        "question": "What type of animal is in the image?\nA. keeshond B. Persian C. wheaten D. german",
+        "answer": "D",
+        "label": "german"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/german_shorthaired_22.jpg",
+        "question": "What type of animal is in the image?\nA. saint B. german C. english D. scottish",
+        "answer": "B",
+        "label": "german"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/german_shorthaired_23.jpg",
+        "question": "What type of animal is in the image?\nA. chihuahua B. german C. Ragdoll D. Bombay",
+        "answer": "B",
+        "label": "german"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/german_shorthaired_24.jpg",
+        "question": "What type of animal is in the image?\nA. german B. shiba C. samoyed D. beagle",
+        "answer": "A",
+        "label": "german"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/german_shorthaired_25.jpg",
+        "question": "What type of animal is in the image?\nA. Egyptian B. Abyssinian C. saint D. german",
+        "answer": "D",
+        "label": "german"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/german_shorthaired_26.jpg",
+        "question": "What type of animal is in the image?\nA. basset B. great C. chihuahua D. german",
+        "answer": "D",
+        "label": "german"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/german_shorthaired_27.jpg",
+        "question": "What type of animal is in the image?\nA. chihuahua B. german C. basset D. pug",
+        "answer": "B",
+        "label": "german"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/great_pyrenees_191.jpg",
+        "question": "What type of animal is in the image?\nA. american B. Egyptian C. great D. staffordshire",
+        "answer": "C",
+        "label": "great"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/great_pyrenees_192.jpg",
+        "question": "What type of animal is in the image?\nA. pug B. Russian C. Bombay D. great",
+        "answer": "D",
+        "label": "great"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/great_pyrenees_193.jpg",
+        "question": "What type of animal is in the image?\nA. Abyssinian B. great C. Ragdoll D. Persian",
+        "answer": "B",
+        "label": "great"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/great_pyrenees_194.jpg",
+        "question": "What type of animal is in the image?\nA. Ragdoll B. British C. keeshond D. great",
+        "answer": "D",
+        "label": "great"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/great_pyrenees_195.jpg",
+        "question": "What type of animal is in the image?\nA. great B. Siamese C. scottish D. Sphynx",
+        "answer": "A",
+        "label": "great"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/great_pyrenees_196.jpg",
+        "question": "What type of animal is in the image?\nA. scottish B. english C. great D. Siamese",
+        "answer": "C",
+        "label": "great"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/great_pyrenees_197.jpg",
+        "question": "What type of animal is in the image?\nA. basset B. great C. British D. english",
+        "answer": "B",
+        "label": "great"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/great_pyrenees_198.jpg",
+        "question": "What type of animal is in the image?\nA. wheaten B. Siamese C. great D. yorkshire",
+        "answer": "C",
+        "label": "great"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/great_pyrenees_199.jpg",
+        "question": "What type of animal is in the image?\nA. saint B. chihuahua C. Bombay D. great",
+        "answer": "D",
+        "label": "great"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/great_pyrenees_19.jpg",
+        "question": "What type of animal is in the image?\nA. Siamese B. saint C. great D. Sphynx",
+        "answer": "C",
+        "label": "great"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/great_pyrenees_1.jpg",
+        "question": "What type of animal is in the image?\nA. great B. scottish C. Abyssinian D. german",
+        "answer": "A",
+        "label": "great"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/great_pyrenees_200.jpg",
+        "question": "What type of animal is in the image?\nA. British B. great C. Siamese D. Birman",
+        "answer": "B",
+        "label": "great"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/great_pyrenees_20.jpg",
+        "question": "What type of animal is in the image?\nA. wheaten B. great C. japanese D. newfoundland",
+        "answer": "B",
+        "label": "great"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/great_pyrenees_21.jpg",
+        "question": "What type of animal is in the image?\nA. great B. Egyptian C. Ragdoll D. boxer",
+        "answer": "A",
+        "label": "great"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/great_pyrenees_22.jpg",
+        "question": "What type of animal is in the image?\nA. chihuahua B. Persian C. great D. english",
+        "answer": "C",
+        "label": "great"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/great_pyrenees_23.jpg",
+        "question": "What type of animal is in the image?\nA. Russian B. great C. havanese D. shiba",
+        "answer": "B",
+        "label": "great"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/great_pyrenees_24.jpg",
+        "question": "What type of animal is in the image?\nA. beagle B. miniature C. great D. saint",
+        "answer": "C",
+        "label": "great"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/great_pyrenees_25.jpg",
+        "question": "What type of animal is in the image?\nA. great B. beagle C. saint D. British",
+        "answer": "A",
+        "label": "great"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/great_pyrenees_26.jpg",
+        "question": "What type of animal is in the image?\nA. miniature B. Siamese C. yorkshire D. great",
+        "answer": "D",
+        "label": "great"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/great_pyrenees_27.jpg",
+        "question": "What type of animal is in the image?\nA. basset B. yorkshire C. Abyssinian D. great",
+        "answer": "D",
+        "label": "great"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/havanese_191.jpg",
+        "question": "What type of animal is in the image?\nA. Egyptian B. havanese C. wheaten D. Ragdoll",
+        "answer": "B",
+        "label": "havanese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/havanese_192.jpg",
+        "question": "What type of animal is in the image?\nA. havanese B. samoyed C. boxer D. keeshond",
+        "answer": "A",
+        "label": "havanese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/havanese_193.jpg",
+        "question": "What type of animal is in the image?\nA. great B. Abyssinian C. scottish D. havanese",
+        "answer": "D",
+        "label": "havanese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/havanese_194.jpg",
+        "question": "What type of animal is in the image?\nA. havanese B. chihuahua C. leonberger D. scottish",
+        "answer": "A",
+        "label": "havanese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/havanese_195.jpg",
+        "question": "What type of animal is in the image?\nA. Egyptian B. english C. keeshond D. havanese",
+        "answer": "D",
+        "label": "havanese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/havanese_196.jpg",
+        "question": "What type of animal is in the image?\nA. american B. Ragdoll C. havanese D. keeshond",
+        "answer": "C",
+        "label": "havanese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/havanese_197.jpg",
+        "question": "What type of animal is in the image?\nA. scottish B. newfoundland C. saint D. havanese",
+        "answer": "D",
+        "label": "havanese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/havanese_198.jpg",
+        "question": "What type of animal is in the image?\nA. newfoundland B. american C. havanese D. beagle",
+        "answer": "C",
+        "label": "havanese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/havanese_199.jpg",
+        "question": "What type of animal is in the image?\nA. Egyptian B. Maine C. havanese D. english",
+        "answer": "C",
+        "label": "havanese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/havanese_19.jpg",
+        "question": "What type of animal is in the image?\nA. Sphynx B. havanese C. Birman D. pomeranian",
+        "answer": "B",
+        "label": "havanese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/havanese_1.jpg",
+        "question": "What type of animal is in the image?\nA. havanese B. scottish C. german D. staffordshire",
+        "answer": "A",
+        "label": "havanese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/havanese_200.jpg",
+        "question": "What type of animal is in the image?\nA. Persian B. havanese C. Russian D. american",
+        "answer": "B",
+        "label": "havanese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/havanese_20.jpg",
+        "question": "What type of animal is in the image?\nA. Russian B. Ragdoll C. havanese D. scottish",
+        "answer": "C",
+        "label": "havanese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/havanese_21.jpg",
+        "question": "What type of animal is in the image?\nA. newfoundland B. japanese C. great D. havanese",
+        "answer": "D",
+        "label": "havanese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/havanese_22.jpg",
+        "question": "What type of animal is in the image?\nA. havanese B. Russian C. wheaten D. Birman",
+        "answer": "A",
+        "label": "havanese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/havanese_23.jpg",
+        "question": "What type of animal is in the image?\nA. Russian B. american C. havanese D. german",
+        "answer": "C",
+        "label": "havanese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/havanese_24.jpg",
+        "question": "What type of animal is in the image?\nA. British B. saint C. basset D. havanese",
+        "answer": "D",
+        "label": "havanese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/havanese_25.jpg",
+        "question": "What type of animal is in the image?\nA. havanese B. leonberger C. Siamese D. scottish",
+        "answer": "A",
+        "label": "havanese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/havanese_26.jpg",
+        "question": "What type of animal is in the image?\nA. British B. havanese C. boxer D. staffordshire",
+        "answer": "B",
+        "label": "havanese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/havanese_27.jpg",
+        "question": "What type of animal is in the image?\nA. Ragdoll B. havanese C. scottish D. keeshond",
+        "answer": "B",
+        "label": "havanese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/japanese_chin_191.jpg",
+        "question": "What type of animal is in the image?\nA. Maine B. boxer C. samoyed D. japanese",
+        "answer": "D",
+        "label": "japanese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/japanese_chin_192.jpg",
+        "question": "What type of animal is in the image?\nA. miniature B. japanese C. British D. wheaten",
+        "answer": "B",
+        "label": "japanese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/japanese_chin_193.jpg",
+        "question": "What type of animal is in the image?\nA. beagle B. havanese C. japanese D. British",
+        "answer": "C",
+        "label": "japanese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/japanese_chin_194.jpg",
+        "question": "What type of animal is in the image?\nA. Sphynx B. Bombay C. miniature D. japanese",
+        "answer": "D",
+        "label": "japanese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/japanese_chin_195.jpg",
+        "question": "What type of animal is in the image?\nA. yorkshire B. japanese C. staffordshire D. newfoundland",
+        "answer": "B",
+        "label": "japanese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/japanese_chin_196.jpg",
+        "question": "What type of animal is in the image?\nA. japanese B. newfoundland C. leonberger D. pomeranian",
+        "answer": "A",
+        "label": "japanese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/japanese_chin_197.jpg",
+        "question": "What type of animal is in the image?\nA. havanese B. basset C. boxer D. japanese",
+        "answer": "D",
+        "label": "japanese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/japanese_chin_198.jpg",
+        "question": "What type of animal is in the image?\nA. japanese B. basset C. german D. Ragdoll",
+        "answer": "A",
+        "label": "japanese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/japanese_chin_199.jpg",
+        "question": "What type of animal is in the image?\nA. Bengal B. boxer C. japanese D. pomeranian",
+        "answer": "C",
+        "label": "japanese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/japanese_chin_19.jpg",
+        "question": "What type of animal is in the image?\nA. japanese B. wheaten C. saint D. Egyptian",
+        "answer": "A",
+        "label": "japanese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/japanese_chin_1.jpg",
+        "question": "What type of animal is in the image?\nA. american B. english C. Bombay D. japanese",
+        "answer": "D",
+        "label": "japanese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/japanese_chin_200.jpg",
+        "question": "What type of animal is in the image?\nA. japanese B. great C. Siamese D. yorkshire",
+        "answer": "A",
+        "label": "japanese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/japanese_chin_20.jpg",
+        "question": "What type of animal is in the image?\nA. japanese B. Abyssinian C. shiba D. basset",
+        "answer": "A",
+        "label": "japanese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/japanese_chin_21.jpg",
+        "question": "What type of animal is in the image?\nA. japanese B. Egyptian C. Siamese D. chihuahua",
+        "answer": "A",
+        "label": "japanese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/japanese_chin_22.jpg",
+        "question": "What type of animal is in the image?\nA. keeshond B. japanese C. german D. boxer",
+        "answer": "B",
+        "label": "japanese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/japanese_chin_23.jpg",
+        "question": "What type of animal is in the image?\nA. Abyssinian B. american C. japanese D. english",
+        "answer": "C",
+        "label": "japanese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/japanese_chin_24.jpg",
+        "question": "What type of animal is in the image?\nA. Abyssinian B. leonberger C. japanese D. scottish",
+        "answer": "C",
+        "label": "japanese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/japanese_chin_25.jpg",
+        "question": "What type of animal is in the image?\nA. leonberger B. japanese C. saint D. beagle",
+        "answer": "B",
+        "label": "japanese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/japanese_chin_26.jpg",
+        "question": "What type of animal is in the image?\nA. japanese B. Egyptian C. leonberger D. great",
+        "answer": "A",
+        "label": "japanese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/japanese_chin_27.jpg",
+        "question": "What type of animal is in the image?\nA. japanese B. Russian C. leonberger D. saint",
+        "answer": "A",
+        "label": "japanese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/keeshond_191.jpg",
+        "question": "What type of animal is in the image?\nA. great B. japanese C. basset D. keeshond",
+        "answer": "D",
+        "label": "keeshond"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/keeshond_192.jpg",
+        "question": "What type of animal is in the image?\nA. shiba B. keeshond C. staffordshire D. beagle",
+        "answer": "B",
+        "label": "keeshond"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/keeshond_193.jpg",
+        "question": "What type of animal is in the image?\nA. keeshond B. Egyptian C. scottish D. Birman",
+        "answer": "A",
+        "label": "keeshond"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/keeshond_194.jpg",
+        "question": "What type of animal is in the image?\nA. keeshond B. german C. Bengal D. beagle",
+        "answer": "A",
+        "label": "keeshond"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/keeshond_195.jpg",
+        "question": "What type of animal is in the image?\nA. basset B. keeshond C. german D. chihuahua",
+        "answer": "B",
+        "label": "keeshond"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/keeshond_196.jpg",
+        "question": "What type of animal is in the image?\nA. Maine B. scottish C. staffordshire D. keeshond",
+        "answer": "D",
+        "label": "keeshond"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/keeshond_197.jpg",
+        "question": "What type of animal is in the image?\nA. yorkshire B. saint C. wheaten D. keeshond",
+        "answer": "D",
+        "label": "keeshond"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/keeshond_198.jpg",
+        "question": "What type of animal is in the image?\nA. British B. newfoundland C. Sphynx D. keeshond",
+        "answer": "D",
+        "label": "keeshond"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/keeshond_199.jpg",
+        "question": "What type of animal is in the image?\nA. boxer B. saint C. keeshond D. scottish",
+        "answer": "C",
+        "label": "keeshond"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/keeshond_19.jpg",
+        "question": "What type of animal is in the image?\nA. havanese B. keeshond C. leonberger D. basset",
+        "answer": "B",
+        "label": "keeshond"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/keeshond_1.jpg",
+        "question": "What type of animal is in the image?\nA. american B. great C. keeshond D. Russian",
+        "answer": "C",
+        "label": "keeshond"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/keeshond_200.jpg",
+        "question": "What type of animal is in the image?\nA. Bengal B. great C. leonberger D. keeshond",
+        "answer": "D",
+        "label": "keeshond"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/keeshond_20.jpg",
+        "question": "What type of animal is in the image?\nA. beagle B. keeshond C. havanese D. newfoundland",
+        "answer": "B",
+        "label": "keeshond"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/keeshond_21.jpg",
+        "question": "What type of animal is in the image?\nA. leonberger B. keeshond C. Siamese D. Birman",
+        "answer": "B",
+        "label": "keeshond"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/keeshond_22.jpg",
+        "question": "What type of animal is in the image?\nA. keeshond B. scottish C. english D. pug",
+        "answer": "A",
+        "label": "keeshond"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/keeshond_23.jpg",
+        "question": "What type of animal is in the image?\nA. Persian B. pug C. japanese D. keeshond",
+        "answer": "D",
+        "label": "keeshond"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/keeshond_24.jpg",
+        "question": "What type of animal is in the image?\nA. german B. great C. keeshond D. yorkshire",
+        "answer": "C",
+        "label": "keeshond"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/keeshond_25.jpg",
+        "question": "What type of animal is in the image?\nA. havanese B. great C. chihuahua D. keeshond",
+        "answer": "D",
+        "label": "keeshond"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/keeshond_26.jpg",
+        "question": "What type of animal is in the image?\nA. Birman B. keeshond C. scottish D. Maine",
+        "answer": "B",
+        "label": "keeshond"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/keeshond_27.jpg",
+        "question": "What type of animal is in the image?\nA. american B. great C. german D. keeshond",
+        "answer": "D",
+        "label": "keeshond"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/leonberger_191.jpg",
+        "question": "What type of animal is in the image?\nA. Bengal B. keeshond C. leonberger D. great",
+        "answer": "C",
+        "label": "leonberger"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/leonberger_192.jpg",
+        "question": "What type of animal is in the image?\nA. Ragdoll B. miniature C. leonberger D. shiba",
+        "answer": "C",
+        "label": "leonberger"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/leonberger_193.jpg",
+        "question": "What type of animal is in the image?\nA. Birman B. basset C. leonberger D. shiba",
+        "answer": "C",
+        "label": "leonberger"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/leonberger_194.jpg",
+        "question": "What type of animal is in the image?\nA. Sphynx B. leonberger C. wheaten D. saint",
+        "answer": "B",
+        "label": "leonberger"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/leonberger_195.jpg",
+        "question": "What type of animal is in the image?\nA. yorkshire B. english C. Birman D. leonberger",
+        "answer": "D",
+        "label": "leonberger"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/leonberger_196.jpg",
+        "question": "What type of animal is in the image?\nA. leonberger B. Ragdoll C. samoyed D. boxer",
+        "answer": "A",
+        "label": "leonberger"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/leonberger_197.jpg",
+        "question": "What type of animal is in the image?\nA. Persian B. leonberger C. yorkshire D. shiba",
+        "answer": "B",
+        "label": "leonberger"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/leonberger_198.jpg",
+        "question": "What type of animal is in the image?\nA. great B. saint C. leonberger D. german",
+        "answer": "C",
+        "label": "leonberger"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/leonberger_199.jpg",
+        "question": "What type of animal is in the image?\nA. Siamese B. newfoundland C. staffordshire D. leonberger",
+        "answer": "D",
+        "label": "leonberger"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/leonberger_19.jpg",
+        "question": "What type of animal is in the image?\nA. staffordshire B. shiba C. leonberger D. Siamese",
+        "answer": "C",
+        "label": "leonberger"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/leonberger_1.jpg",
+        "question": "What type of animal is in the image?\nA. leonberger B. german C. Maine D. saint",
+        "answer": "A",
+        "label": "leonberger"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/leonberger_200.jpg",
+        "question": "What type of animal is in the image?\nA. Persian B. havanese C. basset D. leonberger",
+        "answer": "D",
+        "label": "leonberger"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/leonberger_20.jpg",
+        "question": "What type of animal is in the image?\nA. newfoundland B. Birman C. leonberger D. pug",
+        "answer": "C",
+        "label": "leonberger"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/leonberger_21.jpg",
+        "question": "What type of animal is in the image?\nA. newfoundland B. leonberger C. Russian D. boxer",
+        "answer": "B",
+        "label": "leonberger"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/leonberger_22.jpg",
+        "question": "What type of animal is in the image?\nA. leonberger B. wheaten C. saint D. basset",
+        "answer": "A",
+        "label": "leonberger"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/leonberger_23.jpg",
+        "question": "What type of animal is in the image?\nA. Egyptian B. yorkshire C. basset D. leonberger",
+        "answer": "D",
+        "label": "leonberger"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/leonberger_24.jpg",
+        "question": "What type of animal is in the image?\nA. leonberger B. pomeranian C. Abyssinian D. keeshond",
+        "answer": "A",
+        "label": "leonberger"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/leonberger_25.jpg",
+        "question": "What type of animal is in the image?\nA. leonberger B. basset C. english D. beagle",
+        "answer": "A",
+        "label": "leonberger"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/leonberger_26.jpg",
+        "question": "What type of animal is in the image?\nA. samoyed B. leonberger C. Bengal D. english",
+        "answer": "B",
+        "label": "leonberger"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/leonberger_27.jpg",
+        "question": "What type of animal is in the image?\nA. leonberger B. samoyed C. keeshond D. beagle",
+        "answer": "A",
+        "label": "leonberger"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Maine_Coon_21.jpg",
+        "question": "What type of animal is in the image?\nA. Persian B. chihuahua C. Bombay D. Maine",
+        "answer": "D",
+        "label": "Maine"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Maine_Coon_222.jpg",
+        "question": "What type of animal is in the image?\nA. basset B. saint C. samoyed D. Maine",
+        "answer": "D",
+        "label": "Maine"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Maine_Coon_227.jpg",
+        "question": "What type of animal is in the image?\nA. newfoundland B. great C. Maine D. wheaten",
+        "answer": "C",
+        "label": "Maine"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Maine_Coon_231.jpg",
+        "question": "What type of animal is in the image?\nA. Birman B. Ragdoll C. Maine D. samoyed",
+        "answer": "C",
+        "label": "Maine"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Maine_Coon_238.jpg",
+        "question": "What type of animal is in the image?\nA. great B. Persian C. keeshond D. Maine",
+        "answer": "D",
+        "label": "Maine"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Maine_Coon_239.jpg",
+        "question": "What type of animal is in the image?\nA. Egyptian B. havanese C. Maine D. basset",
+        "answer": "C",
+        "label": "Maine"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Maine_Coon_23.jpg",
+        "question": "What type of animal is in the image?\nA. staffordshire B. Bombay C. shiba D. Maine",
+        "answer": "D",
+        "label": "Maine"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Maine_Coon_241.jpg",
+        "question": "What type of animal is in the image?\nA. Bombay B. Maine C. Egyptian D. miniature",
+        "answer": "B",
+        "label": "Maine"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Maine_Coon_242.jpg",
+        "question": "What type of animal is in the image?\nA. miniature B. havanese C. Maine D. great",
+        "answer": "C",
+        "label": "Maine"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Maine_Coon_244.jpg",
+        "question": "What type of animal is in the image?\nA. american B. chihuahua C. Maine D. samoyed",
+        "answer": "C",
+        "label": "Maine"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Maine_Coon_245.jpg",
+        "question": "What type of animal is in the image?\nA. chihuahua B. pug C. keeshond D. Maine",
+        "answer": "D",
+        "label": "Maine"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Maine_Coon_246.jpg",
+        "question": "What type of animal is in the image?\nA. shiba B. Maine C. samoyed D. Sphynx",
+        "answer": "B",
+        "label": "Maine"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Maine_Coon_247.jpg",
+        "question": "What type of animal is in the image?\nA. beagle B. shiba C. Maine D. Birman",
+        "answer": "C",
+        "label": "Maine"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Maine_Coon_249.jpg",
+        "question": "What type of animal is in the image?\nA. havanese B. pomeranian C. Maine D. shiba",
+        "answer": "C",
+        "label": "Maine"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Maine_Coon_24.jpg",
+        "question": "What type of animal is in the image?\nA. scottish B. keeshond C. Maine D. staffordshire",
+        "answer": "C",
+        "label": "Maine"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Maine_Coon_253.jpg",
+        "question": "What type of animal is in the image?\nA. beagle B. pomeranian C. Maine D. Ragdoll",
+        "answer": "C",
+        "label": "Maine"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Maine_Coon_254.jpg",
+        "question": "What type of animal is in the image?\nA. yorkshire B. boxer C. pug D. Maine",
+        "answer": "D",
+        "label": "Maine"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Maine_Coon_25.jpg",
+        "question": "What type of animal is in the image?\nA. Maine B. pug C. chihuahua D. japanese",
+        "answer": "A",
+        "label": "Maine"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Maine_Coon_262.jpg",
+        "question": "What type of animal is in the image?\nA. Maine B. Sphynx C. Bombay D. Siamese",
+        "answer": "A",
+        "label": "Maine"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Maine_Coon_263.jpg",
+        "question": "What type of animal is in the image?\nA. american B. Maine C. Birman D. wheaten",
+        "answer": "B",
+        "label": "Maine"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/miniature_pinscher_191.jpg",
+        "question": "What type of animal is in the image?\nA. german B. Maine C. Abyssinian D. miniature",
+        "answer": "D",
+        "label": "miniature"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/miniature_pinscher_192.jpg",
+        "question": "What type of animal is in the image?\nA. miniature B. pug C. great D. Bombay",
+        "answer": "A",
+        "label": "miniature"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/miniature_pinscher_193.jpg",
+        "question": "What type of animal is in the image?\nA. japanese B. newfoundland C. miniature D. great",
+        "answer": "C",
+        "label": "miniature"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/miniature_pinscher_194.jpg",
+        "question": "What type of animal is in the image?\nA. miniature B. British C. Abyssinian D. havanese",
+        "answer": "A",
+        "label": "miniature"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/miniature_pinscher_195.jpg",
+        "question": "What type of animal is in the image?\nA. miniature B. Ragdoll C. wheaten D. japanese",
+        "answer": "A",
+        "label": "miniature"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/miniature_pinscher_196.jpg",
+        "question": "What type of animal is in the image?\nA. japanese B. Ragdoll C. miniature D. scottish",
+        "answer": "C",
+        "label": "miniature"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/miniature_pinscher_197.jpg",
+        "question": "What type of animal is in the image?\nA. havanese B. Birman C. boxer D. miniature",
+        "answer": "D",
+        "label": "miniature"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/miniature_pinscher_198.jpg",
+        "question": "What type of animal is in the image?\nA. miniature B. scottish C. Bengal D. Birman",
+        "answer": "A",
+        "label": "miniature"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/miniature_pinscher_199.jpg",
+        "question": "What type of animal is in the image?\nA. american B. Birman C. shiba D. miniature",
+        "answer": "D",
+        "label": "miniature"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/miniature_pinscher_19.jpg",
+        "question": "What type of animal is in the image?\nA. pomeranian B. pug C. german D. miniature",
+        "answer": "D",
+        "label": "miniature"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/miniature_pinscher_1.jpg",
+        "question": "What type of animal is in the image?\nA. great B. american C. beagle D. miniature",
+        "answer": "D",
+        "label": "miniature"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/miniature_pinscher_200.jpg",
+        "question": "What type of animal is in the image?\nA. american B. pomeranian C. saint D. miniature",
+        "answer": "D",
+        "label": "miniature"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/miniature_pinscher_20.jpg",
+        "question": "What type of animal is in the image?\nA. miniature B. chihuahua C. german D. havanese",
+        "answer": "A",
+        "label": "miniature"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/miniature_pinscher_21.jpg",
+        "question": "What type of animal is in the image?\nA. miniature B. beagle C. english D. wheaten",
+        "answer": "A",
+        "label": "miniature"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/miniature_pinscher_22.jpg",
+        "question": "What type of animal is in the image?\nA. miniature B. Bengal C. British D. english",
+        "answer": "A",
+        "label": "miniature"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/miniature_pinscher_23.jpg",
+        "question": "What type of animal is in the image?\nA. newfoundland B. yorkshire C. miniature D. Persian",
+        "answer": "C",
+        "label": "miniature"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/miniature_pinscher_24.jpg",
+        "question": "What type of animal is in the image?\nA. samoyed B. Russian C. miniature D. saint",
+        "answer": "C",
+        "label": "miniature"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/miniature_pinscher_25.jpg",
+        "question": "What type of animal is in the image?\nA. english B. miniature C. pug D. Persian",
+        "answer": "B",
+        "label": "miniature"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/miniature_pinscher_26.jpg",
+        "question": "What type of animal is in the image?\nA. basset B. Egyptian C. Russian D. miniature",
+        "answer": "D",
+        "label": "miniature"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/miniature_pinscher_27.jpg",
+        "question": "What type of animal is in the image?\nA. leonberger B. basset C. miniature D. chihuahua",
+        "answer": "C",
+        "label": "miniature"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/newfoundland_191.jpg",
+        "question": "What type of animal is in the image?\nA. Maine B. wheaten C. Bengal D. newfoundland",
+        "answer": "D",
+        "label": "newfoundland"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/newfoundland_192.jpg",
+        "question": "What type of animal is in the image?\nA. german B. Egyptian C. staffordshire D. newfoundland",
+        "answer": "D",
+        "label": "newfoundland"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/newfoundland_193.jpg",
+        "question": "What type of animal is in the image?\nA. British B. Abyssinian C. newfoundland D. beagle",
+        "answer": "C",
+        "label": "newfoundland"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/newfoundland_194.jpg",
+        "question": "What type of animal is in the image?\nA. newfoundland B. Birman C. wheaten D. Sphynx",
+        "answer": "A",
+        "label": "newfoundland"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/newfoundland_195.jpg",
+        "question": "What type of animal is in the image?\nA. Russian B. Abyssinian C. Maine D. newfoundland",
+        "answer": "D",
+        "label": "newfoundland"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/newfoundland_196.jpg",
+        "question": "What type of animal is in the image?\nA. newfoundland B. miniature C. basset D. yorkshire",
+        "answer": "A",
+        "label": "newfoundland"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/newfoundland_197.jpg",
+        "question": "What type of animal is in the image?\nA. german B. newfoundland C. Birman D. pug",
+        "answer": "B",
+        "label": "newfoundland"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/newfoundland_198.jpg",
+        "question": "What type of animal is in the image?\nA. newfoundland B. Persian C. Birman D. Russian",
+        "answer": "A",
+        "label": "newfoundland"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/newfoundland_199.jpg",
+        "question": "What type of animal is in the image?\nA. newfoundland B. great C. saint D. staffordshire",
+        "answer": "A",
+        "label": "newfoundland"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/newfoundland_19.jpg",
+        "question": "What type of animal is in the image?\nA. pomeranian B. miniature C. newfoundland D. Bombay",
+        "answer": "C",
+        "label": "newfoundland"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/newfoundland_1.jpg",
+        "question": "What type of animal is in the image?\nA. scottish B. Bengal C. newfoundland D. chihuahua",
+        "answer": "C",
+        "label": "newfoundland"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/newfoundland_200.jpg",
+        "question": "What type of animal is in the image?\nA. german B. Bengal C. newfoundland D. japanese",
+        "answer": "C",
+        "label": "newfoundland"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/newfoundland_20.jpg",
+        "question": "What type of animal is in the image?\nA. staffordshire B. newfoundland C. Russian D. Maine",
+        "answer": "B",
+        "label": "newfoundland"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/newfoundland_21.jpg",
+        "question": "What type of animal is in the image?\nA. newfoundland B. miniature C. Bombay D. american",
+        "answer": "A",
+        "label": "newfoundland"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/newfoundland_22.jpg",
+        "question": "What type of animal is in the image?\nA. newfoundland B. Siamese C. staffordshire D. american",
+        "answer": "A",
+        "label": "newfoundland"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/newfoundland_23.jpg",
+        "question": "What type of animal is in the image?\nA. newfoundland B. great C. havanese D. Persian",
+        "answer": "A",
+        "label": "newfoundland"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/newfoundland_24.jpg",
+        "question": "What type of animal is in the image?\nA. yorkshire B. newfoundland C. havanese D. Sphynx",
+        "answer": "B",
+        "label": "newfoundland"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/newfoundland_25.jpg",
+        "question": "What type of animal is in the image?\nA. leonberger B. newfoundland C. staffordshire D. Sphynx",
+        "answer": "B",
+        "label": "newfoundland"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/newfoundland_26.jpg",
+        "question": "What type of animal is in the image?\nA. pug B. wheaten C. newfoundland D. japanese",
+        "answer": "C",
+        "label": "newfoundland"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/newfoundland_27.jpg",
+        "question": "What type of animal is in the image?\nA. newfoundland B. leonberger C. scottish D. Bombay",
+        "answer": "A",
+        "label": "newfoundland"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Persian_21.jpg",
+        "question": "What type of animal is in the image?\nA. yorkshire B. Siamese C. saint D. Persian",
+        "answer": "D",
+        "label": "Persian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Persian_221.jpg",
+        "question": "What type of animal is in the image?\nA. yorkshire B. scottish C. basset D. Persian",
+        "answer": "D",
+        "label": "Persian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Persian_224.jpg",
+        "question": "What type of animal is in the image?\nA. american B. basset C. Persian D. pomeranian",
+        "answer": "C",
+        "label": "Persian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Persian_228.jpg",
+        "question": "What type of animal is in the image?\nA. chihuahua B. Sphynx C. Persian D. wheaten",
+        "answer": "C",
+        "label": "Persian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Persian_22.jpg",
+        "question": "What type of animal is in the image?\nA. Siamese B. german C. Persian D. basset",
+        "answer": "C",
+        "label": "Persian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Persian_233.jpg",
+        "question": "What type of animal is in the image?\nA. Egyptian B. Persian C. scottish D. miniature",
+        "answer": "B",
+        "label": "Persian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Persian_239.jpg",
+        "question": "What type of animal is in the image?\nA. pomeranian B. wheaten C. Persian D. Siamese",
+        "answer": "C",
+        "label": "Persian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Persian_255.jpg",
+        "question": "What type of animal is in the image?\nA. Russian B. British C. Persian D. Abyssinian",
+        "answer": "C",
+        "label": "Persian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Persian_256.jpg",
+        "question": "What type of animal is in the image?\nA. scottish B. Persian C. Maine D. yorkshire",
+        "answer": "B",
+        "label": "Persian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Persian_257.jpg",
+        "question": "What type of animal is in the image?\nA. saint B. japanese C. havanese D. Persian",
+        "answer": "D",
+        "label": "Persian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Persian_258.jpg",
+        "question": "What type of animal is in the image?\nA. great B. beagle C. Persian D. newfoundland",
+        "answer": "C",
+        "label": "Persian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Persian_259.jpg",
+        "question": "What type of animal is in the image?\nA. Maine B. Persian C. samoyed D. miniature",
+        "answer": "B",
+        "label": "Persian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Persian_25.jpg",
+        "question": "What type of animal is in the image?\nA. British B. boxer C. Persian D. pug",
+        "answer": "C",
+        "label": "Persian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Persian_260.jpg",
+        "question": "What type of animal is in the image?\nA. samoyed B. newfoundland C. Persian D. japanese",
+        "answer": "C",
+        "label": "Persian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Persian_261.jpg",
+        "question": "What type of animal is in the image?\nA. german B. Bombay C. Persian D. miniature",
+        "answer": "C",
+        "label": "Persian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Persian_262.jpg",
+        "question": "What type of animal is in the image?\nA. Bengal B. Siamese C. Persian D. Sphynx",
+        "answer": "C",
+        "label": "Persian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Persian_263.jpg",
+        "question": "What type of animal is in the image?\nA. Persian B. British C. Sphynx D. japanese",
+        "answer": "A",
+        "label": "Persian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Persian_264.jpg",
+        "question": "What type of animal is in the image?\nA. american B. Ragdoll C. Persian D. staffordshire",
+        "answer": "C",
+        "label": "Persian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Persian_265.jpg",
+        "question": "What type of animal is in the image?\nA. Birman B. saint C. yorkshire D. Persian",
+        "answer": "D",
+        "label": "Persian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Persian_266.jpg",
+        "question": "What type of animal is in the image?\nA. pomeranian B. Persian C. Maine D. yorkshire",
+        "answer": "B",
+        "label": "Persian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/pomeranian_191.jpg",
+        "question": "What type of animal is in the image?\nA. samoyed B. scottish C. pomeranian D. Siamese",
+        "answer": "C",
+        "label": "pomeranian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/pomeranian_192.jpg",
+        "question": "What type of animal is in the image?\nA. samoyed B. miniature C. pomeranian D. japanese",
+        "answer": "C",
+        "label": "pomeranian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/pomeranian_193.jpg",
+        "question": "What type of animal is in the image?\nA. staffordshire B. keeshond C. shiba D. pomeranian",
+        "answer": "D",
+        "label": "pomeranian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/pomeranian_194.jpg",
+        "question": "What type of animal is in the image?\nA. British B. Ragdoll C. Bengal D. pomeranian",
+        "answer": "D",
+        "label": "pomeranian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/pomeranian_195.jpg",
+        "question": "What type of animal is in the image?\nA. British B. pomeranian C. shiba D. Maine",
+        "answer": "B",
+        "label": "pomeranian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/pomeranian_196.jpg",
+        "question": "What type of animal is in the image?\nA. Abyssinian B. pug C. great D. pomeranian",
+        "answer": "D",
+        "label": "pomeranian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/pomeranian_197.jpg",
+        "question": "What type of animal is in the image?\nA. boxer B. pomeranian C. beagle D. japanese",
+        "answer": "B",
+        "label": "pomeranian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/pomeranian_198.jpg",
+        "question": "What type of animal is in the image?\nA. wheaten B. pomeranian C. chihuahua D. Siamese",
+        "answer": "B",
+        "label": "pomeranian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/pomeranian_199.jpg",
+        "question": "What type of animal is in the image?\nA. Birman B. german C. boxer D. pomeranian",
+        "answer": "D",
+        "label": "pomeranian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/pomeranian_19.jpg",
+        "question": "What type of animal is in the image?\nA. leonberger B. Ragdoll C. pomeranian D. scottish",
+        "answer": "C",
+        "label": "pomeranian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/pomeranian_1.jpg",
+        "question": "What type of animal is in the image?\nA. pomeranian B. Bombay C. yorkshire D. chihuahua",
+        "answer": "A",
+        "label": "pomeranian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/pomeranian_200.jpg",
+        "question": "What type of animal is in the image?\nA. wheaten B. keeshond C. Abyssinian D. pomeranian",
+        "answer": "D",
+        "label": "pomeranian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/pomeranian_20.jpg",
+        "question": "What type of animal is in the image?\nA. american B. wheaten C. miniature D. pomeranian",
+        "answer": "D",
+        "label": "pomeranian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/pomeranian_21.jpg",
+        "question": "What type of animal is in the image?\nA. Russian B. pomeranian C. leonberger D. miniature",
+        "answer": "B",
+        "label": "pomeranian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/pomeranian_22.jpg",
+        "question": "What type of animal is in the image?\nA. pomeranian B. american C. Egyptian D. great",
+        "answer": "A",
+        "label": "pomeranian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/pomeranian_23.jpg",
+        "question": "What type of animal is in the image?\nA. pomeranian B. Russian C. chihuahua D. Birman",
+        "answer": "A",
+        "label": "pomeranian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/pomeranian_24.jpg",
+        "question": "What type of animal is in the image?\nA. Siamese B. havanese C. samoyed D. pomeranian",
+        "answer": "D",
+        "label": "pomeranian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/pomeranian_25.jpg",
+        "question": "What type of animal is in the image?\nA. Persian B. american C. pomeranian D. yorkshire",
+        "answer": "C",
+        "label": "pomeranian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/pomeranian_26.jpg",
+        "question": "What type of animal is in the image?\nA. British B. pomeranian C. pug D. Bombay",
+        "answer": "B",
+        "label": "pomeranian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/pomeranian_27.jpg",
+        "question": "What type of animal is in the image?\nA. Birman B. Maine C. pomeranian D. shiba",
+        "answer": "C",
+        "label": "pomeranian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/pug_193.jpg",
+        "question": "What type of animal is in the image?\nA. great B. Ragdoll C. pug D. Siamese",
+        "answer": "C",
+        "label": "pug"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/pug_194.jpg",
+        "question": "What type of animal is in the image?\nA. pug B. staffordshire C. wheaten D. Bengal",
+        "answer": "A",
+        "label": "pug"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/pug_195.jpg",
+        "question": "What type of animal is in the image?\nA. Ragdoll B. Abyssinian C. boxer D. pug",
+        "answer": "D",
+        "label": "pug"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/pug_196.jpg",
+        "question": "What type of animal is in the image?\nA. japanese B. miniature C. pug D. Russian",
+        "answer": "C",
+        "label": "pug"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/pug_197.jpg",
+        "question": "What type of animal is in the image?\nA. Russian B. staffordshire C. Abyssinian D. pug",
+        "answer": "D",
+        "label": "pug"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/pug_198.jpg",
+        "question": "What type of animal is in the image?\nA. beagle B. keeshond C. pug D. Persian",
+        "answer": "C",
+        "label": "pug"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/pug_199.jpg",
+        "question": "What type of animal is in the image?\nA. Bombay B. pug C. scottish D. english",
+        "answer": "B",
+        "label": "pug"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/pug_19.jpg",
+        "question": "What type of animal is in the image?\nA. keeshond B. pug C. shiba D. Birman",
+        "answer": "B",
+        "label": "pug"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/pug_1.jpg",
+        "question": "What type of animal is in the image?\nA. Ragdoll B. scottish C. Bombay D. pug",
+        "answer": "D",
+        "label": "pug"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/pug_200.jpg",
+        "question": "What type of animal is in the image?\nA. pug B. Ragdoll C. Egyptian D. Maine",
+        "answer": "A",
+        "label": "pug"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/pug_201.jpg",
+        "question": "What type of animal is in the image?\nA. leonberger B. Maine C. pug D. saint",
+        "answer": "C",
+        "label": "pug"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/pug_202.jpg",
+        "question": "What type of animal is in the image?\nA. pug B. beagle C. pomeranian D. german",
+        "answer": "A",
+        "label": "pug"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/pug_203.jpg",
+        "question": "What type of animal is in the image?\nA. Bombay B. pug C. american D. British",
+        "answer": "B",
+        "label": "pug"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/pug_20.jpg",
+        "question": "What type of animal is in the image?\nA. german B. chihuahua C. pug D. Egyptian",
+        "answer": "C",
+        "label": "pug"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/pug_21.jpg",
+        "question": "What type of animal is in the image?\nA. pug B. Bengal C. Abyssinian D. keeshond",
+        "answer": "A",
+        "label": "pug"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/pug_22.jpg",
+        "question": "What type of animal is in the image?\nA. pug B. Abyssinian C. english D. chihuahua",
+        "answer": "A",
+        "label": "pug"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/pug_23.jpg",
+        "question": "What type of animal is in the image?\nA. saint B. pug C. pomeranian D. chihuahua",
+        "answer": "B",
+        "label": "pug"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/pug_24.jpg",
+        "question": "What type of animal is in the image?\nA. chihuahua B. pug C. Persian D. beagle",
+        "answer": "B",
+        "label": "pug"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/pug_25.jpg",
+        "question": "What type of animal is in the image?\nA. boxer B. chihuahua C. miniature D. pug",
+        "answer": "D",
+        "label": "pug"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/pug_26.jpg",
+        "question": "What type of animal is in the image?\nA. pug B. basset C. Siamese D. leonberger",
+        "answer": "A",
+        "label": "pug"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Ragdoll_203.jpg",
+        "question": "What type of animal is in the image?\nA. pomeranian B. Egyptian C. Bombay D. Ragdoll",
+        "answer": "D",
+        "label": "Ragdoll"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Ragdoll_204.jpg",
+        "question": "What type of animal is in the image?\nA. newfoundland B. Egyptian C. english D. Ragdoll",
+        "answer": "D",
+        "label": "Ragdoll"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Ragdoll_205.jpg",
+        "question": "What type of animal is in the image?\nA. miniature B. Ragdoll C. chihuahua D. newfoundland",
+        "answer": "B",
+        "label": "Ragdoll"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Ragdoll_208.jpg",
+        "question": "What type of animal is in the image?\nA. yorkshire B. Persian C. Ragdoll D. shiba",
+        "answer": "C",
+        "label": "Ragdoll"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Ragdoll_20.jpg",
+        "question": "What type of animal is in the image?\nA. chihuahua B. Abyssinian C. english D. Ragdoll",
+        "answer": "D",
+        "label": "Ragdoll"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Ragdoll_210.jpg",
+        "question": "What type of animal is in the image?\nA. Ragdoll B. Abyssinian C. Egyptian D. Sphynx",
+        "answer": "A",
+        "label": "Ragdoll"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Ragdoll_219.jpg",
+        "question": "What type of animal is in the image?\nA. great B. wheaten C. Egyptian D. Ragdoll",
+        "answer": "D",
+        "label": "Ragdoll"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Ragdoll_224.jpg",
+        "question": "What type of animal is in the image?\nA. saint B. Bengal C. Siamese D. Ragdoll",
+        "answer": "D",
+        "label": "Ragdoll"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Ragdoll_227.jpg",
+        "question": "What type of animal is in the image?\nA. Ragdoll B. basset C. British D. Abyssinian",
+        "answer": "A",
+        "label": "Ragdoll"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Ragdoll_228.jpg",
+        "question": "What type of animal is in the image?\nA. basset B. shiba C. Ragdoll D. saint",
+        "answer": "C",
+        "label": "Ragdoll"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Ragdoll_234.jpg",
+        "question": "What type of animal is in the image?\nA. Sphynx B. keeshond C. scottish D. Ragdoll",
+        "answer": "D",
+        "label": "Ragdoll"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Ragdoll_235.jpg",
+        "question": "What type of animal is in the image?\nA. Ragdoll B. miniature C. Maine D. american",
+        "answer": "A",
+        "label": "Ragdoll"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Ragdoll_245.jpg",
+        "question": "What type of animal is in the image?\nA. keeshond B. scottish C. saint D. Ragdoll",
+        "answer": "D",
+        "label": "Ragdoll"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Ragdoll_24.jpg",
+        "question": "What type of animal is in the image?\nA. great B. beagle C. Ragdoll D. miniature",
+        "answer": "C",
+        "label": "Ragdoll"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Ragdoll_250.jpg",
+        "question": "What type of animal is in the image?\nA. Russian B. beagle C. Ragdoll D. Abyssinian",
+        "answer": "C",
+        "label": "Ragdoll"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Ragdoll_252.jpg",
+        "question": "What type of animal is in the image?\nA. pomeranian B. yorkshire C. Ragdoll D. leonberger",
+        "answer": "C",
+        "label": "Ragdoll"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Ragdoll_254.jpg",
+        "question": "What type of animal is in the image?\nA. keeshond B. Ragdoll C. miniature D. boxer",
+        "answer": "B",
+        "label": "Ragdoll"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Ragdoll_255.jpg",
+        "question": "What type of animal is in the image?\nA. havanese B. Bombay C. Ragdoll D. Abyssinian",
+        "answer": "C",
+        "label": "Ragdoll"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Ragdoll_257.jpg",
+        "question": "What type of animal is in the image?\nA. boxer B. Ragdoll C. german D. newfoundland",
+        "answer": "B",
+        "label": "Ragdoll"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Ragdoll_258.jpg",
+        "question": "What type of animal is in the image?\nA. scottish B. great C. Bombay D. Ragdoll",
+        "answer": "D",
+        "label": "Ragdoll"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Russian_Blue_201.jpg",
+        "question": "What type of animal is in the image?\nA. wheaten B. yorkshire C. basset D. Russian",
+        "answer": "D",
+        "label": "Russian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Russian_Blue_202.jpg",
+        "question": "What type of animal is in the image?\nA. Maine B. Russian C. american D. newfoundland",
+        "answer": "B",
+        "label": "Russian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Russian_Blue_203.jpg",
+        "question": "What type of animal is in the image?\nA. keeshond B. Persian C. Maine D. Russian",
+        "answer": "D",
+        "label": "Russian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Russian_Blue_204.jpg",
+        "question": "What type of animal is in the image?\nA. Russian B. american C. great D. Siamese",
+        "answer": "A",
+        "label": "Russian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Russian_Blue_205.jpg",
+        "question": "What type of animal is in the image?\nA. pug B. newfoundland C. Bengal D. Russian",
+        "answer": "D",
+        "label": "Russian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Russian_Blue_206.jpg",
+        "question": "What type of animal is in the image?\nA. havanese B. Russian C. Bengal D. great",
+        "answer": "B",
+        "label": "Russian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Russian_Blue_207.jpg",
+        "question": "What type of animal is in the image?\nA. basset B. pomeranian C. great D. Russian",
+        "answer": "D",
+        "label": "Russian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Russian_Blue_208.jpg",
+        "question": "What type of animal is in the image?\nA. staffordshire B. Russian C. english D. pug",
+        "answer": "B",
+        "label": "Russian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Russian_Blue_209.jpg",
+        "question": "What type of animal is in the image?\nA. Russian B. samoyed C. scottish D. japanese",
+        "answer": "A",
+        "label": "Russian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Russian_Blue_20.jpg",
+        "question": "What type of animal is in the image?\nA. yorkshire B. Russian C. Ragdoll D. Birman",
+        "answer": "B",
+        "label": "Russian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Russian_Blue_211.jpg",
+        "question": "What type of animal is in the image?\nA. Russian B. Egyptian C. beagle D. Abyssinian",
+        "answer": "A",
+        "label": "Russian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Russian_Blue_212.jpg",
+        "question": "What type of animal is in the image?\nA. Russian B. miniature C. staffordshire D. pug",
+        "answer": "A",
+        "label": "Russian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Russian_Blue_215.jpg",
+        "question": "What type of animal is in the image?\nA. english B. Bombay C. Russian D. saint",
+        "answer": "C",
+        "label": "Russian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Russian_Blue_216.jpg",
+        "question": "What type of animal is in the image?\nA. British B. Russian C. havanese D. staffordshire",
+        "answer": "B",
+        "label": "Russian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Russian_Blue_21.jpg",
+        "question": "What type of animal is in the image?\nA. american B. basset C. Russian D. leonberger",
+        "answer": "C",
+        "label": "Russian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Russian_Blue_220.jpg",
+        "question": "What type of animal is in the image?\nA. basset B. Russian C. Persian D. saint",
+        "answer": "B",
+        "label": "Russian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Russian_Blue_221.jpg",
+        "question": "What type of animal is in the image?\nA. shiba B. Russian C. Bombay D. Maine",
+        "answer": "B",
+        "label": "Russian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Russian_Blue_222.jpg",
+        "question": "What type of animal is in the image?\nA. wheaten B. german C. Russian D. havanese",
+        "answer": "C",
+        "label": "Russian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Russian_Blue_226.jpg",
+        "question": "What type of animal is in the image?\nA. boxer B. chihuahua C. saint D. Russian",
+        "answer": "D",
+        "label": "Russian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Russian_Blue_228.jpg",
+        "question": "What type of animal is in the image?\nA. pomeranian B. Russian C. Sphynx D. Maine",
+        "answer": "B",
+        "label": "Russian"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/saint_bernard_191.jpg",
+        "question": "What type of animal is in the image?\nA. american B. japanese C. Bombay D. saint",
+        "answer": "D",
+        "label": "saint"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/saint_bernard_192.jpg",
+        "question": "What type of animal is in the image?\nA. Bengal B. saint C. english D. leonberger",
+        "answer": "B",
+        "label": "saint"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/saint_bernard_193.jpg",
+        "question": "What type of animal is in the image?\nA. great B. saint C. Maine D. Sphynx",
+        "answer": "B",
+        "label": "saint"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/saint_bernard_194.jpg",
+        "question": "What type of animal is in the image?\nA. Bombay B. havanese C. saint D. miniature",
+        "answer": "C",
+        "label": "saint"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/saint_bernard_195.jpg",
+        "question": "What type of animal is in the image?\nA. pomeranian B. keeshond C. staffordshire D. saint",
+        "answer": "D",
+        "label": "saint"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/saint_bernard_196.jpg",
+        "question": "What type of animal is in the image?\nA. basset B. japanese C. shiba D. saint",
+        "answer": "D",
+        "label": "saint"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/saint_bernard_197.jpg",
+        "question": "What type of animal is in the image?\nA. saint B. Birman C. Ragdoll D. Bengal",
+        "answer": "A",
+        "label": "saint"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/saint_bernard_198.jpg",
+        "question": "What type of animal is in the image?\nA. saint B. Bengal C. Egyptian D. boxer",
+        "answer": "A",
+        "label": "saint"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/saint_bernard_199.jpg",
+        "question": "What type of animal is in the image?\nA. scottish B. havanese C. pug D. saint",
+        "answer": "D",
+        "label": "saint"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/saint_bernard_19.jpg",
+        "question": "What type of animal is in the image?\nA. samoyed B. beagle C. saint D. wheaten",
+        "answer": "C",
+        "label": "saint"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/saint_bernard_1.jpg",
+        "question": "What type of animal is in the image?\nA. Bengal B. saint C. beagle D. leonberger",
+        "answer": "B",
+        "label": "saint"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/saint_bernard_200.jpg",
+        "question": "What type of animal is in the image?\nA. Maine B. great C. saint D. basset",
+        "answer": "C",
+        "label": "saint"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/saint_bernard_20.jpg",
+        "question": "What type of animal is in the image?\nA. saint B. Birman C. newfoundland D. British",
+        "answer": "A",
+        "label": "saint"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/saint_bernard_21.jpg",
+        "question": "What type of animal is in the image?\nA. British B. saint C. great D. newfoundland",
+        "answer": "B",
+        "label": "saint"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/saint_bernard_22.jpg",
+        "question": "What type of animal is in the image?\nA. yorkshire B. saint C. shiba D. pug",
+        "answer": "B",
+        "label": "saint"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/saint_bernard_23.jpg",
+        "question": "What type of animal is in the image?\nA. Egyptian B. saint C. Ragdoll D. german",
+        "answer": "B",
+        "label": "saint"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/saint_bernard_24.jpg",
+        "question": "What type of animal is in the image?\nA. British B. american C. saint D. staffordshire",
+        "answer": "C",
+        "label": "saint"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/saint_bernard_25.jpg",
+        "question": "What type of animal is in the image?\nA. pug B. keeshond C. saint D. Persian",
+        "answer": "C",
+        "label": "saint"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/saint_bernard_26.jpg",
+        "question": "What type of animal is in the image?\nA. saint B. leonberger C. keeshond D. newfoundland",
+        "answer": "A",
+        "label": "saint"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/saint_bernard_27.jpg",
+        "question": "What type of animal is in the image?\nA. samoyed B. Siamese C. saint D. basset",
+        "answer": "C",
+        "label": "saint"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/samoyed_191.jpg",
+        "question": "What type of animal is in the image?\nA. boxer B. samoyed C. beagle D. Sphynx",
+        "answer": "B",
+        "label": "samoyed"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/samoyed_192.jpg",
+        "question": "What type of animal is in the image?\nA. samoyed B. Bombay C. boxer D. beagle",
+        "answer": "A",
+        "label": "samoyed"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/samoyed_194.jpg",
+        "question": "What type of animal is in the image?\nA. miniature B. samoyed C. British D. american",
+        "answer": "B",
+        "label": "samoyed"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/samoyed_195.jpg",
+        "question": "What type of animal is in the image?\nA. Russian B. samoyed C. wheaten D. yorkshire",
+        "answer": "B",
+        "label": "samoyed"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/samoyed_196.jpg",
+        "question": "What type of animal is in the image?\nA. Maine B. samoyed C. saint D. basset",
+        "answer": "B",
+        "label": "samoyed"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/samoyed_197.jpg",
+        "question": "What type of animal is in the image?\nA. leonberger B. Birman C. samoyed D. Ragdoll",
+        "answer": "C",
+        "label": "samoyed"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/samoyed_198.jpg",
+        "question": "What type of animal is in the image?\nA. great B. Siamese C. samoyed D. yorkshire",
+        "answer": "C",
+        "label": "samoyed"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/samoyed_199.jpg",
+        "question": "What type of animal is in the image?\nA. samoyed B. pomeranian C. Maine D. beagle",
+        "answer": "A",
+        "label": "samoyed"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/samoyed_19.jpg",
+        "question": "What type of animal is in the image?\nA. Russian B. samoyed C. saint D. newfoundland",
+        "answer": "B",
+        "label": "samoyed"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/samoyed_1.jpg",
+        "question": "What type of animal is in the image?\nA. samoyed B. Bengal C. yorkshire D. havanese",
+        "answer": "A",
+        "label": "samoyed"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/samoyed_200.jpg",
+        "question": "What type of animal is in the image?\nA. saint B. samoyed C. Ragdoll D. newfoundland",
+        "answer": "B",
+        "label": "samoyed"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/samoyed_202.jpg",
+        "question": "What type of animal is in the image?\nA. samoyed B. Russian C. saint D. Bengal",
+        "answer": "A",
+        "label": "samoyed"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/samoyed_20.jpg",
+        "question": "What type of animal is in the image?\nA. newfoundland B. samoyed C. Abyssinian D. havanese",
+        "answer": "B",
+        "label": "samoyed"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/samoyed_21.jpg",
+        "question": "What type of animal is in the image?\nA. miniature B. Ragdoll C. havanese D. samoyed",
+        "answer": "D",
+        "label": "samoyed"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/samoyed_22.jpg",
+        "question": "What type of animal is in the image?\nA. saint B. samoyed C. Sphynx D. Birman",
+        "answer": "B",
+        "label": "samoyed"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/samoyed_23.jpg",
+        "question": "What type of animal is in the image?\nA. Bombay B. samoyed C. wheaten D. Maine",
+        "answer": "B",
+        "label": "samoyed"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/samoyed_24.jpg",
+        "question": "What type of animal is in the image?\nA. newfoundland B. Maine C. Russian D. samoyed",
+        "answer": "D",
+        "label": "samoyed"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/samoyed_25.jpg",
+        "question": "What type of animal is in the image?\nA. samoyed B. shiba C. keeshond D. german",
+        "answer": "A",
+        "label": "samoyed"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/samoyed_26.jpg",
+        "question": "What type of animal is in the image?\nA. scottish B. pomeranian C. samoyed D. japanese",
+        "answer": "C",
+        "label": "samoyed"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/samoyed_27.jpg",
+        "question": "What type of animal is in the image?\nA. beagle B. havanese C. samoyed D. British",
+        "answer": "C",
+        "label": "samoyed"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/scottish_terrier_191.jpg",
+        "question": "What type of animal is in the image?\nA. german B. Persian C. miniature D. scottish",
+        "answer": "D",
+        "label": "scottish"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/scottish_terrier_192.jpg",
+        "question": "What type of animal is in the image?\nA. scottish B. pug C. samoyed D. newfoundland",
+        "answer": "A",
+        "label": "scottish"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/scottish_terrier_193.jpg",
+        "question": "What type of animal is in the image?\nA. scottish B. miniature C. saint D. wheaten",
+        "answer": "A",
+        "label": "scottish"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/scottish_terrier_194.jpg",
+        "question": "What type of animal is in the image?\nA. shiba B. beagle C. scottish D. Egyptian",
+        "answer": "C",
+        "label": "scottish"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/scottish_terrier_195.jpg",
+        "question": "What type of animal is in the image?\nA. Ragdoll B. scottish C. British D. beagle",
+        "answer": "B",
+        "label": "scottish"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/scottish_terrier_196.jpg",
+        "question": "What type of animal is in the image?\nA. yorkshire B. Sphynx C. keeshond D. scottish",
+        "answer": "D",
+        "label": "scottish"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/scottish_terrier_197.jpg",
+        "question": "What type of animal is in the image?\nA. scottish B. Birman C. shiba D. german",
+        "answer": "A",
+        "label": "scottish"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/scottish_terrier_198.jpg",
+        "question": "What type of animal is in the image?\nA. Bombay B. Siamese C. scottish D. Maine",
+        "answer": "C",
+        "label": "scottish"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/scottish_terrier_199.jpg",
+        "question": "What type of animal is in the image?\nA. keeshond B. great C. pomeranian D. scottish",
+        "answer": "D",
+        "label": "scottish"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/scottish_terrier_19.jpg",
+        "question": "What type of animal is in the image?\nA. saint B. keeshond C. scottish D. miniature",
+        "answer": "C",
+        "label": "scottish"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/scottish_terrier_1.jpg",
+        "question": "What type of animal is in the image?\nA. yorkshire B. japanese C. great D. scottish",
+        "answer": "D",
+        "label": "scottish"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/scottish_terrier_20.jpg",
+        "question": "What type of animal is in the image?\nA. Sphynx B. scottish C. Abyssinian D. Birman",
+        "answer": "B",
+        "label": "scottish"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/scottish_terrier_21.jpg",
+        "question": "What type of animal is in the image?\nA. staffordshire B. scottish C. english D. Russian",
+        "answer": "B",
+        "label": "scottish"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/scottish_terrier_22.jpg",
+        "question": "What type of animal is in the image?\nA. scottish B. saint C. havanese D. keeshond",
+        "answer": "A",
+        "label": "scottish"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/scottish_terrier_23.jpg",
+        "question": "What type of animal is in the image?\nA. wheaten B. pomeranian C. scottish D. german",
+        "answer": "C",
+        "label": "scottish"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/scottish_terrier_24.jpg",
+        "question": "What type of animal is in the image?\nA. scottish B. British C. newfoundland D. havanese",
+        "answer": "A",
+        "label": "scottish"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/scottish_terrier_25.jpg",
+        "question": "What type of animal is in the image?\nA. Russian B. scottish C. Maine D. great",
+        "answer": "B",
+        "label": "scottish"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/scottish_terrier_26.jpg",
+        "question": "What type of animal is in the image?\nA. newfoundland B. staffordshire C. Bengal D. scottish",
+        "answer": "D",
+        "label": "scottish"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/scottish_terrier_27.jpg",
+        "question": "What type of animal is in the image?\nA. american B. scottish C. pug D. Abyssinian",
+        "answer": "B",
+        "label": "scottish"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/scottish_terrier_28.jpg",
+        "question": "What type of animal is in the image?\nA. scottish B. Abyssinian C. basset D. havanese",
+        "answer": "A",
+        "label": "scottish"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/shiba_inu_1.jpg",
+        "question": "What type of animal is in the image?\nA. saint B. British C. Bombay D. shiba",
+        "answer": "D",
+        "label": "shiba"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/shiba_inu_200.jpg",
+        "question": "What type of animal is in the image?\nA. chihuahua B. shiba C. great D. saint",
+        "answer": "B",
+        "label": "shiba"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/shiba_inu_201.jpg",
+        "question": "What type of animal is in the image?\nA. yorkshire B. shiba C. keeshond D. german",
+        "answer": "B",
+        "label": "shiba"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/shiba_inu_202.jpg",
+        "question": "What type of animal is in the image?\nA. shiba B. samoyed C. Egyptian D. Birman",
+        "answer": "A",
+        "label": "shiba"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/shiba_inu_203.jpg",
+        "question": "What type of animal is in the image?\nA. miniature B. newfoundland C. shiba D. beagle",
+        "answer": "C",
+        "label": "shiba"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/shiba_inu_204.jpg",
+        "question": "What type of animal is in the image?\nA. keeshond B. Bengal C. shiba D. British",
+        "answer": "C",
+        "label": "shiba"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/shiba_inu_205.jpg",
+        "question": "What type of animal is in the image?\nA. japanese B. Birman C. Russian D. shiba",
+        "answer": "D",
+        "label": "shiba"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/shiba_inu_206.jpg",
+        "question": "What type of animal is in the image?\nA. basset B. shiba C. newfoundland D. miniature",
+        "answer": "B",
+        "label": "shiba"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/shiba_inu_207.jpg",
+        "question": "What type of animal is in the image?\nA. shiba B. boxer C. basset D. english",
+        "answer": "A",
+        "label": "shiba"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/shiba_inu_208.jpg",
+        "question": "What type of animal is in the image?\nA. samoyed B. Sphynx C. newfoundland D. shiba",
+        "answer": "D",
+        "label": "shiba"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/shiba_inu_209.jpg",
+        "question": "What type of animal is in the image?\nA. newfoundland B. chihuahua C. Siamese D. shiba",
+        "answer": "D",
+        "label": "shiba"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/shiba_inu_20.jpg",
+        "question": "What type of animal is in the image?\nA. shiba B. beagle C. wheaten D. Siamese",
+        "answer": "A",
+        "label": "shiba"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/shiba_inu_210.jpg",
+        "question": "What type of animal is in the image?\nA. shiba B. miniature C. Siamese D. Bengal",
+        "answer": "A",
+        "label": "shiba"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/shiba_inu_212.jpg",
+        "question": "What type of animal is in the image?\nA. Siamese B. shiba C. beagle D. american",
+        "answer": "B",
+        "label": "shiba"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/shiba_inu_21.jpg",
+        "question": "What type of animal is in the image?\nA. Russian B. wheaten C. shiba D. pug",
+        "answer": "C",
+        "label": "shiba"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/shiba_inu_22.jpg",
+        "question": "What type of animal is in the image?\nA. Ragdoll B. scottish C. wheaten D. shiba",
+        "answer": "D",
+        "label": "shiba"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/shiba_inu_23.jpg",
+        "question": "What type of animal is in the image?\nA. japanese B. yorkshire C. shiba D. newfoundland",
+        "answer": "C",
+        "label": "shiba"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/shiba_inu_24.jpg",
+        "question": "What type of animal is in the image?\nA. shiba B. keeshond C. staffordshire D. leonberger",
+        "answer": "A",
+        "label": "shiba"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/shiba_inu_25.jpg",
+        "question": "What type of animal is in the image?\nA. japanese B. Egyptian C. havanese D. shiba",
+        "answer": "D",
+        "label": "shiba"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/shiba_inu_26.jpg",
+        "question": "What type of animal is in the image?\nA. shiba B. beagle C. english D. miniature",
+        "answer": "A",
+        "label": "shiba"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Siamese_209.jpg",
+        "question": "What type of animal is in the image?\nA. Birman B. great C. Siamese D. newfoundland",
+        "answer": "C",
+        "label": "Siamese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Siamese_20.jpg",
+        "question": "What type of animal is in the image?\nA. pomeranian B. wheaten C. Siamese D. english",
+        "answer": "C",
+        "label": "Siamese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Siamese_210.jpg",
+        "question": "What type of animal is in the image?\nA. Persian B. Siamese C. Egyptian D. american",
+        "answer": "B",
+        "label": "Siamese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Siamese_216.jpg",
+        "question": "What type of animal is in the image?\nA. Siamese B. havanese C. japanese D. chihuahua",
+        "answer": "A",
+        "label": "Siamese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Siamese_218.jpg",
+        "question": "What type of animal is in the image?\nA. Abyssinian B. Siamese C. japanese D. basset",
+        "answer": "B",
+        "label": "Siamese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Siamese_21.jpg",
+        "question": "What type of animal is in the image?\nA. Persian B. basset C. shiba D. Siamese",
+        "answer": "D",
+        "label": "Siamese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Siamese_222.jpg",
+        "question": "What type of animal is in the image?\nA. Persian B. Siamese C. Abyssinian D. shiba",
+        "answer": "B",
+        "label": "Siamese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Siamese_224.jpg",
+        "question": "What type of animal is in the image?\nA. american B. Bombay C. British D. Siamese",
+        "answer": "D",
+        "label": "Siamese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Siamese_225.jpg",
+        "question": "What type of animal is in the image?\nA. Egyptian B. Siamese C. english D. chihuahua",
+        "answer": "B",
+        "label": "Siamese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Siamese_227.jpg",
+        "question": "What type of animal is in the image?\nA. Maine B. pug C. havanese D. Siamese",
+        "answer": "D",
+        "label": "Siamese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Siamese_228.jpg",
+        "question": "What type of animal is in the image?\nA. Ragdoll B. Siamese C. leonberger D. Abyssinian",
+        "answer": "B",
+        "label": "Siamese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Siamese_22.jpg",
+        "question": "What type of animal is in the image?\nA. Siamese B. american C. scottish D. great",
+        "answer": "A",
+        "label": "Siamese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Siamese_231.jpg",
+        "question": "What type of animal is in the image?\nA. pomeranian B. Bengal C. Bombay D. Siamese",
+        "answer": "D",
+        "label": "Siamese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Siamese_232.jpg",
+        "question": "What type of animal is in the image?\nA. Egyptian B. newfoundland C. Siamese D. samoyed",
+        "answer": "C",
+        "label": "Siamese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Siamese_233.jpg",
+        "question": "What type of animal is in the image?\nA. wheaten B. British C. samoyed D. Siamese",
+        "answer": "D",
+        "label": "Siamese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Siamese_234.jpg",
+        "question": "What type of animal is in the image?\nA. Bombay B. miniature C. Siamese D. great",
+        "answer": "C",
+        "label": "Siamese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Siamese_237.jpg",
+        "question": "What type of animal is in the image?\nA. staffordshire B. Bombay C. Siamese D. basset",
+        "answer": "C",
+        "label": "Siamese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Siamese_238.jpg",
+        "question": "What type of animal is in the image?\nA. Maine B. yorkshire C. Siamese D. chihuahua",
+        "answer": "C",
+        "label": "Siamese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Siamese_23.jpg",
+        "question": "What type of animal is in the image?\nA. Siamese B. pug C. keeshond D. pomeranian",
+        "answer": "A",
+        "label": "Siamese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Siamese_240.jpg",
+        "question": "What type of animal is in the image?\nA. shiba B. Sphynx C. Siamese D. great",
+        "answer": "C",
+        "label": "Siamese"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Sphynx_20.jpg",
+        "question": "What type of animal is in the image?\nA. samoyed B. Ragdoll C. Sphynx D. pug",
+        "answer": "C",
+        "label": "Sphynx"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Sphynx_211.jpg",
+        "question": "What type of animal is in the image?\nA. Birman B. Bengal C. german D. Sphynx",
+        "answer": "D",
+        "label": "Sphynx"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Sphynx_212.jpg",
+        "question": "What type of animal is in the image?\nA. great B. Abyssinian C. Sphynx D. german",
+        "answer": "C",
+        "label": "Sphynx"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Sphynx_213.jpg",
+        "question": "What type of animal is in the image?\nA. wheaten B. Bombay C. Sphynx D. chihuahua",
+        "answer": "C",
+        "label": "Sphynx"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Sphynx_21.jpg",
+        "question": "What type of animal is in the image?\nA. Russian B. miniature C. Sphynx D. keeshond",
+        "answer": "C",
+        "label": "Sphynx"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Sphynx_222.jpg",
+        "question": "What type of animal is in the image?\nA. Maine B. japanese C. Sphynx D. keeshond",
+        "answer": "C",
+        "label": "Sphynx"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Sphynx_223.jpg",
+        "question": "What type of animal is in the image?\nA. havanese B. Sphynx C. Abyssinian D. chihuahua",
+        "answer": "B",
+        "label": "Sphynx"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Sphynx_228.jpg",
+        "question": "What type of animal is in the image?\nA. basset B. Maine C. Sphynx D. japanese",
+        "answer": "C",
+        "label": "Sphynx"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Sphynx_229.jpg",
+        "question": "What type of animal is in the image?\nA. Sphynx B. american C. havanese D. beagle",
+        "answer": "A",
+        "label": "Sphynx"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Sphynx_230.jpg",
+        "question": "What type of animal is in the image?\nA. great B. Russian C. Persian D. Sphynx",
+        "answer": "D",
+        "label": "Sphynx"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Sphynx_231.jpg",
+        "question": "What type of animal is in the image?\nA. wheaten B. miniature C. Bombay D. Sphynx",
+        "answer": "D",
+        "label": "Sphynx"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Sphynx_232.jpg",
+        "question": "What type of animal is in the image?\nA. english B. great C. Ragdoll D. Sphynx",
+        "answer": "D",
+        "label": "Sphynx"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Sphynx_233.jpg",
+        "question": "What type of animal is in the image?\nA. British B. wheaten C. Sphynx D. Bombay",
+        "answer": "C",
+        "label": "Sphynx"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Sphynx_234.jpg",
+        "question": "What type of animal is in the image?\nA. Sphynx B. boxer C. Siamese D. leonberger",
+        "answer": "A",
+        "label": "Sphynx"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Sphynx_235.jpg",
+        "question": "What type of animal is in the image?\nA. keeshond B. Sphynx C. leonberger D. shiba",
+        "answer": "B",
+        "label": "Sphynx"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Sphynx_236.jpg",
+        "question": "What type of animal is in the image?\nA. British B. samoyed C. pug D. Sphynx",
+        "answer": "D",
+        "label": "Sphynx"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Sphynx_237.jpg",
+        "question": "What type of animal is in the image?\nA. Sphynx B. pomeranian C. german D. saint",
+        "answer": "A",
+        "label": "Sphynx"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Sphynx_238.jpg",
+        "question": "What type of animal is in the image?\nA. Sphynx B. american C. wheaten D. german",
+        "answer": "A",
+        "label": "Sphynx"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Sphynx_239.jpg",
+        "question": "What type of animal is in the image?\nA. japanese B. miniature C. leonberger D. Sphynx",
+        "answer": "D",
+        "label": "Sphynx"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/Sphynx_23.jpg",
+        "question": "What type of animal is in the image?\nA. pomeranian B. Sphynx C. samoyed D. scottish",
+        "answer": "B",
+        "label": "Sphynx"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/staffordshire_bull_terrier_200.jpg",
+        "question": "What type of animal is in the image?\nA. staffordshire B. keeshond C. american D. chihuahua",
+        "answer": "A",
+        "label": "staffordshire"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/staffordshire_bull_terrier_201.jpg",
+        "question": "What type of animal is in the image?\nA. staffordshire B. miniature C. leonberger D. wheaten",
+        "answer": "A",
+        "label": "staffordshire"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/staffordshire_bull_terrier_202.jpg",
+        "question": "What type of animal is in the image?\nA. British B. staffordshire C. miniature D. Maine",
+        "answer": "B",
+        "label": "staffordshire"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/staffordshire_bull_terrier_20.jpg",
+        "question": "What type of animal is in the image?\nA. saint B. staffordshire C. japanese D. Birman",
+        "answer": "B",
+        "label": "staffordshire"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/staffordshire_bull_terrier_21.jpg",
+        "question": "What type of animal is in the image?\nA. havanese B. staffordshire C. miniature D. boxer",
+        "answer": "B",
+        "label": "staffordshire"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/staffordshire_bull_terrier_23.jpg",
+        "question": "What type of animal is in the image?\nA. staffordshire B. newfoundland C. shiba D. Russian",
+        "answer": "A",
+        "label": "staffordshire"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/staffordshire_bull_terrier_24.jpg",
+        "question": "What type of animal is in the image?\nA. american B. basset C. Sphynx D. staffordshire",
+        "answer": "D",
+        "label": "staffordshire"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/staffordshire_bull_terrier_25.jpg",
+        "question": "What type of animal is in the image?\nA. yorkshire B. staffordshire C. chihuahua D. newfoundland",
+        "answer": "B",
+        "label": "staffordshire"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/staffordshire_bull_terrier_26.jpg",
+        "question": "What type of animal is in the image?\nA. great B. japanese C. wheaten D. staffordshire",
+        "answer": "D",
+        "label": "staffordshire"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/staffordshire_bull_terrier_27.jpg",
+        "question": "What type of animal is in the image?\nA. Abyssinian B. yorkshire C. scottish D. staffordshire",
+        "answer": "D",
+        "label": "staffordshire"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/staffordshire_bull_terrier_28.jpg",
+        "question": "What type of animal is in the image?\nA. great B. chihuahua C. Russian D. staffordshire",
+        "answer": "D",
+        "label": "staffordshire"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/staffordshire_bull_terrier_29.jpg",
+        "question": "What type of animal is in the image?\nA. shiba B. staffordshire C. boxer D. Bengal",
+        "answer": "B",
+        "label": "staffordshire"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/staffordshire_bull_terrier_30.jpg",
+        "question": "What type of animal is in the image?\nA. shiba B. japanese C. staffordshire D. great",
+        "answer": "C",
+        "label": "staffordshire"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/staffordshire_bull_terrier_31.jpg",
+        "question": "What type of animal is in the image?\nA. staffordshire B. Bengal C. shiba D. pomeranian",
+        "answer": "A",
+        "label": "staffordshire"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/staffordshire_bull_terrier_32.jpg",
+        "question": "What type of animal is in the image?\nA. saint B. staffordshire C. scottish D. Sphynx",
+        "answer": "B",
+        "label": "staffordshire"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/staffordshire_bull_terrier_33.jpg",
+        "question": "What type of animal is in the image?\nA. pug B. havanese C. Abyssinian D. staffordshire",
+        "answer": "D",
+        "label": "staffordshire"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/staffordshire_bull_terrier_34.jpg",
+        "question": "What type of animal is in the image?\nA. yorkshire B. great C. german D. staffordshire",
+        "answer": "D",
+        "label": "staffordshire"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/staffordshire_bull_terrier_35.jpg",
+        "question": "What type of animal is in the image?\nA. Russian B. Sphynx C. staffordshire D. Abyssinian",
+        "answer": "C",
+        "label": "staffordshire"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/staffordshire_bull_terrier_36.jpg",
+        "question": "What type of animal is in the image?\nA. Bengal B. leonberger C. staffordshire D. Egyptian",
+        "answer": "C",
+        "label": "staffordshire"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/staffordshire_bull_terrier_37.jpg",
+        "question": "What type of animal is in the image?\nA. Ragdoll B. miniature C. staffordshire D. Egyptian",
+        "answer": "C",
+        "label": "staffordshire"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/wheaten_terrier_191.jpg",
+        "question": "What type of animal is in the image?\nA. basset B. japanese C. wheaten D. Persian",
+        "answer": "C",
+        "label": "wheaten"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/wheaten_terrier_192.jpg",
+        "question": "What type of animal is in the image?\nA. Siamese B. beagle C. samoyed D. wheaten",
+        "answer": "D",
+        "label": "wheaten"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/wheaten_terrier_193.jpg",
+        "question": "What type of animal is in the image?\nA. leonberger B. wheaten C. Siamese D. Birman",
+        "answer": "B",
+        "label": "wheaten"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/wheaten_terrier_194.jpg",
+        "question": "What type of animal is in the image?\nA. saint B. german C. Bengal D. wheaten",
+        "answer": "D",
+        "label": "wheaten"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/wheaten_terrier_195.jpg",
+        "question": "What type of animal is in the image?\nA. basset B. leonberger C. Bengal D. wheaten",
+        "answer": "D",
+        "label": "wheaten"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/wheaten_terrier_196.jpg",
+        "question": "What type of animal is in the image?\nA. Ragdoll B. boxer C. wheaten D. japanese",
+        "answer": "C",
+        "label": "wheaten"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/wheaten_terrier_197.jpg",
+        "question": "What type of animal is in the image?\nA. keeshond B. wheaten C. newfoundland D. scottish",
+        "answer": "B",
+        "label": "wheaten"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/wheaten_terrier_198.jpg",
+        "question": "What type of animal is in the image?\nA. pug B. Siamese C. wheaten D. Bengal",
+        "answer": "C",
+        "label": "wheaten"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/wheaten_terrier_199.jpg",
+        "question": "What type of animal is in the image?\nA. yorkshire B. wheaten C. Sphynx D. Ragdoll",
+        "answer": "B",
+        "label": "wheaten"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/wheaten_terrier_19.jpg",
+        "question": "What type of animal is in the image?\nA. wheaten B. pomeranian C. newfoundland D. samoyed",
+        "answer": "A",
+        "label": "wheaten"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/wheaten_terrier_1.jpg",
+        "question": "What type of animal is in the image?\nA. german B. wheaten C. american D. yorkshire",
+        "answer": "B",
+        "label": "wheaten"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/wheaten_terrier_200.jpg",
+        "question": "What type of animal is in the image?\nA. newfoundland B. Ragdoll C. wheaten D. japanese",
+        "answer": "C",
+        "label": "wheaten"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/wheaten_terrier_20.jpg",
+        "question": "What type of animal is in the image?\nA. Persian B. wheaten C. Siamese D. keeshond",
+        "answer": "B",
+        "label": "wheaten"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/wheaten_terrier_21.jpg",
+        "question": "What type of animal is in the image?\nA. scottish B. wheaten C. Bengal D. beagle",
+        "answer": "B",
+        "label": "wheaten"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/wheaten_terrier_22.jpg",
+        "question": "What type of animal is in the image?\nA. wheaten B. english C. havanese D. miniature",
+        "answer": "A",
+        "label": "wheaten"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/wheaten_terrier_23.jpg",
+        "question": "What type of animal is in the image?\nA. great B. yorkshire C. wheaten D. keeshond",
+        "answer": "C",
+        "label": "wheaten"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/wheaten_terrier_24.jpg",
+        "question": "What type of animal is in the image?\nA. wheaten B. boxer C. pomeranian D. havanese",
+        "answer": "A",
+        "label": "wheaten"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/wheaten_terrier_25.jpg",
+        "question": "What type of animal is in the image?\nA. Bengal B. wheaten C. newfoundland D. havanese",
+        "answer": "B",
+        "label": "wheaten"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/wheaten_terrier_26.jpg",
+        "question": "What type of animal is in the image?\nA. boxer B. wheaten C. Bengal D. great",
+        "answer": "B",
+        "label": "wheaten"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/wheaten_terrier_27.jpg",
+        "question": "What type of animal is in the image?\nA. leonberger B. japanese C. wheaten D. beagle",
+        "answer": "C",
+        "label": "wheaten"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/yorkshire_terrier_191.jpg",
+        "question": "What type of animal is in the image?\nA. yorkshire B. saint C. basset D. Bombay",
+        "answer": "A",
+        "label": "yorkshire"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/yorkshire_terrier_192.jpg",
+        "question": "What type of animal is in the image?\nA. saint B. yorkshire C. beagle D. american",
+        "answer": "B",
+        "label": "yorkshire"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/yorkshire_terrier_193.jpg",
+        "question": "What type of animal is in the image?\nA. newfoundland B. samoyed C. Abyssinian D. yorkshire",
+        "answer": "D",
+        "label": "yorkshire"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/yorkshire_terrier_194.jpg",
+        "question": "What type of animal is in the image?\nA. yorkshire B. Abyssinian C. shiba D. newfoundland",
+        "answer": "A",
+        "label": "yorkshire"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/yorkshire_terrier_195.jpg",
+        "question": "What type of animal is in the image?\nA. yorkshire B. havanese C. Russian D. keeshond",
+        "answer": "A",
+        "label": "yorkshire"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/yorkshire_terrier_196.jpg",
+        "question": "What type of animal is in the image?\nA. Ragdoll B. yorkshire C. english D. Sphynx",
+        "answer": "B",
+        "label": "yorkshire"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/yorkshire_terrier_197.jpg",
+        "question": "What type of animal is in the image?\nA. Siamese B. yorkshire C. Bombay D. Birman",
+        "answer": "B",
+        "label": "yorkshire"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/yorkshire_terrier_198.jpg",
+        "question": "What type of animal is in the image?\nA. miniature B. yorkshire C. Maine D. Russian",
+        "answer": "B",
+        "label": "yorkshire"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/yorkshire_terrier_199.jpg",
+        "question": "What type of animal is in the image?\nA. german B. Siamese C. yorkshire D. Persian",
+        "answer": "C",
+        "label": "yorkshire"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/yorkshire_terrier_19.jpg",
+        "question": "What type of animal is in the image?\nA. boxer B. yorkshire C. Bengal D. Russian",
+        "answer": "B",
+        "label": "yorkshire"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/yorkshire_terrier_1.jpg",
+        "question": "What type of animal is in the image?\nA. yorkshire B. great C. Sphynx D. keeshond",
+        "answer": "A",
+        "label": "yorkshire"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/yorkshire_terrier_200.jpg",
+        "question": "What type of animal is in the image?\nA. Persian B. Siamese C. yorkshire D. staffordshire",
+        "answer": "C",
+        "label": "yorkshire"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/yorkshire_terrier_20.jpg",
+        "question": "What type of animal is in the image?\nA. Egyptian B. Maine C. yorkshire D. Bengal",
+        "answer": "C",
+        "label": "yorkshire"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/yorkshire_terrier_21.jpg",
+        "question": "What type of animal is in the image?\nA. yorkshire B. pug C. British D. Persian",
+        "answer": "A",
+        "label": "yorkshire"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/yorkshire_terrier_22.jpg",
+        "question": "What type of animal is in the image?\nA. Russian B. chihuahua C. Bengal D. yorkshire",
+        "answer": "D",
+        "label": "yorkshire"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/yorkshire_terrier_23.jpg",
+        "question": "What type of animal is in the image?\nA. leonberger B. yorkshire C. wheaten D. english",
+        "answer": "B",
+        "label": "yorkshire"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/yorkshire_terrier_24.jpg",
+        "question": "What type of animal is in the image?\nA. yorkshire B. pomeranian C. german D. leonberger",
+        "answer": "A",
+        "label": "yorkshire"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/yorkshire_terrier_25.jpg",
+        "question": "What type of animal is in the image?\nA. chihuahua B. shiba C. yorkshire D. english",
+        "answer": "C",
+        "label": "yorkshire"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/yorkshire_terrier_26.jpg",
+        "question": "What type of animal is in the image?\nA. miniature B. yorkshire C. scottish D. shiba",
+        "answer": "B",
+        "label": "yorkshire"
+    },
+    {
+        "image": "/datasets/pets_2024-01-10_1815/oxford-iiit-pet/images/yorkshire_terrier_27.jpg",
+        "question": "What type of animal is in the image?\nA. Abyssinian B. leonberger C. yorkshire D. scottish",
+        "answer": "C",
+        "label": "yorkshire"
+    }
+]

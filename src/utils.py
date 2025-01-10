@@ -1,6 +1,6 @@
 from baukit import TraceDict, get_module
-from model import *
-from preprocess import *
+from .model import *
+from .preprocess import *
 import sys
 import torch
 import numpy as np
@@ -159,6 +159,7 @@ def get_class_activations(train_dataset, model, attn_heads):
             head_act.append(mean_activations[head[0], head[1], -1])
         head_act = torch.stack(head_act)
 
+        print(item)
 
         if item['label'] in str_to_activation.keys():
             str_to_activation[item['label']] += head_act

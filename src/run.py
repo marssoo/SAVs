@@ -1,6 +1,6 @@
-from utils import *
-from model import *
-from preprocess import *
+from .utils import *
+from .model import *
+from .preprocess import *
 from tqdm import tqdm
 import torch
 import argparse
@@ -17,12 +17,12 @@ def eval_reinforce(args):
     test_data = open_data(args.data_name, args.val_path)
 
 
-    multimodal_embed = mllm_encode(model, train_data, num_head=20)
+    multimodal_embeddings = mllm_encode(model, train_data, num_head=20)
 
     correct_count = 0
     ###Checking how well it can classify a given query
     for item in tqdm(test_data):
-        cur_class = mllm_classify(item, model, multimodal_embed)
+        cur_class = mllm_classify(item, model, multimodal_embeddings)
         if item['label'] == cur_class:
             correct_count += 1
     print("Accuracy:", correct_count / len(test_data))
