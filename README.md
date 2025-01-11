@@ -76,7 +76,7 @@ conda create -n savs python=3.10 -y
 conda activate savs
 pip install -e .
 ```
-Change the data directory to your own in the preprocess.py. 
+
 #### Running SAVs
 
 We have provided a simple script `run.py` that both extracts SAVs using the `mllm_encode` method and then applies SAVs to a provided test dataset using `mllm_classify`. The outputs of `mllm_encode` are given as a dictionary with the following fields:
@@ -96,7 +96,7 @@ python3 -m src.run \
     --train_path /path/to/train.json \
     --val_path /path/to/test.json
 ```
-You may choose to change the default number of examples and heads used. But we find 20 examples and 20 heads is enough to yield state-of-the-art performance on a variety of VL tasks: **outperforming even LoRA at this sample complexity!**
+
 #### Models
 Our codebase has two models set up by default: LLaVA-OneVision-7B ('llava_ov') and Qwen2-VL ('qwen2_vl'). Adding a model is very easy. Simply follow the `ModelHelper` class template in `models.py`.
 
@@ -104,7 +104,9 @@ Our codebase has two models set up by default: LLaVA-OneVision-7B ('llava_ov') a
 Our method can be applied to any discriminative, discrete-label VL task. We provide a variety of examples on how to format datasets (found in the 'data' folder). Adding a new dataset is simple:
 
 1. Format a training and test set as shown in our examples. If we already provide the training set (and the number of examples suits your use), format the test set identically.
-2. Add the respective formatting function in `preprocess.py`. Use the given examples for reference.
+2. Add the respective formatting function in `preprocess.py`. Use the given examples for reference. Note: it may be necessary to change the image file paths.
+
+You may choose to change the default number of examples and heads used. But we find 20 examples and 20 heads is enough to yield state-of-the-art performance on a variety of VL tasks: **outperforming even LoRA at this sample complexity!**
 
 ### 📝 Citation
 ---
