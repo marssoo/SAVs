@@ -76,6 +76,7 @@ conda create -n savs python=3.10 -y
 conda activate savs
 pip install -e .
 ```
+Change the data directory to your own in the preprocess.py. 
 #### Running SAVs
 
 We have provided a simple script `run.py` that both extracts SAVs using the `mllm_encode` method and then applies SAVs to a provided test dataset using `mllm_classify`. The outputs of `mllm_encode` are given as a dictionary with the following fields:
