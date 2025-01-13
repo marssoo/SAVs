@@ -104,7 +104,7 @@ python3 -m src.run \
 Our codebase has two SOTA models set up by default: LLaVA-OneVision-7B ('llava_ov') and Qwen2-VL ('qwen2_vl'). Adding a model is very easy. Simply follow the `ModelHelper` class template in `models.py`.
 
 #### Datasets
-Our method can be applied to any discriminative, discrete-label VL task. We provide a variety of examples on how to format datasets (found in the 'data' folder). Adding a new dataset is simple:
+Our method can be applied to any discriminative, discrete-label VL task. We provide a variety of examples on how to format datasets (found in the `data` folder). Adding a new dataset is simple:
 
 1. Format a training and test set as shown in our examples. If we already provide the training set (and the number of examples suits your use), format the test set identically.
 2. Add the respective formatting function in `preprocess.py`. Use the given examples for reference. Note: it may be necessary to change the image file paths (either in the files or `preprocess.py`.
