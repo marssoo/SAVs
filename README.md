@@ -6,7 +6,7 @@
 <p align="center">
   <img src="images/SAVs_banner.png" alt="SAVs Banner"/>
   <br>
-  <em><a href="https://chancharikmitra.github.io/SAVs_website/">Website</a> | <a href="https://arxiv.org/abs/2412.00142">Paper</a></em>  
+  <a href="https://chancharikmitra.github.io/SAVs_website/">Website</a> | <a href="https://arxiv.org/abs/2412.00142">Paper</a>
 </p>
 
 ### 📰 News
