@@ -1,6 +1,6 @@
 # Sparse Attention Vectors (SAVs)
 ---
-*SAVs are a lightweight few-shot method for extracting truly multimodal features (from image, text, and interleaved inputs) from generative large multimodal models to enable state-of-the-art performance on any vision-language task with discrete labels (e.g. classification or safety alignment).*
+*SAVs are a lightweight few-shot method for extracting truly multimodal features (from image, text, and interleaved inputs) from generative large multimodal models to enable state-of-the-art (SOTA) performance on any vision-language task with discrete labels (e.g. classification or safety alignment).*
 
 
 <p align="center">
@@ -8,6 +8,9 @@
   <br>
   <em><a href="https://chancharikmitra.github.io/SAVs_website/">Website</a> | <a href="https://arxiv.org/abs/2412.00142">Paper</a></em>  
 </p>
+
+### 📰 News!
+- [01/13/2025] 🔥 SAVs codebase released publicly!
 
 
 ### Method Overview
@@ -27,7 +30,7 @@
 
 **Key Benefits:**
 - Works with any discriminative vision-language task requiring discrete labels
-- Achieves state-of-the-art performance with just few-shot examples
+- Achieves SOTA performance with just few-shot examples
 - Outperforms both few-shot and finetuned baselines (including LoRA)
 - Scales well with additional examples
 - Generalizes effectively to similar tasks
@@ -98,15 +101,17 @@ python3 -m src.run \
 ```
 
 #### Models
-Our codebase has two models set up by default: LLaVA-OneVision-7B ('llava_ov') and Qwen2-VL ('qwen2_vl'). Adding a model is very easy. Simply follow the `ModelHelper` class template in `models.py`.
+Our codebase has two SOTA models set up by default: LLaVA-OneVision-7B ('llava_ov') and Qwen2-VL ('qwen2_vl'). Adding a model is very easy. Simply follow the `ModelHelper` class template in `models.py`.
 
 #### Datasets
 Our method can be applied to any discriminative, discrete-label VL task. We provide a variety of examples on how to format datasets (found in the 'data' folder). Adding a new dataset is simple:
 
 1. Format a training and test set as shown in our examples. If we already provide the training set (and the number of examples suits your use), format the test set identically.
-2. Add the respective formatting function in `preprocess.py`. Use the given examples for reference. Note: it may be necessary to change the image file paths.
+2. Add the respective formatting function in `preprocess.py`. Use the given examples for reference. Note: it may be necessary to change the image file paths (either in the files or `preprocess.py`.
 
 You may choose to change the default number of examples and heads used. But we find 20 examples and 20 heads is enough to yield state-of-the-art performance on a variety of VL tasks: **outperforming even LoRA at this sample complexity!**
+
+Note regarding evaluation: Most datasets will be fine with raw accuracy scoring as implemented in `run.py`, but some benchmarks like NaturalBench may require alternative scoring (e.g. `run_natural_ret.py`) and yet other benchmarks like BLINK are such that SAVs are extracted for each subtask/split. We have ensured that the code is flexible enough to be easily adapted to a wide variety of benchmarks styles.
 
 ### 📝 Citation
 ---
