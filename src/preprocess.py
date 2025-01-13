@@ -7,6 +7,7 @@ from PIL import ImageDraw, Image
 from PIL import ImageFont
 import ast
 import numpy as np
+import os
 ####
 
 def open_data(dataset_name, path):
@@ -152,76 +153,80 @@ def format_blink(all_data, cur_item=None, num_shot=0, model_helper=None, split="
         cur_item['label'] = all_data['label'][rand_int]
         cur_item['question'] = all_data['question'][rand_int]
 
+    image_list = [cur_item['image_1'], cur_item['image_2'], cur_item['image_3'], cur_item['image_4']]
+    image_list = [os.path.join('/home/zhaobin/Qwen-VL/data/blink/images', image) for image in image_list if image]
 
-    if model_helper.classifier_class == "Jigsaw":
+    # Prompts Used for All BLINK Splits:
 
-        prompt = "<image>\n<image>\n<image>\nWhich image is the missing part in the first image? Select from the following choices. (A) the second image (B) the third image"
-        image_list = [cur_item['image_1'], cur_item['image_2'], cur_item['image_3']]
+    # if model_helper.classifier_class == "Jigsaw":
+
+    #     prompt = "<image>\n<image>\n<image>\nWhich image is the missing part in the first image? Select from the following choices. (A) the second image (B) the third image"
+    #     image_list = [cur_item['image_1'], cur_item['image_2'], cur_item['image_3']]
     
-    elif model_helper.classifier_class == "Relative_Depth":
+    # elif model_helper.classifier_class == "Relative_Depth":
          
-        prompt = "<image>\nWhich point is closer to the camera? Select from the following choices. (A) A is closer (B) B is closer"
-        image_list = [cur_item['image_1']]
+    #     prompt = "<image>\nWhich point is closer to the camera? Select from the following choices. (A) A is closer (B) B is closer"
+    #     image_list = [cur_item['image_1']]
     
-    elif model_helper.classifier_class == "Visual_Similarity":
-        prompt = "<image>\n<image>\n<image>\nWhich image is most similar to the reference image? Select from the following choices. (A) the second image (B) the third image"
-        image_list = [cur_item['image_1'], cur_item['image_2'], cur_item['image_3']]
-
-    
-    elif model_helper.classifier_class == "Art_Style":
-        prompt = "<image>\n<image>\n<image>\nWhich image shares the same style as the reference image? Select from the following choices. (A) the second image (B) the third image"
-        image_list = [cur_item['image_1'], cur_item['image_2'], cur_item['image_3']]
+    # elif model_helper.classifier_class == "Visual_Similarity":
+    #     prompt = "<image>\n<image>\n<image>\nWhich image is most similar to the reference image? Select from the following choices. (A) the second image (B) the third image"
+    #     image_list = [cur_item['image_1'], cur_item['image_2'], cur_item['image_3']]
 
     
-    elif model_helper.classifier_class == "Spatial_Relation":
-        prompt = f"<image>\n{cur_item['question']} Select from the following choices. (A) yes (B) no"
-        image_list = [cur_item['image_1']]
+    # elif model_helper.classifier_class == "Art_Style":
+    #     prompt = "<image>\n<image>\n<image>\nWhich image shares the same style as the reference image? Select from the following choices. (A) the second image (B) the third image"
+    #     image_list = [cur_item['image_1'], cur_item['image_2'], cur_item['image_3']]
 
     
-    elif model_helper.classifier_class == "Multi-view_Reasoning":
-        prompt = "<image>\n<image>\nThe first image is from the beginning of the video and the second image is from the end. Is the camera moving left or right when shooting the video? Select from the following options. (A) left (B) right"
-        image_list = [cur_item['image_1'], cur_item['image_2']]
+    # elif model_helper.classifier_class == "Spatial_Relation":
+    #     prompt = f"<image>\n{cur_item['question']} Select from the following choices. (A) yes (B) no"
+    #     image_list = [cur_item['image_1']]
 
     
-    elif model_helper.classifier_class == "Object_Localization":
-        prompt = f"<image>\n{cur_item['question']} Select from the following options. (A) Box A (B) Box B"
-        image_list = [cur_item['image_1']]
-
-    elif model_helper.classifier_class == "Forensic_Detection":
-        prompt = f"<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image"
-        image_list = [cur_item['image_1'], cur_item['image_2'], cur_item['image_3'], cur_item['image_4']]
-
-
-    elif model_helper.classifier_class == "Visual_Correspondence":
-        prompt = f"<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D"
-        image_list = [cur_item['image_1'], cur_item['image_2']]
+    # elif model_helper.classifier_class == "Multi-view_Reasoning":
+    #     prompt = "<image>\n<image>\nThe first image is from the beginning of the video and the second image is from the end. Is the camera moving left or right when shooting the video? Select from the following options. (A) left (B) right"
+    #     image_list = [cur_item['image_1'], cur_item['image_2']]
 
     
-    elif model_helper.classifier_class == "Relative_Reflectance":
-        prompt = f"<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same"
-        image_list = [cur_item['image_1']]
+    # elif model_helper.classifier_class == "Object_Localization":
+    #     prompt = f"<image>\n{cur_item['question']} Select from the following options. (A) Box A (B) Box B"
+    #     image_list = [cur_item['image_1']]
+
+    # elif model_helper.classifier_class == "Forensic_Detection":
+    #     prompt = f"<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image"
+    #     image_list = [cur_item['image_1'], cur_item['image_2'], cur_item['image_3'], cur_item['image_4']]
+
+
+    # elif model_helper.classifier_class == "Visual_Correspondence":
+    #     prompt = f"<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D"
+    #     image_list = [cur_item['image_1'], cur_item['image_2']]
 
     
-    elif model_helper.classifier_class == "Counting":
-        prompt = f"<image>\nHow many blue floats are there? Select from the following choices. (A) 0 (B) 3 (C) 2 (D) 1"
-        image_list = [cur_item['image_1']]
+    # elif model_helper.classifier_class == "Relative_Reflectance":
+    #     prompt = f"<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same"
+    #     image_list = [cur_item['image_1']]
+
+    
+    # elif model_helper.classifier_class == "Counting":
+    #     prompt = f"<image>\nHow many blue floats are there? Select from the following choices. (A) 0 (B) 3 (C) 2 (D) 1"
+    #     image_list = [cur_item['image_1']]
 
 
-    elif model_helper.classifier_class == "IQ_Test":
-        prompt = f"<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D"
-        image_list = [cur_item['image_1']]
+    # elif model_helper.classifier_class == "IQ_Test":
+    #     prompt = f"<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D"
+    #     image_list = [cur_item['image_1']]
 
 
     
-    elif model_helper.classifier_class == "Semantic_Correspondence":
-        prompt = f"<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D"
-        image_list = [cur_item['image_1'], cur_item['image_2']]
+    # elif model_helper.classifier_class == "Semantic_Correspondence":
+    #     prompt = f"<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D"
+    #     image_list = [cur_item['image_1'], cur_item['image_2']]
 
 
 
-    elif model_helper.classifier_class == "Functional_Correspondence":
-        prompt = f"<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D"
-        image_list = [cur_item['image_1'], cur_item['image_2']]
+    # elif model_helper.classifier_class == "Functional_Correspondence":
+    #     prompt = f"<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D"
+    #     image_list = [cur_item['image_1'], cur_item['image_2']]
 
     few_shot_prompt = ''
     if num_shot > 0:
@@ -237,21 +242,24 @@ def format_blink(all_data, cur_item=None, num_shot=0, model_helper=None, split="
 
 
 
-        few_shot_prompt = prompt + "\n" + sample['label']
+        few_shot_prompt = sample['question'] + "\n" + sample['label']
 
-        if model_helper.classifier_class in ["Jigsaw", "Art_Style", "Visual_Similarity"]:
-            few_shot_image = [sample['image_1'], sample['image_2'], sample['image_3']]
-        elif model_helper.classifier_class in ["Functional_Correspondence", "Semantic_Correspondence", "Visual_Correspondence", "Multi-view_Reasoning"]:
-            few_shot_image = [sample['image_1'], sample['image_2']]
-        elif model_helper.classifier_class in ["Forensic_Detection"]:
-            few_shot_image = [sample['image_1'], sample['image_2'], sample['image_3'], sample['image_4']]
-        else:
-            few_shot_image = [sample['image_1']]
+        few_shot_image = [sample['image_1'], sample['image_2'], sample['image_3'], sample['image_4']]
+        few_shot_image = [image for image in few_shot_image if image]
+
+        # if model_helper.classifier_class in ["Jigsaw", "Art_Style", "Visual_Similarity"]:
+        #     few_shot_image = [sample['image_1'], sample['image_2'], sample['image_3']]
+        # elif model_helper.classifier_class in ["Functional_Correspondence", "Semantic_Correspondence", "Visual_Correspondence", "Multi-view_Reasoning"]:
+        #     few_shot_image = [sample['image_1'], sample['image_2']]
+        # elif model_helper.classifier_class in ["Forensic_Detection"]:
+        #     few_shot_image = [sample['image_1'], sample['image_2'], sample['image_3'], sample['image_4']]
+        # else:
+        #     few_shot_image = [sample['image_1']]
 
         image_list = few_shot_image + image_list
 
 
-    final_text = few_shot_prompt + prompt
+    final_text = few_shot_prompt + cur_item['question']
     return final_text, image_list, cur_item["label"], -1
 
 
@@ -278,9 +286,9 @@ def format_natural_ret(all_data, cur_item=None, num_shot=0, model_helper=None, s
     image_list = []
     
     if cur_item is None:
-        data = json.loads(random.sample(all_data, 1)[0])
+        data = random.sample(all_data, 1)[0]
     else:
-        data = json.loads(cur_item)
+        data = cur_item
         
     image = data['image']
     question = data['question']

@@ -245,10 +245,11 @@ def mllm_encode(model, train_data, num_head):
     ###Step 1: Extract mean activation for each class label
     all_heads = model.all_heads
     #(class, head_count, resid_dim)
+    print('\nExtract Mean Activations\n')
     class_activations, str_to_int, int_to_str = get_class_activations(train_data, model, all_heads)
     success_count = [0 for _ in range(class_activations.shape[1])]
 
-
+    print('\nSelect Top Sparse Heads\n')
     for item in tqdm(train_data):
 
         query_activations = get_query_activations([item], model, all_heads).squeeze(dim=0)
@@ -268,6 +269,7 @@ def mllm_encode(model, train_data, num_head):
         print(item, success_count[item])
         top_heads.append(all_heads[item])
 
+    print("\nGet Top Heads' Activations \n")
     top_class_activations, str_to_int, int_to_str = get_class_activations(train_data, model, top_heads)
     print(f'actications {top_class_activations.shape}')
     print(f'top heads {top_heads}')
