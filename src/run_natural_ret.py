@@ -31,7 +31,6 @@ def eval_reinforce(args):
         print(i)
         for item in group:
             pred = mllm_classify(item, model, multimodal_embeddings)
-            print(f'Pred {pred} Label {item["label"]}')
             group_preds.append(pred == item['label'])
         
         # Question accuracy (first two and second two must match)
