@@ -9,7 +9,7 @@
   <em><a href="https://chancharikmitra.github.io/SAVs_website/">Website</a> | <a href="https://arxiv.org/abs/2412.00142">Paper</a></em>  
 </p>
 
-### 📰 News!
+### 📰 News
 - [01/13/2025] 🔥 SAVs codebase released publicly!
 
 
