@@ -113,6 +113,9 @@ You may choose to change the default number of examples and heads used. But we f
 
 Note regarding evaluation: Most datasets will be fine with raw accuracy scoring as implemented in `run.py`, but some benchmarks like NaturalBench may require alternative scoring (e.g. `run_natural_ret.py`) and yet other benchmarks like BLINK are such that SAVs are extracted for each subtask/split. We have ensured that the code is flexible enough to be easily adapted to a wide variety of benchmarks styles.
 
+Other Notes:
+ - NaturalBench Images can be downloaded at the following [link](https://huggingface.co/datasets/BaiqiL/naturalbench_pictures/blob/main/raw_images.zip)
+
 ### 📝 Citation
 ---
 If you found our work useful, please consider starring and citing. Thank you!
