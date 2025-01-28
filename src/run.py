@@ -10,22 +10,40 @@ logging.set_verbosity_error()
 
 
 
-def eval_reinforce(args):
+def eval_dataset(args):
     model = load_model(args.model_name, args.data_name)
 
     train_data = open_data(args.data_name, args.train_path)
     test_data = open_data(args.data_name, args.val_path)
 
+    # Zero-shot evaluation
+    if args.eval_zeroshot:
+        zs_correct = 0
+        for item in tqdm(test_data, desc="Zero-shot Evaluation"):
+            # Create model input
+            model_input = model.insert_image(item['question'], [item['image']])
+            
+            # Generate response and clean it
+            output = model.generate(model_input, max_new_tokens=32).strip()
+            
+            # Direct comparison with dataset label
+            if output == item['label']:
+                zs_correct += 1
+                
+        print("Zero-shot Accuracy:", zs_correct / len(test_data))
+    else:
+        # SAVs embeddings
+        multimodal_embeddings = mllm_encode(model, train_data, num_head=20)
 
-    multimodal_embeddings = mllm_encode(model, train_data, num_head=20)
+        correct_count = 0
+        ###Checking how well it can classify a given query
+        for item in tqdm(test_data):
+            cur_class = mllm_classify(item, model, multimodal_embeddings)
+            if item['label'] == cur_class:
+                correct_count += 1
+        print("SAVs Accuracy:", correct_count / len(test_data))
 
-    correct_count = 0
-    ###Checking how well it can classify a given query
-    for item in tqdm(test_data):
-        cur_class = mllm_classify(item, model, multimodal_embeddings)
-        if item['label'] == cur_class:
-            correct_count += 1
-    print("Accuracy:", correct_count / len(test_data))
+    
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -33,6 +51,8 @@ if __name__ == "__main__":
     parser.add_argument("--data_name", type=str, default="Mhalu")
     parser.add_argument("--train_path", type=str, default=None)
     parser.add_argument("--val_path", type=str, default=None)
+    parser.add_argument("--eval_zeroshot", action="store_true", 
+                       help="Whether to run zero-shot evaluation")
     
     args = parser.parse_args()
-    eval_reinforce(args)
+    eval_dataset(args)
