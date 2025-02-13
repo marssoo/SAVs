@@ -250,7 +250,7 @@ def record_head_performance(sample_activations, cur_activation, label, success_c
     cur_activation: (num_head, hidden_dim)
     
     """
-
+    #TODO change similarity here
     all_sample = []
     for i in range(sample_activations.shape[1]):
         scores = torch.nn.functional.cosine_similarity(sample_activations[:, i, :], cur_activation[i, :], dim=-1)
