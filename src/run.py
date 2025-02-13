@@ -33,7 +33,7 @@ def eval_dataset(args):
         print("Zero-shot Accuracy:", zs_correct / len(test_data))
     else:
         # SAVs embeddings
-        multimodal_embeddings = mllm_encode(model, train_data, num_head=20)
+        multimodal_embeddings = mllm_encode(model, train_data, num_head=3)
 
         correct_count = 0
         ###Checking how well it can classify a given query

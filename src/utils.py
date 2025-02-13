@@ -294,7 +294,7 @@ def mllm_encode(model, train_data, num_head):
 
     print('\nSelect Top Sparse Heads\n')
     for item in tqdm(train_data):
-
+        #print(item)
         query_activations = get_query_activations([item], model, all_heads).squeeze(dim=0)
         int_label = str_to_int[item['label']]
         record_head_performance(class_activations, query_activations, int_label, success_count)
@@ -314,7 +314,7 @@ def mllm_encode(model, train_data, num_head):
 
     print("\nGet Top Heads' Activations \n")
     top_class_activations, str_to_int, int_to_str = get_class_activations(train_data, model, top_heads)
-    print(f'actications {top_class_activations.shape}')
+    print(f'activations {top_class_activations.shape}')
     print(f'top heads {top_heads}')
     print(f'int_to_str {int_to_str}')
     return {"activations":top_class_activations, "top_heads": top_heads, "int_to_str":int_to_str}
