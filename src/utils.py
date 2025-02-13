@@ -268,7 +268,7 @@ def retrieve_examples(sample_activations, cur_activation):
     """
 
     all_sample = []
-
+    #TODO change similarity here
     for i in range(sample_activations.shape[1]):
         scores = torch.nn.functional.cosine_similarity(sample_activations[:, i, :], cur_activation[i, :], dim=-1)
 
@@ -309,6 +309,7 @@ def mllm_encode(model, train_data, num_head):
     top_heads = []
     print("Printing Top Heads and their classification accuracy")
     for item in topk_indices.tolist():
+        # TODO Map heads here
         print(item, success_count[item])
         top_heads.append(all_heads[item])
 

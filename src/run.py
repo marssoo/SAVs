@@ -33,7 +33,7 @@ def eval_dataset(args):
         print("Zero-shot Accuracy:", zs_correct / len(test_data))
     else:
         # SAVs embeddings
-        multimodal_embeddings = mllm_encode(model, train_data, num_head=3)
+        multimodal_embeddings = mllm_encode(model, train_data, num_head=args.num_head)
 
         correct_count = 0
         ###Checking how well it can classify a given query
@@ -48,6 +48,7 @@ def eval_dataset(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--model_name", type=str, default="llava_ov")
+    parser.add_argument("--num_head", type=int, default=20)
     parser.add_argument("--data_name", type=str, default="Mhalu")
     parser.add_argument("--train_path", type=str, default=None)
     parser.add_argument("--val_path", type=str, default=None)
