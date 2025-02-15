@@ -1,4 +1,24 @@
-# Modifications of the branch
+## # Running on SSP Cloud
+
+1. Create a GPU instance such as `Vscode-pytorch-gpu` and launch with default parameters.
+
+2. Open it.
+
+3. Move `setup_env.sh` into the working directory.
+
+4. Open a terminal.
+
+5. Run the command:
+
+   ```sh
+   chmod u+x setup_env.sh && ./setup_env.sh
+   ```
+
+6. Wait until everything is done (~ 5 minutes). You can now run `run.sh` or create a notebook and start experimenting.
+
+---
+
+## Modifications to the main
 
 - Added possibility to use `llava-onevision-qwen2-0.5b-ov` instead of `llava-onevision-qwen2-7b-ov`.
 - Added `custom_builder.py` to allow it to run locally on 5.2 GB of vRAM.
