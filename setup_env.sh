@@ -31,6 +31,7 @@ unzip naturalbench.zip -d naturalbench
 
 rm naturalbench.zip
 
+cd SAVs/
 
 # Inform the user
-echo "Setup completed successfully!"
+echo "Setup completed successfully! Moved terminal in SAVs/ ."
