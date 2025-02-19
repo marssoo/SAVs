@@ -1,4 +1,6 @@
-## # Running on SSP Cloud
+# Running on SSP Cloud
+
+## Basic instructions
 
 1. Create a GPU instance such as `Vscode-pytorch-gpu` and launch with default parameters.
 
@@ -16,9 +18,25 @@
 
 6. Wait until everything is done (~ 5 minutes). You can now run `run.sh` or create a notebook and start experimenting.
 
+## Troubleshooting
+
+If encountering :
+
+```pyt
+RuntimeError: FlashAttention only supports Ampere GPUs or newer.
+```
+
+Please go to `SAVs/src/custom_builder.py` and change **line 27** as so:
+
+```python
+def load_pretrained_model(... , attn_implementation="eager", ...):
+```
+
+Instead of `"flash_attention_2"`.
+
 ---
 
-## Modifications to the main
+# Modifications to the main
 
 - Added possibility to use `llava-onevision-qwen2-0.5b-ov` instead of `llava-onevision-qwen2-7b-ov`.
 - Added `custom_builder.py` to allow it to run locally on 5.2 GB of vRAM.
