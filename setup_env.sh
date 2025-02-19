@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#To run this file on ssp cloud:
+#chmod u+x setup_env.sh && ./setup_env.sh
+
 echo "Setting up SSP Cloud environment"
 
 set -e
