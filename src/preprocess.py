@@ -12,7 +12,7 @@ import os
 
 def open_data(dataset_name, path):
 
-    jsonl_format_dataset = ["natural_ret"]
+    jsonl_format_dataset = ["natural_ret", "compare"]
     list_format_dataset = ["vlguard", "MHalu", "eurosat", "blink", "pets"]
 
 
@@ -42,7 +42,38 @@ def get_format_func(cur_dataset):
         return format_eurosat
     if cur_dataset == "pets":
         return format_pets
+    if cur_dataset == "compare": 
+        return format_compare
 
+def format_compare(all_data, cur_item=None, num_shot=0, model_helper=None, split="train"):
+    prompt = '<image> <image>\n{} Answer with Yes or No.'
+    image_list = []
+    
+    if cur_item is None:
+        data = random.sample(all_data, 1)[0]
+    else:
+        data = cur_item
+        
+    image_1 = data['image_1']  
+    image_2 = data['image_2']  
+    question = data['question']
+    label = data['label']
+    question_id = data['question_id']
+    
+    few_shot_prompt = ''
+    if num_shot > 0:
+        sampled_data = natural_ret_balance(all_data)
+        for sample in sampled_data:
+            few_shot_prompt += prompt.format(sample['question']) + f" {sample['label']}\n"
+            image_list.append(sample["image_1"])
+            image_list.append(sample["image_2"])
+    
+    full_text = few_shot_prompt + prompt.format(question)
+    
+    image_list.append(image_1)
+    image_list.append(image_2)
+    
+    return full_text, image_list, label, question_id
 
 
 
