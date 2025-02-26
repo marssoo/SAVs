@@ -483,3 +483,75 @@ def load_top_heads(file_path):
     
 
 
+def precompute_all_activations(data, model, top_heads):
+    """
+    Precompute activations for all items in the dataset.
+
+    Parameters:
+    - data: The dataset (list of items).
+    - model: The pre-trained model.
+    - top_heads: List of top heads to use for computing activations.
+
+    Returns:
+    - query_activations: A dictionary mapping item indices to their query activations.
+    - class_activations: The average activations for each class.
+    - int_to_str: Mapping from integer labels to class names.
+    """
+    query_activations = {}
+    str_to_activation = {}
+    str_to_count = {}
+    str_to_int = {}
+    int_to_str = {}
+
+    for idx, item in enumerate(tqdm(data, desc="Precomputing Activations")):
+        # Compute query activations
+        mean_activations = get_last_mean_head_activations([item], model, N_TRIALS=1, shot=0)
+        head_act = torch.stack([mean_activations[head[0], head[1], -1] for head in top_heads])
+        query_activations[idx] = head_act
+
+        # Compute class activations
+        if item['label'] in str_to_activation.keys():
+            str_to_activation[item['label']] += head_act
+            str_to_count[item['label']] += 1
+        else:
+            str_to_activation[item['label']] = head_act
+            int_label = len(str_to_activation.keys()) - 1
+            str_to_int[item['label']] = int_label
+            int_to_str[int_label] = item['label']
+            str_to_count[item['label']] = 1
+
+    # Compute average class activations
+    class_activations = torch.stack([torch.div(str_to_activation[key], str_to_count[key]) for key in str_to_activation])
+
+    return query_activations, class_activations, int_to_str
+
+
+def inference_mllm_classify(query_activations, class_activations, int_to_str, idx):
+    """
+    Classify an input using precomputed activations.
+
+    Parameters:
+    - query_activations: Precomputed activations for all queries.
+    - class_activations: Precomputed activations for all classes.
+    - int_to_str: Mapping from integer labels to class names.
+    - idx: Index of the query in the dataset.
+
+    Returns:
+    - Predicted class label.
+    """
+    cur_activations = query_activations[idx]
+    top_k_examples = retrieve_examples(class_activations, cur_activations)
+    cur_int_label = top_k_examples[0]
+
+    # Convert cur_int_label to the correct type
+    if isinstance(cur_int_label, int) and str(cur_int_label) in int_to_str:
+        cur_int_label = str(cur_int_label)
+    elif isinstance(cur_int_label, str) and int(cur_int_label) in int_to_str:
+        cur_int_label = int(cur_int_label)
+
+    # Validate cur_int_label
+    if cur_int_label not in int_to_str:
+        raise KeyError(f"Invalid label index: {cur_int_label}. Valid keys are: {list(int_to_str.keys())}")
+
+    return int_to_str[cur_int_label]
+

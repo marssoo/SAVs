@@ -28,18 +28,17 @@ def run_inference(args):
     # Load the input data (JSONL file)
     test_data = open_data(args.data_name, args.data_path)
 
-    # Recompute activations for the saved top heads
-    print("Recomputing activations for the saved top heads...")
-    class_activations, _, _ = get_class_activations(test_data, model, top_heads)
-    class_embed['activations'] = class_activations  # Add activations to class_embed
+    # Precompute all activations
+    print("Precomputing activations...")
+    query_activations, class_activations, int_to_str = precompute_all_activations(test_data, model, top_heads)
 
     # Run inference
     results = []
     correct_count = 0
 
-    for item in tqdm(test_data, desc="Running Inference"):
+    for idx, item in enumerate(tqdm(test_data, desc="Running Inference")):
         # Get the model prediction
-        cur_class = mllm_classify(item, model, class_embed)
+        cur_class = inference_mllm_classify(query_activations, class_activations, int_to_str, idx)
 
         # Save the result
         result = {
