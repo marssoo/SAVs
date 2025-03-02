@@ -28,35 +28,19 @@ def load_model(model_name, cur_dataset, lora_path=None, quantize=None):
 
     if model_name == "llava_ov_0.5b":
         ##### CUSTOM #####
-        #from llava.model.builder import load_pretrained_model
         from .custom_builder import load_pretrained_model
 
-        #pretrained = "lmms-lab/llava-onevision-qwen2-7b-ov"
         pretrained = "lmms-lab/llava-onevision-qwen2-0.5b-ov"
         
         model_name = "llava_qwen"
-        #device_map = "auto"
         device_map = "cuda" if torch.cuda.is_available() else "cpu"
-        ##################
 
         llava_model_args = {
                 "multimodal": True,
                 # "image_aspect_ratio":"pad"
-                #'load_4bit': True,
             }
-        ###For finetuned models
-
-        # overwrite_config = {'tie_word_embeddings': False, 'use_cache': True, "vocab_size": 152064}
-        # overwrite_config = {}
-        # overwrite_config["image_aspect_ratio"] = "pad"
-        # llava_model_args["overwrite_config"] = overwrite_config
-
 
         tokenizer, model, image_processor, max_length = load_pretrained_model(pretrained, None, model_name, device_map=device_map, **llava_model_args)
-        #tokenizer, model, image_processor, max_length = load_pretrained_model("/home/zhaobin/LLaVA-NeXT/checkpoints/Mhalu_sft", pretrained, "llava_qwen_lora", device_map=device_map, **llava_model_args)
-
-        # ###TODO:DELETE, FOR BLINK
-        # tokenizer, model, image_processor, max_length = load_pretrained_model(lora_path, pretrained, "llava_qwen_lora", device_map=device_map, **llava_model_args)
 
         model.eval()
         model.requires_grad_(False)
@@ -64,28 +48,22 @@ def load_model(model_name, cur_dataset, lora_path=None, quantize=None):
     
     elif model_name == "llava_ov_7b":
         ##### CUSTOM #####
-        #from llava.model.builder import load_pretrained_model
         from .custom_builder import load_pretrained_model
 
         pretrained = "lmms-lab/llava-onevision-qwen2-7b-ov"
-        #pretrained = "lmms-lab/llava-onevision-qwen2-0.5b-ov"
         
         model_name = "llava_qwen"
-        #device_map = "auto"
         device_map = "cuda" if torch.cuda.is_available() else "cpu"
-        ##################
-
+        #device_map = 'cpu'
         llava_model_args = {
                 "multimodal": True,
                 # "image_aspect_ratio":"pad"
-                #'load_4bit': True,
             }
-        ###For finetuned models
-
-        # overwrite_config = {'tie_word_embeddings': False, 'use_cache': True, "vocab_size": 152064}
-        # overwrite_config = {}
-        # overwrite_config["image_aspect_ratio"] = "pad"
-        # llava_model_args["overwrite_config"] = overwrite_config
+        
+        if quantize == 8:
+            llava_model_args['load_8bit'] = True
+        elif quantize == 4:
+            llava_model_args['load_4bit'] = True
 
 
         tokenizer, model, image_processor, max_length = load_pretrained_model(pretrained, None, model_name, device_map=device_map, **llava_model_args)
@@ -187,7 +165,6 @@ def get_last_mean_head_activations(dataset, model_helper, N_TRIALS = 50, shot=4,
         if activation_storage is None:
             activation_storage = cur_activation
         else:
-
             activation_storage = torch.vstack((activation_storage, cur_activation))
     if no_mean:
         return activation_storage
