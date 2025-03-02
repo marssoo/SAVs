@@ -13,7 +13,7 @@ import sys
 from collections import Counter
 logging.set_verbosity_warning()
 
-def load_model(model_name, cur_dataset, lora_path=None):
+def load_model(model_name, cur_dataset, lora_path=None, quantize=None):
 
     """
     A function that loads the model and a corresponding model_helper. Refer to model.py for more detail.
@@ -64,8 +64,8 @@ def load_model(model_name, cur_dataset, lora_path=None):
     
     elif model_name == "llava_ov_7b":
         ##### CUSTOM #####
-        from llava.model.builder import load_pretrained_model
-        #from .custom_builder import load_pretrained_model
+        #from llava.model.builder import load_pretrained_model
+        from .custom_builder import load_pretrained_model
 
         pretrained = "lmms-lab/llava-onevision-qwen2-7b-ov"
         #pretrained = "lmms-lab/llava-onevision-qwen2-0.5b-ov"
