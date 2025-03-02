@@ -1,4 +1,6 @@
 from .utils import *
+#from .utils_modif_0 import *
+
 from .model import *
 from .preprocess import *
 from tqdm import tqdm
@@ -11,7 +13,7 @@ logging.set_verbosity_error()
 
 
 def eval_dataset(args):
-    model = load_model(args.model_name, args.data_name)
+    model = load_model(args.model_name, args.data_name, quantize=args.quantize)
 
     train_data = open_data(args.data_name, args.train_path)
     test_data = open_data(args.data_name, args.val_path)
@@ -54,6 +56,8 @@ if __name__ == "__main__":
     parser.add_argument("--val_path", type=str, default=None)
     parser.add_argument("--eval_zeroshot", action="store_true", 
                        help="Whether to run zero-shot evaluation")
-    
+    #new arg
+    parser.add_argument('--quantize', type=int, default=None,
+                        help="number of bits to operate quantization on.")
     args = parser.parse_args()
     eval_dataset(args)
