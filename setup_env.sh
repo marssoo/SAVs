@@ -36,6 +36,8 @@ unzip naturalbench.zip -d naturalbench
 
 rm naturalbench.zip
 
+export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
+
 cd SAVs/
 
 # Inform the user
