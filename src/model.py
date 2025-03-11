@@ -14,7 +14,7 @@ from qwen_vl_utils import process_vision_info
 def load_image(image_file):
     try:
         image = Image.open(image_file).convert("RGB")
-    except:
+    except Exception as e:
         return image_file
     return image
 
@@ -190,6 +190,7 @@ class llavaOVDot5bHelper(ModelHelper):
             return (input_ids, None, None)
 
         image_list = load_images(image_list)
+        #print(image_list)
         image_sizes = [image.size for image in image_list]
 
         image_tensors = process_images(image_list, self.processor, self.model.config)

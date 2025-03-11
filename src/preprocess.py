@@ -15,7 +15,6 @@ def open_data(dataset_name, path):
     jsonl_format_dataset = ["natural_ret"]
     list_format_dataset = ["vlguard", "MHalu", "eurosat", "blink", "pets"]
 
-
     with open(path, 'r') as json_file:
         if dataset_name in jsonl_format_dataset:
             dataset = [json.loads(each) for each in json_file]
@@ -117,27 +116,25 @@ def format_MHalu(all_data, cur_item=None, num_shot=0, model_helper=None, split="
 
     label_to_yesno = {"hallucination":'Yes', 'non-hallucination':'No'}
 
-    question, image, label = cur_item["claim"], cur_item["image_path"], cur_item["claim_label"]
+    question, image, label = cur_item["claim"], cur_item["image_path"], cur_item["label"]
 
     prompt = "<image>\nClaim:{}. Is the Claim hallucinating? Answer the question with Yes or No."
 
-    if "zhaobin" not in image and "coco2014_2024-02-22_2010" not in image:
-        image = "/home/zhaobin/Qwen-VL/data/hallucination/images/data/image-to-text/" + image.split("/")[-1]
-
+    #if "zhaobin" not in image and "coco2014_2024-02-22_2010" not in image:
+    #    image = "/home/zhaobin/Qwen-VL/data/hallucination/images/data/image-to-text/" + image.split("/")[-1]
     image_list = []
     few_shot_prompt = ""
     if num_shot > 0:
         hallu_sample = random.sample(all_data, 4)
         for sample in hallu_sample:
-            few_shot_prompt += prompt.format(sample['claim']) + f" {label_to_yesno[sample['claim_label']]}\n"
+            few_shot_prompt += prompt.format(sample['claim']) + f" {label_to_yesno[sample['label']]}\n"
             sample_img = sample["image_path"]
-            if "zhaobin" not in sample_img and "coco2014_2024-02-22_2010" not in sample_img:
-                sample_img = "/home/zhaobin/Qwen-VL/data/hallucination/images/data/image-to-text/" + sample_img.split("/")[-1]
+            #if "zhaobin" not in sample_img and "coco2014_2024-02-22_2010" not in sample_img:
+            #    sample_img = "/home/zhaobin/Qwen-VL/data/hallucination/images/data/image-to-text/" + sample_img.split("/")[-1]
             image_list.append(sample_img)
 
     image_list.append(image)
     final_text = few_shot_prompt + prompt.format(question)
-
     return final_text, image_list, label_to_yesno[label], -1
 
 

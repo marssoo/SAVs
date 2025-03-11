@@ -171,7 +171,7 @@ def get_last_mean_head_activations(dataset, model_helper, N_TRIALS = 50, shot=4,
     activation_storage = None
 
     for n in range(N_TRIALS):
-
+        #print(model_helper)
         #text, image_list, _, _ = model_helper.format_func(dataset, None, num_shot=shot, model_helper=model_helper, split=split)
         text, image_list, _, _ = model_helper.format_func(None, dataset[0], num_shot=shot, model_helper=model_helper, split=split)
 

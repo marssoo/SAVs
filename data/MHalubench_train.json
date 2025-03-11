@@ -1,0 +1,202 @@
+[
+    {
+        "image_path": "/home/marceau/Documents/COURS/M2/MLseminar/MHaluBench/data/COCO_val2014_000000536403.jpg",
+        "claim": "A cell phone is on the right side of the table",
+        "label": "hallucination"
+    },
+    {
+        "image_path": "/home/marceau/Documents/COURS/M2/MLseminar/MHaluBench/data/191.jpg",
+        "claim": "A boat has a red flag.",
+        "label": "non-hallucination"
+    },
+    {
+        "image_path": "/home/marceau/Documents/COURS/M2/MLseminar/MHaluBench/data/COCO_val2014_000000121503.jpg",
+        "claim": "The people standing in line are dressed in a variety of outfits",
+        "label": "non-hallucination"
+    },
+    {
+        "image_path": "/home/marceau/Documents/COURS/M2/MLseminar/MHaluBench/data/COCO_val2014_000000354278.jpg",
+        "claim": "The fire hydrant is ready for use in case of a fire emergency",
+        "label": "non-hallucination"
+    },
+    {
+        "image_path": "/home/marceau/Documents/COURS/M2/MLseminar/MHaluBench/data/COCO_val2014_000000577893.jpg",
+        "claim": "A water bottle is on the bench near the court's edge",
+        "label": "hallucination"
+    },
+    {
+        "image_path": "/home/marceau/Documents/COURS/M2/MLseminar/MHaluBench/data/COCO_val2014_000000191990.jpg",
+        "claim": "Others are parked separately",
+        "label": "non-hallucination"
+    },
+    {
+        "image_path": "/home/marceau/Documents/COURS/M2/MLseminar/MHaluBench/data/COCO_val2014_000000533329.jpg",
+        "claim": "The bowl sits on a wooden table",
+        "label": "non-hallucination"
+    },
+    {
+        "image_path": "/home/marceau/Documents/COURS/M2/MLseminar/MHaluBench/data/66.jpg",
+        "claim": "A blue giraffe is on the right of four yellow cows.",
+        "label": "hallucination"
+    },
+    {
+        "image_path": "/home/marceau/Documents/COURS/M2/MLseminar/MHaluBench/data/a6d7a9937a36e8fb.jpg",
+        "claim": "This is a TI-83 Plus scientific calculator",
+        "label": "hallucination"
+    },
+    {
+        "image_path": "/home/marceau/Documents/COURS/M2/MLseminar/MHaluBench/data/69.jpg",
+        "claim": "Two blue birds are flying.",
+        "label": "non-hallucination"
+    },
+    {
+        "image_path": "/home/marceau/Documents/COURS/M2/MLseminar/MHaluBench/data/6.jpg",
+        "claim": "There is a blue pencil.",
+        "label": "hallucination"
+    },
+    {
+        "image_path": "/home/marceau/Documents/COURS/M2/MLseminar/MHaluBench/data/166.jpg",
+        "claim": "There is a keyboard on the desk.",
+        "label": "non-hallucination"
+    },
+    {
+        "image_path": "/home/marceau/Documents/COURS/M2/MLseminar/MHaluBench/data/b7e449c7afbd169a.jpg",
+        "claim": "Club Am\u00e9rica is the American soccer team.",
+        "label": "hallucination"
+    },
+    {
+        "image_path": "/home/marceau/Documents/COURS/M2/MLseminar/MHaluBench/data/112.jpg",
+        "claim": "A glass bowl contains three oranges.",
+        "label": "hallucination"
+    },
+    {
+        "image_path": "/home/marceau/Documents/COURS/M2/MLseminar/MHaluBench/data/COCO_val2014_000000226967.jpg",
+        "claim": "Two men are shaking hands on a tennis court",
+        "label": "hallucination"
+    },
+    {
+        "image_path": "/home/marceau/Documents/COURS/M2/MLseminar/MHaluBench/data/57.jpg",
+        "claim": "Four white swans are swimming.",
+        "label": "non-hallucination"
+    },
+    {
+        "image_path": "/home/marceau/Documents/COURS/M2/MLseminar/MHaluBench/data/214.jpg",
+        "claim": "A picture is about \"\u53eb\u82b1\u9e21\"",
+        "label": "hallucination"
+    },
+    {
+        "image_path": "/home/marceau/Documents/COURS/M2/MLseminar/MHaluBench/data/139.jpg",
+        "claim": "'Google Brain Toronto' is written on the storefront.",
+        "label": "hallucination"
+    },
+    {
+        "image_path": "/home/marceau/Documents/COURS/M2/MLseminar/MHaluBench/data/122.jpg",
+        "claim": "The red cat is in front of three yellow books.",
+        "label": "hallucination"
+    },
+    {
+        "image_path": "/home/marceau/Documents/COURS/M2/MLseminar/MHaluBench/data/COCO_val2014_000000291930.jpg",
+        "claim": "The man is wearing a helmet",
+        "label": "non-hallucination"
+    },
+    {
+        "image_path": "/home/marceau/Documents/COURS/M2/MLseminar/MHaluBench/data/60b87855808a995b.jpg",
+        "claim": "The beer has a green label with white text",
+        "label": "non-hallucination"
+    },
+    {
+        "image_path": "/home/marceau/Documents/COURS/M2/MLseminar/MHaluBench/data/COCO_val2014_000000278961.jpg",
+        "claim": "There is a window above the toilet",
+        "label": "hallucination"
+    },
+    {
+        "image_path": "/home/marceau/Documents/COURS/M2/MLseminar/MHaluBench/data/COCO_val2014_000000172330.jpg",
+        "claim": "A lamp post is present in the scene",
+        "label": "hallucination"
+    },
+    {
+        "image_path": "/home/marceau/Documents/COURS/M2/MLseminar/MHaluBench/data/COCO_val2014_000000010822.jpg",
+        "claim": "The zebras are facing in the same direction",
+        "label": "non-hallucination"
+    },
+    {
+        "image_path": "/home/marceau/Documents/COURS/M2/MLseminar/MHaluBench/data/COCO_val2014_000000054091.jpg",
+        "claim": "A woman is sitting in a red chair in her living room",
+        "label": "non-hallucination"
+    },
+    {
+        "image_path": "/home/marceau/Documents/COURS/M2/MLseminar/MHaluBench/data/COCO_val2014_000000371151.jpg",
+        "claim": "The fireplace is a red-tiled hearth",
+        "label": "hallucination"
+    },
+    {
+        "image_path": "/home/marceau/Documents/COURS/M2/MLseminar/MHaluBench/data/COCO_val2014_000000174004.jpg",
+        "claim": "The truck is in the middle of the field",
+        "label": "non-hallucination"
+    },
+    {
+        "image_path": "/home/marceau/Documents/COURS/M2/MLseminar/MHaluBench/data/108.jpg",
+        "claim": "The motorbikes are parked on a street.",
+        "label": "non-hallucination"
+    },
+    {
+        "image_path": "/home/marceau/Documents/COURS/M2/MLseminar/MHaluBench/data/COCO_val2014_000000149890.jpg",
+        "claim": "There are tall trees in the background of the image",
+        "label": "non-hallucination"
+    },
+    {
+        "image_path": "/home/marceau/Documents/COURS/M2/MLseminar/MHaluBench/data/85.jpg",
+        "claim": "The brown boots were on the wooden shoe rack.",
+        "label": "non-hallucination"
+    },
+    {
+        "image_path": "/home/marceau/Documents/COURS/M2/MLseminar/MHaluBench/data/61.jpg",
+        "claim": "Three penguins are near the polar bear.",
+        "label": "non-hallucination"
+    },
+    {
+        "image_path": "/home/marceau/Documents/COURS/M2/MLseminar/MHaluBench/data/COCO_val2014_000000488934.jpg",
+        "claim": "The man is wearing a T-shirt with a 'HERO' print",
+        "label": "hallucination"
+    },
+    {
+        "image_path": "/home/marceau/Documents/COURS/M2/MLseminar/MHaluBench/data/117.jpg",
+        "claim": "There is a bathroom with a sink.",
+        "label": "non-hallucination"
+    },
+    {
+        "image_path": "/home/marceau/Documents/COURS/M2/MLseminar/MHaluBench/data/COCO_val2014_000000216457.jpg",
+        "claim": "A bicycle is leaning against the stop sign",
+        "label": "hallucination"
+    },
+    {
+        "image_path": "/home/marceau/Documents/COURS/M2/MLseminar/MHaluBench/data/COCO_val2014_000000241238.jpg",
+        "claim": "The fenced area is likely a zoo or wildlife park",
+        "label": "non-hallucination"
+    },
+    {
+        "image_path": "/home/marceau/Documents/COURS/M2/MLseminar/MHaluBench/data/41.jpg",
+        "claim": "The red pencil was on top of the green notebook.",
+        "label": "non-hallucination"
+    },
+    {
+        "image_path": "/home/marceau/Documents/COURS/M2/MLseminar/MHaluBench/data/169.jpg",
+        "claim": "The word \"experienced\" is on top of the can.",
+        "label": "hallucination"
+    },
+    {
+        "image_path": "/home/marceau/Documents/COURS/M2/MLseminar/MHaluBench/data/COCO_val2014_000000315939.jpg",
+        "claim": "A red bicycle is leaning against the bench",
+        "label": "hallucination"
+    },
+    {
+        "image_path": "/home/marceau/Documents/COURS/M2/MLseminar/MHaluBench/data/52.jpg",
+        "claim": "A brown dog is chasing four white rabbits.",
+        "label": "hallucination"
+    },
+    {
+        "image_path": "/home/marceau/Documents/COURS/M2/MLseminar/MHaluBench/data/COCO_val2014_000000048396.jpg",
+        "claim": "There is a blue cup on the dining table",
+        "label": "hallucination"
+    }
+]
