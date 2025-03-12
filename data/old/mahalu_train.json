@@ -1,0 +1,202 @@
+[
+    {
+        "image_path": "/datasets/coco2014_2024-02-22_2010/train2014/COCO_train2014_000000004404.jpg",
+        "claim": "A woman with a colorful umbrella walks past a red bus",
+        "label": "hallucination"
+    },
+    {
+        "image_path": "/home/zhaobin/Emu/dataset/textvqa/train_images/5556c8e82e4c9fed.jpg",
+        "claim": "The sign mentions \"Embassy\" ",
+        "label": "hallucination"
+    },
+    {
+        "image_path": "/home/zhaobin/Emu/dataset/textvqa/train_images/8bad9cae8c5bc6c0.jpg",
+        "claim": "A bottle of beer has a blue label",
+        "label": "hallucination"
+    },
+    {
+        "image_path": "/home/zhaobin/Emu/dataset/textvqa/train_images/024d939917989017.jpg",
+        "claim": "The team listed on the white jersey is the \"Dakota\" team",
+        "label": "hallucination"
+    },
+    {
+        "image_path": "/home/zhaobin/Emu/dataset/textvqa/train_images/0e5bccf18d10a34d.jpg",
+        "claim": "The orange sign displays \"Grand Nancy\"",
+        "label": "hallucination"
+    },
+    {
+        "image_path": "/home/zhaobin/Emu/dataset/textvqa/train_images/0cd36bb7e765b1b9.jpg",
+        "claim": "The number 22 is at the top of the clock.",
+        "label": "hallucination"
+    },
+    {
+        "image_path": "/home/zhaobin/Emu/dataset/textvqa/train_images/7b7fa5377c5cefcb.jpg",
+        "claim": "The man's shirt has the number 9",
+        "label": "hallucination"
+    },
+    {
+        "image_path": "/home/zhaobin/Emu/dataset/textvqa/train_images/70cdf6bb108c760a.jpg",
+        "claim": "The piece was made in 2006 ",
+        "label": "hallucination"
+    },
+    {
+        "image_path": "/home/zhaobin/Emu/dataset/textvqa/train_images/00516bf08cf0cdeb.jpg",
+        "claim": "A \"50\" meter is posted on the white sign",
+        "label": "hallucination"
+    },
+    {
+        "image_path": "/home/zhaobin/Emu/dataset/textvqa/train_images/0b7fce3bf0471d14.jpg",
+        "claim": "The title of the building is \"The Artwork Force\" ",
+        "label": "hallucination"
+    },
+    {
+        "image_path": "/home/zhaobin/Emu/dataset/textvqa/train_images/8b48fa25535349f2.jpg",
+        "claim": "The drink was made in 1997",
+        "label": "hallucination"
+    },
+    {
+        "image_path": "/home/zhaobin/Emu/dataset/textvqa/train_images/ea94ac095d29543f.jpg",
+        "claim": "The white team's numbers are 21 and 22",
+        "label": "hallucination"
+    },
+    {
+        "image_path": "/datasets/coco2014_2024-02-22_2010/train2014/COCO_train2014_000000139042.jpg",
+        "claim": "The image shows a tennis match with a woman and a man playing",
+        "label": "hallucination"
+    },
+    {
+        "image_path": "/home/zhaobin/Emu/dataset/textvqa/train_images/8d8ee81252574af1.jpg",
+        "claim": "The equation on the bottom left column reads 1/x + 1/a = 1/k ",
+        "label": "hallucination"
+    },
+    {
+        "image_path": "/datasets/coco2014_2024-02-22_2010/train2014/COCO_train2014_000000546412.jpg",
+        "claim": "The man is holding an American flag and binoculars while skiing",
+        "label": "hallucination"
+    },
+    {
+        "image_path": "/home/zhaobin/Emu/dataset/textvqa/train_images/0c282a820698d0eb.jpg",
+        "claim": "Graffiti says \"don't\" above the word \"stop\" on the stop sign",
+        "label": "hallucination"
+    },
+    {
+        "image_path": "/datasets/coco2014_2024-02-22_2010/train2014/COCO_train2014_000000526874.jpg",
+        "claim": "The mail truck is parked in the RED BUS ONLY lane",
+        "label": "hallucination"
+    },
+    {
+        "image_path": "/home/zhaobin/Emu/dataset/textvqa/train_images/332fd038817dea5e.jpg",
+        "claim": "The website is www.tapoutcardsharpproject.com ",
+        "label": "hallucination"
+    },
+    {
+        "image_path": "/home/zhaobin/Emu/dataset/textvqa/train_images/c3be73e14deefd3a.jpg",
+        "claim": "The envelope says \"Official\" across the top ",
+        "label": "hallucination"
+    },
+    {
+        "image_path": "/datasets/coco2014_2024-02-22_2010/train2014/COCO_train2014_000000101155.jpg",
+        "claim": "The picture contains two children",
+        "label": "hallucination"
+    },
+    {
+        "image_path": "/datasets/coco2014_2024-02-22_2010/train2014/COCO_train2014_000000430848.jpg",
+        "claim": "The image features a vase filled with a colorful bouquet of flowers",
+        "label": "non-hallucination"
+    },
+    {
+        "image_path": "/datasets/coco2014_2024-02-22_2010/train2014/COCO_train2014_000000482561.jpg",
+        "claim": "A white cat is sitting on a car",
+        "label": "non-hallucination"
+    },
+    {
+        "image_path": "/datasets/coco2014_2024-02-22_2010/train2014/COCO_train2014_000000463695.jpg",
+        "claim": "A person is holding a half-eaten pink frosted doughnut",
+        "label": "non-hallucination"
+    },
+    {
+        "image_path": "/datasets/coco2014_2024-02-22_2010/train2014/COCO_train2014_000000384953.jpg",
+        "claim": "The image features a dining table with soup and bread bowls.",
+        "label": "non-hallucination"
+    },
+    {
+        "image_path": "/datasets/coco2014_2024-02-22_2010/train2014/COCO_train2014_000000070408.jpg",
+        "claim": "The image depicts a city street with a no-entry zone sign.",
+        "label": "non-hallucination"
+    },
+    {
+        "image_path": "/datasets/coco2014_2024-02-22_2010/train2014/COCO_train2014_000000191972.jpg",
+        "claim": "The garden has a serene atmosphere",
+        "label": "non-hallucination"
+    },
+    {
+        "image_path": "/datasets/coco2014_2024-02-22_2010/train2014/COCO_train2014_000000279909.jpg",
+        "claim": "The vase has a unique design",
+        "label": "non-hallucination"
+    },
+    {
+        "image_path": "/datasets/coco2014_2024-02-22_2010/train2014/COCO_train2014_000000560489.jpg",
+        "claim": "The sink is black",
+        "label": "non-hallucination"
+    },
+    {
+        "image_path": "/datasets/coco2014_2024-02-22_2010/train2014/COCO_train2014_000000424337.jpg",
+        "claim": "The kitchen has white appliances and cabinets",
+        "label": "non-hallucination"
+    },
+    {
+        "image_path": "/datasets/coco2014_2024-02-22_2010/train2014/COCO_train2014_000000111361.jpg",
+        "claim": "The image features a fruit stand with various fruits",
+        "label": "non-hallucination"
+    },
+    {
+        "image_path": "/datasets/coco2014_2024-02-22_2010/train2014/COCO_train2014_000000559203.jpg",
+        "claim": "A man in the image wears a suit and tie.",
+        "label": "non-hallucination"
+    },
+    {
+        "image_path": "/home/zhaobin/Emu/dataset/textvqa/train_images/35bfd69b99bc15d0.jpg",
+        "claim": "The game is being played at a stadium",
+        "label": "non-hallucination"
+    },
+    {
+        "image_path": "/datasets/coco2014_2024-02-22_2010/train2014/COCO_train2014_000000431139.jpg",
+        "claim": "The train is red and gray",
+        "label": "non-hallucination"
+    },
+    {
+        "image_path": "/datasets/coco2014_2024-02-22_2010/train2014/COCO_train2014_000000002755.jpg",
+        "claim": "The image shows young children playing baseball",
+        "label": "non-hallucination"
+    },
+    {
+        "image_path": "/home/zhaobin/Emu/dataset/textvqa/train_images/0dc18f22238af6e5.jpg",
+        "claim": "The red bin is large",
+        "label": "non-hallucination"
+    },
+    {
+        "image_path": "/datasets/coco2014_2024-02-22_2010/train2014/COCO_train2014_000000562766.jpg",
+        "claim": "The table has two pizzas, one on each side",
+        "label": "non-hallucination"
+    },
+    {
+        "image_path": "/datasets/coco2014_2024-02-22_2010/train2014/COCO_train2014_000000116402.jpg",
+        "claim": "The family in the image is playing a video game together",
+        "label": "non-hallucination"
+    },
+    {
+        "image_path": "/datasets/coco2014_2024-02-22_2010/train2014/COCO_train2014_000000401370.jpg",
+        "claim": "The person in the image is skiing down a snow-covered slope",
+        "label": "non-hallucination"
+    },
+    {
+        "image_path": "/datasets/coco2014_2024-02-22_2010/train2014/COCO_train2014_000000245982.jpg",
+        "claim": "A man and a woman are sitting together at a dining table",
+        "label": "non-hallucination"
+    },
+    {
+        "image_path": "/datasets/coco2014_2024-02-22_2010/train2014/COCO_train2014_000000140351.jpg",
+        "claim": "A man is sitting on a green motorcycle",
+        "label": "non-hallucination"
+    }
+]

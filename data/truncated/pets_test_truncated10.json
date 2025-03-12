@@ -1,0 +1,62 @@
+[
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/pets/images/boxer_67.jpg",
+        "question": "What type of animal is in the image?\nA. Maine Coon B. Siamese C. boxer D. pug",
+        "answer": "C",
+        "label": "boxer"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/pets/images/staffordshire_bull_terrier_106.jpg",
+        "question": "What type of animal is in the image?\nA. shiba inu B. Bengal C. english setter D. staffordshire bull terrier",
+        "answer": "D",
+        "label": "staffordshire bull terrier"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/pets/images/wheaten_terrier_48.jpg",
+        "question": "What type of animal is in the image?\nA. Egyptian Mau B. wheaten terrier C. samoyed D. Bombay",
+        "answer": "B",
+        "label": "wheaten terrier"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/pets/images/chihuahua_138.jpg",
+        "question": "What type of animal is in the image?\nA. american bulldog B. havanese C. scottish terrier D. chihuahua",
+        "answer": "D",
+        "label": "chihuahua"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/pets/images/Birman_19.jpg",
+        "question": "What type of animal is in the image?\nA. chihuahua B. samoyed C. staffordshire bull terrier D. Birman",
+        "answer": "D",
+        "label": "Birman"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/pets/images/Siamese_114.jpg",
+        "question": "What type of animal is in the image?\nA. Siamese B. pomeranian C. english cocker spaniel D. Ragdoll",
+        "answer": "A",
+        "label": "Siamese"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/pets/images/pomeranian_148.jpg",
+        "question": "What type of animal is in the image?\nA. american pit bull terrier B. pomeranian C. japanese chin D. basset hound",
+        "answer": "B",
+        "label": "pomeranian"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/pets/images/Siamese_61.jpg",
+        "question": "What type of animal is in the image?\nA. Siamese B. beagle C. Russian Blue D. miniature pinscher",
+        "answer": "A",
+        "label": "Siamese"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/pets/images/pug_66.jpg",
+        "question": "What type of animal is in the image?\nA. keeshond B. basset hound C. pug D. staffordshire bull terrier",
+        "answer": "C",
+        "label": "pug"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/pets/images/Ragdoll_6.jpg",
+        "question": "What type of animal is in the image?\nA. great pyrenees B. havanese C. newfoundland D. Ragdoll",
+        "answer": "D",
+        "label": "Ragdoll"
+    }
+]
