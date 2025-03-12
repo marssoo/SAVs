@@ -1,7 +1,7 @@
 python3 -m src.optimized_run \
     --model_name llava_ov_0.5b\
     --num_head 20\
-    --data_name natural_ret \
-    --train_path data/naturalbench_ret_train.jsonl \
-    --val_path data/truncated/naturalbench_ret_test_truncated20.jsonl\
-    --file_path runs/nat.json
+    --data_name pets \
+    --train_path data/truncated/pets_train_truncated10.json \
+    --val_path data/truncated/pets_test_truncated10.json\
+    --file_path runs/pets.json

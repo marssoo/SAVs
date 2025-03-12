@@ -1,482 +1,1202 @@
 [
     {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Highway/Highway_1443.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. Residential B. HerbaceousVegetation C. Highway D. SeaLake",
-        "answer": "C",
-        "label": "Highway"
-    },
-    {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Pasture/Pasture_1604.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. Pasture B. Forest C. Industrial D. PermanentCrop",
-        "answer": "A",
-        "label": "Pasture"
-    },
-    {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Pasture/Pasture_404.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. PermanentCrop B. Highway C. SeaLake D. Pasture",
-        "answer": "D",
-        "label": "Pasture"
-    },
-    {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/SeaLake/SeaLake_1566.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. Pasture B. Highway C. Industrial D. SeaLake",
-        "answer": "D",
-        "label": "SeaLake"
-    },
-    {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Highway/Highway_337.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. Industrial B. HerbaceousVegetation C. SeaLake D. Highway",
-        "answer": "D",
-        "label": "Highway"
-    },
-    {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Industrial/Industrial_12.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. PermanentCrop B. HerbaceousVegetation C. Industrial D. River",
-        "answer": "C",
-        "label": "Industrial"
-    },
-    {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Industrial/Industrial_1939.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. Forest B. HerbaceousVegetation C. Industrial D. Highway",
-        "answer": "C",
-        "label": "Industrial"
-    },
-    {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/HerbaceousVegetation/HerbaceousVegetation_1170.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. Forest B. River C. Industrial D. HerbaceousVegetation",
-        "answer": "D",
-        "label": "HerbaceousVegetation"
-    },
-    {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/SeaLake/SeaLake_803.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. SeaLake B. River C. Forest D. Industrial",
-        "answer": "A",
-        "label": "SeaLake"
-    },
-    {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/SeaLake/SeaLake_910.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. River B. AnnualCrop C. SeaLake D. Highway",
-        "answer": "C",
-        "label": "SeaLake"
-    },
-    {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/SeaLake/SeaLake_946.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. PermanentCrop B. AnnualCrop C. HerbaceousVegetation D. SeaLake",
-        "answer": "D",
-        "label": "SeaLake"
-    },
-    {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/AnnualCrop/AnnualCrop_618.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. Highway B. AnnualCrop C. SeaLake D. Industrial",
-        "answer": "B",
-        "label": "AnnualCrop"
-    },
-    {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/River/River_2466.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. SeaLake B. Residential C. River D. Forest",
-        "answer": "C",
-        "label": "River"
-    },
-    {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Residential/Residential_1485.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. Highway B. AnnualCrop C. Residential D. Forest",
-        "answer": "C",
-        "label": "Residential"
-    },
-    {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Pasture/Pasture_1141.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. Residential B. Pasture C. HerbaceousVegetation D. River",
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Pasture/Pasture_1307.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Residential B. Pasture C. HerbaceousVegetation D. Forest",
         "answer": "B",
         "label": "Pasture"
     },
     {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/SeaLake/SeaLake_1030.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. AnnualCrop B. SeaLake C. Pasture D. PermanentCrop",
-        "answer": "B",
-        "label": "SeaLake"
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Pasture/Pasture_563.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Pasture B. HerbaceousVegetation C. AnnualCrop D. River",
+        "answer": "A",
+        "label": "Pasture"
     },
     {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Residential/Residential_1460.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. PermanentCrop B. Residential C. Industrial D. Pasture",
-        "answer": "B",
-        "label": "Residential"
-    },
-    {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/HerbaceousVegetation/HerbaceousVegetation_603.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. Industrial B. AnnualCrop C. PermanentCrop D. HerbaceousVegetation",
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/HerbaceousVegetation/HerbaceousVegetation_380.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. AnnualCrop B. Industrial C. Residential D. HerbaceousVegetation",
         "answer": "D",
         "label": "HerbaceousVegetation"
     },
     {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Forest/Forest_2017.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. Industrial B. HerbaceousVegetation C. Forest D. SeaLake",
-        "answer": "C",
-        "label": "Forest"
-    },
-    {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/SeaLake/SeaLake_2483.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. SeaLake B. HerbaceousVegetation C. Pasture D. Forest",
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Residential/Residential_2552.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Residential B. SeaLake C. AnnualCrop D. PermanentCrop",
         "answer": "A",
-        "label": "SeaLake"
-    },
-    {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Forest/Forest_659.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. PermanentCrop B. AnnualCrop C. Forest D. Industrial",
-        "answer": "C",
-        "label": "Forest"
-    },
-    {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/HerbaceousVegetation/HerbaceousVegetation_1993.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. River B. HerbaceousVegetation C. AnnualCrop D. Forest",
-        "answer": "B",
-        "label": "HerbaceousVegetation"
-    },
-    {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/PermanentCrop/PermanentCrop_1758.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. PermanentCrop B. Forest C. SeaLake D. Industrial",
-        "answer": "A",
-        "label": "PermanentCrop"
-    },
-    {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/SeaLake/SeaLake_666.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. SeaLake B. Forest C. Pasture D. HerbaceousVegetation",
-        "answer": "A",
-        "label": "SeaLake"
-    },
-    {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/AnnualCrop/AnnualCrop_1702.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. HerbaceousVegetation B. SeaLake C. AnnualCrop D. River",
-        "answer": "C",
-        "label": "AnnualCrop"
-    },
-    {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/PermanentCrop/PermanentCrop_2379.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. Residential B. PermanentCrop C. River D. Highway",
-        "answer": "B",
-        "label": "PermanentCrop"
-    },
-    {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Forest/Forest_2118.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. River B. Pasture C. Forest D. SeaLake",
-        "answer": "C",
-        "label": "Forest"
-    },
-    {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/PermanentCrop/PermanentCrop_438.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. AnnualCrop B. PermanentCrop C. Pasture D. Highway",
-        "answer": "B",
-        "label": "PermanentCrop"
-    },
-    {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/PermanentCrop/PermanentCrop_776.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. PermanentCrop B. Pasture C. HerbaceousVegetation D. Industrial",
-        "answer": "A",
-        "label": "PermanentCrop"
-    },
-    {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Industrial/Industrial_748.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. River B. SeaLake C. Industrial D. HerbaceousVegetation",
-        "answer": "C",
-        "label": "Industrial"
-    },
-    {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/PermanentCrop/PermanentCrop_1978.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. PermanentCrop B. Pasture C. Forest D. Industrial",
-        "answer": "A",
-        "label": "PermanentCrop"
-    },
-    {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Forest/Forest_660.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. Residential B. River C. Forest D. AnnualCrop",
-        "answer": "C",
-        "label": "Forest"
-    },
-    {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/River/River_964.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. Pasture B. SeaLake C. Residential D. River",
-        "answer": "D",
-        "label": "River"
-    },
-    {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Highway/Highway_1504.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. SeaLake B. PermanentCrop C. Highway D. Pasture",
-        "answer": "C",
-        "label": "Highway"
-    },
-    {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/SeaLake/SeaLake_2179.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. SeaLake B. PermanentCrop C. Pasture D. Residential",
-        "answer": "A",
-        "label": "SeaLake"
-    },
-    {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Highway/Highway_378.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. PermanentCrop B. Highway C. SeaLake D. Industrial",
-        "answer": "B",
-        "label": "Highway"
-    },
-    {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Highway/Highway_1012.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. Highway B. Forest C. SeaLake D. HerbaceousVegetation",
-        "answer": "A",
-        "label": "Highway"
-    },
-    {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/PermanentCrop/PermanentCrop_2485.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. AnnualCrop B. PermanentCrop C. SeaLake D. Industrial",
-        "answer": "B",
-        "label": "PermanentCrop"
-    },
-    {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/AnnualCrop/AnnualCrop_811.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. Residential B. HerbaceousVegetation C. Pasture D. AnnualCrop",
-        "answer": "D",
-        "label": "AnnualCrop"
-    },
-    {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Forest/Forest_2743.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. Forest B. Highway C. SeaLake D. PermanentCrop",
-        "answer": "A",
-        "label": "Forest"
-    },
-    {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/PermanentCrop/PermanentCrop_2460.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. PermanentCrop B. SeaLake C. River D. Industrial",
-        "answer": "A",
-        "label": "PermanentCrop"
-    },
-    {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/PermanentCrop/PermanentCrop_288.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. AnnualCrop B. PermanentCrop C. Residential D. Forest",
-        "answer": "B",
-        "label": "PermanentCrop"
-    },
-    {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Residential/Residential_1841.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. AnnualCrop B. Residential C. SeaLake D. Pasture",
-        "answer": "B",
         "label": "Residential"
     },
     {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Industrial/Industrial_945.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. HerbaceousVegetation B. Forest C. Highway D. Industrial",
-        "answer": "D",
-        "label": "Industrial"
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Pasture/Pasture_857.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Pasture B. HerbaceousVegetation C. River D. AnnualCrop",
+        "answer": "A",
+        "label": "Pasture"
     },
     {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Residential/Residential_1932.jpg",
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Forest/Forest_1998.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. PermanentCrop B. HerbaceousVegetation C. Forest D. SeaLake",
+        "answer": "C",
+        "label": "Forest"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Pasture/Pasture_1522.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. PermanentCrop B. AnnualCrop C. Pasture D. SeaLake",
+        "answer": "C",
+        "label": "Pasture"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/AnnualCrop/AnnualCrop_1913.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Forest B. SeaLake C. PermanentCrop D. AnnualCrop",
+        "answer": "D",
+        "label": "AnnualCrop"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/HerbaceousVegetation/HerbaceousVegetation_1796.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. SeaLake B. Pasture C. Forest D. HerbaceousVegetation",
+        "answer": "D",
+        "label": "HerbaceousVegetation"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Forest/Forest_1657.jpg",
         "question": "What type of remote sensing image does the given image belong to?\nA. Highway B. Forest C. SeaLake D. Residential",
-        "answer": "D",
-        "label": "Residential"
+        "answer": "B",
+        "label": "Forest"
     },
     {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/River/River_724.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. Forest B. Residential C. PermanentCrop D. River",
-        "answer": "D",
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/PermanentCrop/PermanentCrop_1182.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. PermanentCrop B. HerbaceousVegetation C. SeaLake D. AnnualCrop",
+        "answer": "A",
+        "label": "PermanentCrop"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Forest/Forest_1529.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. HerbaceousVegetation B. Residential C. Forest D. SeaLake",
+        "answer": "C",
+        "label": "Forest"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/PermanentCrop/PermanentCrop_2351.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Highway B. PermanentCrop C. AnnualCrop D. Forest",
+        "answer": "B",
+        "label": "PermanentCrop"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/SeaLake/SeaLake_241.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. SeaLake B. Industrial C. Highway D. Pasture",
+        "answer": "A",
+        "label": "SeaLake"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/River/River_2462.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. HerbaceousVegetation B. River C. Pasture D. Residential",
+        "answer": "B",
         "label": "River"
     },
     {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/HerbaceousVegetation/HerbaceousVegetation_1100.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. HerbaceousVegetation B. Residential C. Industrial D. River",
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Highway/Highway_161.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Residential B. HerbaceousVegetation C. SeaLake D. Highway",
+        "answer": "D",
+        "label": "Highway"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Forest/Forest_2280.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. AnnualCrop B. SeaLake C. Highway D. Forest",
+        "answer": "D",
+        "label": "Forest"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/River/River_2015.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. HerbaceousVegetation B. PermanentCrop C. River D. Forest",
+        "answer": "C",
+        "label": "River"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/PermanentCrop/PermanentCrop_1867.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. PermanentCrop B. SeaLake C. Highway D. Forest",
+        "answer": "A",
+        "label": "PermanentCrop"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Residential/Residential_798.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. PermanentCrop B. Residential C. Highway D. SeaLake",
+        "answer": "B",
+        "label": "Residential"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Pasture/Pasture_36.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Pasture B. Forest C. Highway D. Residential",
+        "answer": "A",
+        "label": "Pasture"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/PermanentCrop/PermanentCrop_1654.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. HerbaceousVegetation B. SeaLake C. Industrial D. PermanentCrop",
+        "answer": "D",
+        "label": "PermanentCrop"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Residential/Residential_1702.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Residential B. PermanentCrop C. SeaLake D. Industrial",
+        "answer": "A",
+        "label": "Residential"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/HerbaceousVegetation/HerbaceousVegetation_169.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. HerbaceousVegetation B. Pasture C. PermanentCrop D. Industrial",
         "answer": "A",
         "label": "HerbaceousVegetation"
     },
     {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Industrial/Industrial_809.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. River B. Industrial C. PermanentCrop D. Highway",
-        "answer": "B",
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Industrial/Industrial_401.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. River B. SeaLake C. Forest D. Industrial",
+        "answer": "D",
         "label": "Industrial"
     },
     {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Highway/Highway_1894.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. Pasture B. Highway C. Industrial D. Forest",
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Highway/Highway_1647.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Pasture B. Highway C. River D. Industrial",
         "answer": "B",
         "label": "Highway"
     },
     {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/PermanentCrop/PermanentCrop_1868.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. Forest B. SeaLake C. AnnualCrop D. PermanentCrop",
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Industrial/Industrial_1443.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Forest B. SeaLake C. Residential D. Industrial",
+        "answer": "D",
+        "label": "Industrial"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Forest/Forest_804.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. HerbaceousVegetation B. Forest C. Highway D. PermanentCrop",
+        "answer": "B",
+        "label": "Forest"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/SeaLake/SeaLake_597.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Industrial B. River C. PermanentCrop D. SeaLake",
+        "answer": "D",
+        "label": "SeaLake"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Forest/Forest_1237.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. AnnualCrop B. Forest C. River D. HerbaceousVegetation",
+        "answer": "B",
+        "label": "Forest"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/AnnualCrop/AnnualCrop_1282.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. HerbaceousVegetation B. AnnualCrop C. Highway D. Pasture",
+        "answer": "B",
+        "label": "AnnualCrop"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Highway/Highway_1923.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. AnnualCrop B. Industrial C. Highway D. HerbaceousVegetation",
+        "answer": "C",
+        "label": "Highway"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Highway/Highway_665.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. AnnualCrop B. SeaLake C. Forest D. Highway",
+        "answer": "D",
+        "label": "Highway"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/PermanentCrop/PermanentCrop_1151.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. PermanentCrop B. AnnualCrop C. Highway D. Pasture",
+        "answer": "A",
+        "label": "PermanentCrop"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Forest/Forest_1166.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. PermanentCrop B. Forest C. River D. Industrial",
+        "answer": "B",
+        "label": "Forest"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/AnnualCrop/AnnualCrop_1432.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. AnnualCrop B. Highway C. PermanentCrop D. Industrial",
+        "answer": "A",
+        "label": "AnnualCrop"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Pasture/Pasture_65.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Industrial B. Forest C. Pasture D. River",
+        "answer": "C",
+        "label": "Pasture"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/PermanentCrop/PermanentCrop_2340.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Highway B. SeaLake C. HerbaceousVegetation D. PermanentCrop",
         "answer": "D",
         "label": "PermanentCrop"
     },
     {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/HerbaceousVegetation/HerbaceousVegetation_1319.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. River B. HerbaceousVegetation C. AnnualCrop D. SeaLake",
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/HerbaceousVegetation/HerbaceousVegetation_448.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Pasture B. SeaLake C. Residential D. HerbaceousVegetation",
+        "answer": "D",
+        "label": "HerbaceousVegetation"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/River/River_2464.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. AnnualCrop B. Industrial C. SeaLake D. River",
+        "answer": "D",
+        "label": "River"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/HerbaceousVegetation/HerbaceousVegetation_1563.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Residential B. HerbaceousVegetation C. AnnualCrop D. SeaLake",
         "answer": "B",
         "label": "HerbaceousVegetation"
     },
     {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Residential/Residential_1989.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. River B. AnnualCrop C. SeaLake D. Residential",
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/AnnualCrop/AnnualCrop_2752.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Forest B. AnnualCrop C. PermanentCrop D. Pasture",
+        "answer": "B",
+        "label": "AnnualCrop"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Industrial/Industrial_2157.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. PermanentCrop B. SeaLake C. HerbaceousVegetation D. Industrial",
         "answer": "D",
+        "label": "Industrial"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Residential/Residential_141.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Forest B. Industrial C. Residential D. River",
+        "answer": "C",
         "label": "Residential"
     },
     {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/SeaLake/SeaLake_2249.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. HerbaceousVegetation B. AnnualCrop C. SeaLake D. Highway",
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/AnnualCrop/AnnualCrop_2390.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. AnnualCrop B. HerbaceousVegetation C. River D. Pasture",
+        "answer": "A",
+        "label": "AnnualCrop"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/River/River_370.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. HerbaceousVegetation B. Pasture C. Forest D. River",
+        "answer": "D",
+        "label": "River"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/AnnualCrop/AnnualCrop_2826.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. AnnualCrop B. Highway C. SeaLake D. Residential",
+        "answer": "A",
+        "label": "AnnualCrop"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/River/River_1476.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Residential B. Industrial C. River D. HerbaceousVegetation",
+        "answer": "C",
+        "label": "River"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Highway/Highway_328.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. SeaLake B. Pasture C. Highway D. HerbaceousVegetation",
+        "answer": "C",
+        "label": "Highway"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/SeaLake/SeaLake_1125.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. River B. SeaLake C. HerbaceousVegetation D. PermanentCrop",
+        "answer": "B",
+        "label": "SeaLake"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Industrial/Industrial_1811.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. SeaLake B. Industrial C. Forest D. HerbaceousVegetation",
+        "answer": "B",
+        "label": "Industrial"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/AnnualCrop/AnnualCrop_1944.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. HerbaceousVegetation B. Pasture C. AnnualCrop D. SeaLake",
+        "answer": "C",
+        "label": "AnnualCrop"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Industrial/Industrial_1892.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Industrial B. Pasture C. SeaLake D. PermanentCrop",
+        "answer": "A",
+        "label": "Industrial"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Pasture/Pasture_93.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Pasture B. Forest C. AnnualCrop D. HerbaceousVegetation",
+        "answer": "A",
+        "label": "Pasture"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/AnnualCrop/AnnualCrop_1194.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Residential B. AnnualCrop C. River D. SeaLake",
+        "answer": "B",
+        "label": "AnnualCrop"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Industrial/Industrial_1857.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Residential B. Industrial C. AnnualCrop D. Forest",
+        "answer": "B",
+        "label": "Industrial"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/SeaLake/SeaLake_1770.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Pasture B. Residential C. SeaLake D. Forest",
         "answer": "C",
         "label": "SeaLake"
     },
     {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Industrial/Industrial_1787.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. Forest B. River C. Industrial D. SeaLake",
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/River/River_813.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. HerbaceousVegetation B. Highway C. Residential D. River",
+        "answer": "D",
+        "label": "River"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Pasture/Pasture_449.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Residential B. Highway C. Pasture D. Industrial",
         "answer": "C",
+        "label": "Pasture"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/River/River_1893.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Industrial B. River C. HerbaceousVegetation D. SeaLake",
+        "answer": "B",
+        "label": "River"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Industrial/Industrial_495.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Highway B. Residential C. Forest D. Industrial",
+        "answer": "D",
         "label": "Industrial"
     },
     {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/HerbaceousVegetation/HerbaceousVegetation_761.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. SeaLake B. Highway C. River D. HerbaceousVegetation",
-        "answer": "D",
-        "label": "HerbaceousVegetation"
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/AnnualCrop/AnnualCrop_1183.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. AnnualCrop B. PermanentCrop C. River D. Industrial",
+        "answer": "A",
+        "label": "AnnualCrop"
     },
     {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Highway/Highway_1855.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. Pasture B. Highway C. Forest D. Residential",
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Residential/Residential_2958.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Highway B. Industrial C. AnnualCrop D. Residential",
+        "answer": "D",
+        "label": "Residential"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Industrial/Industrial_734.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. SeaLake B. Highway C. Residential D. Industrial",
+        "answer": "D",
+        "label": "Industrial"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/PermanentCrop/PermanentCrop_2462.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. PermanentCrop B. HerbaceousVegetation C. Residential D. SeaLake",
+        "answer": "A",
+        "label": "PermanentCrop"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Residential/Residential_1319.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Industrial B. Highway C. River D. Residential",
+        "answer": "D",
+        "label": "Residential"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Residential/Residential_1646.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. AnnualCrop B. Forest C. Residential D. SeaLake",
+        "answer": "C",
+        "label": "Residential"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Highway/Highway_1417.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Pasture B. HerbaceousVegetation C. Highway D. Forest",
+        "answer": "C",
+        "label": "Highway"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/AnnualCrop/AnnualCrop_2364.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. SeaLake B. AnnualCrop C. Highway D. River",
+        "answer": "B",
+        "label": "AnnualCrop"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/River/River_2447.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. HerbaceousVegetation B. River C. Residential D. Highway",
+        "answer": "B",
+        "label": "River"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Highway/Highway_1233.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Industrial B. Highway C. AnnualCrop D. Residential",
         "answer": "B",
         "label": "Highway"
     },
     {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/AnnualCrop/AnnualCrop_2520.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. AnnualCrop B. Residential C. Industrial D. PermanentCrop",
-        "answer": "A",
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Highway/Highway_2072.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Industrial B. Highway C. SeaLake D. HerbaceousVegetation",
+        "answer": "B",
+        "label": "Highway"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/AnnualCrop/AnnualCrop_2559.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Forest B. HerbaceousVegetation C. Highway D. AnnualCrop",
+        "answer": "D",
         "label": "AnnualCrop"
     },
     {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/AnnualCrop/AnnualCrop_13.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. AnnualCrop B. Residential C. Industrial D. HerbaceousVegetation",
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Residential/Residential_2922.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. AnnualCrop B. Residential C. HerbaceousVegetation D. Forest",
+        "answer": "B",
+        "label": "Residential"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/PermanentCrop/PermanentCrop_1302.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Residential B. Industrial C. PermanentCrop D. Forest",
+        "answer": "C",
+        "label": "PermanentCrop"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Highway/Highway_1373.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Industrial B. HerbaceousVegetation C. Highway D. Residential",
+        "answer": "C",
+        "label": "Highway"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/HerbaceousVegetation/HerbaceousVegetation_1895.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. HerbaceousVegetation B. Highway C. AnnualCrop D. Pasture",
         "answer": "A",
+        "label": "HerbaceousVegetation"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/SeaLake/SeaLake_2833.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. SeaLake B. PermanentCrop C. HerbaceousVegetation D. AnnualCrop",
+        "answer": "A",
+        "label": "SeaLake"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/HerbaceousVegetation/HerbaceousVegetation_48.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. HerbaceousVegetation B. Pasture C. Highway D. Residential",
+        "answer": "A",
+        "label": "HerbaceousVegetation"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/AnnualCrop/AnnualCrop_167.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. River B. Residential C. HerbaceousVegetation D. AnnualCrop",
+        "answer": "D",
         "label": "AnnualCrop"
     },
     {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Residential/Residential_339.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. Industrial B. Pasture C. Residential D. SeaLake",
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/HerbaceousVegetation/HerbaceousVegetation_965.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Pasture B. AnnualCrop C. HerbaceousVegetation D. River",
+        "answer": "C",
+        "label": "HerbaceousVegetation"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Residential/Residential_774.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. PermanentCrop B. Forest C. Residential D. AnnualCrop",
         "answer": "C",
         "label": "Residential"
     },
     {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/River/River_2003.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. River B. Highway C. Forest D. Residential",
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Pasture/Pasture_1002.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Pasture B. HerbaceousVegetation C. AnnualCrop D. River",
         "answer": "A",
+        "label": "Pasture"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Forest/Forest_1080.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Pasture B. Residential C. PermanentCrop D. Forest",
+        "answer": "D",
+        "label": "Forest"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Highway/Highway_110.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. HerbaceousVegetation B. Pasture C. SeaLake D. Highway",
+        "answer": "D",
+        "label": "Highway"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/HerbaceousVegetation/HerbaceousVegetation_1628.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Pasture B. Highway C. HerbaceousVegetation D. AnnualCrop",
+        "answer": "C",
+        "label": "HerbaceousVegetation"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/River/River_1325.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. HerbaceousVegetation B. AnnualCrop C. Highway D. River",
+        "answer": "D",
         "label": "River"
     },
     {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Pasture/Pasture_1397.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. Pasture B. AnnualCrop C. Forest D. Highway",
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Pasture/Pasture_791.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. AnnualCrop B. SeaLake C. River D. Pasture",
+        "answer": "D",
+        "label": "Pasture"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/HerbaceousVegetation/HerbaceousVegetation_2088.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Highway B. Industrial C. Residential D. HerbaceousVegetation",
+        "answer": "D",
+        "label": "HerbaceousVegetation"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/PermanentCrop/PermanentCrop_329.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. PermanentCrop B. Residential C. River D. AnnualCrop",
+        "answer": "A",
+        "label": "PermanentCrop"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/SeaLake/SeaLake_2382.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Forest B. SeaLake C. PermanentCrop D. Pasture",
+        "answer": "B",
+        "label": "SeaLake"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/PermanentCrop/PermanentCrop_1526.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. SeaLake B. PermanentCrop C. Residential D. Forest",
+        "answer": "B",
+        "label": "PermanentCrop"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Highway/Highway_2497.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Highway B. Residential C. River D. HerbaceousVegetation",
+        "answer": "A",
+        "label": "Highway"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/HerbaceousVegetation/HerbaceousVegetation_975.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Pasture B. Industrial C. Highway D. HerbaceousVegetation",
+        "answer": "D",
+        "label": "HerbaceousVegetation"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Forest/Forest_70.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. SeaLake B. Forest C. HerbaceousVegetation D. PermanentCrop",
+        "answer": "B",
+        "label": "Forest"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/PermanentCrop/PermanentCrop_208.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Highway B. Residential C. PermanentCrop D. Industrial",
+        "answer": "C",
+        "label": "PermanentCrop"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Forest/Forest_675.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Industrial B. SeaLake C. Forest D. AnnualCrop",
+        "answer": "C",
+        "label": "Forest"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Industrial/Industrial_1108.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. AnnualCrop B. Industrial C. PermanentCrop D. River",
+        "answer": "B",
+        "label": "Industrial"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Pasture/Pasture_434.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Pasture B. Residential C. Forest D. Highway",
         "answer": "A",
         "label": "Pasture"
     },
     {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Pasture/Pasture_1704.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. Forest B. Pasture C. AnnualCrop D. PermanentCrop",
-        "answer": "B",
-        "label": "Pasture"
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Residential/Residential_1036.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. HerbaceousVegetation B. Highway C. Pasture D. Residential",
+        "answer": "D",
+        "label": "Residential"
     },
     {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Industrial/Industrial_61.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. AnnualCrop B. Highway C. Residential D. Industrial",
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/AnnualCrop/AnnualCrop_1938.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Highway B. AnnualCrop C. HerbaceousVegetation D. PermanentCrop",
+        "answer": "B",
+        "label": "AnnualCrop"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Industrial/Industrial_416.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Industrial B. River C. HerbaceousVegetation D. Highway",
+        "answer": "A",
+        "label": "Industrial"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Highway/Highway_1161.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Pasture B. PermanentCrop C. Highway D. AnnualCrop",
+        "answer": "C",
+        "label": "Highway"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/AnnualCrop/AnnualCrop_102.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. River B. Residential C. Pasture D. AnnualCrop",
+        "answer": "D",
+        "label": "AnnualCrop"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/PermanentCrop/PermanentCrop_194.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Residential B. River C. PermanentCrop D. SeaLake",
+        "answer": "C",
+        "label": "PermanentCrop"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Forest/Forest_21.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. PermanentCrop B. River C. HerbaceousVegetation D. Forest",
+        "answer": "D",
+        "label": "Forest"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/SeaLake/SeaLake_2788.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Pasture B. HerbaceousVegetation C. SeaLake D. Highway",
+        "answer": "C",
+        "label": "SeaLake"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Forest/Forest_2805.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Forest B. Industrial C. SeaLake D. PermanentCrop",
+        "answer": "A",
+        "label": "Forest"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Residential/Residential_432.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Residential B. HerbaceousVegetation C. River D. AnnualCrop",
+        "answer": "A",
+        "label": "Residential"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/SeaLake/SeaLake_1130.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. River B. SeaLake C. HerbaceousVegetation D. AnnualCrop",
+        "answer": "B",
+        "label": "SeaLake"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/SeaLake/SeaLake_1104.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Industrial B. Residential C. SeaLake D. River",
+        "answer": "C",
+        "label": "SeaLake"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/PermanentCrop/PermanentCrop_359.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. PermanentCrop B. Industrial C. HerbaceousVegetation D. Forest",
+        "answer": "A",
+        "label": "PermanentCrop"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/AnnualCrop/AnnualCrop_1989.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Forest B. Residential C. AnnualCrop D. Pasture",
+        "answer": "C",
+        "label": "AnnualCrop"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/PermanentCrop/PermanentCrop_1184.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. AnnualCrop B. PermanentCrop C. Highway D. SeaLake",
+        "answer": "B",
+        "label": "PermanentCrop"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/PermanentCrop/PermanentCrop_607.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Residential B. PermanentCrop C. SeaLake D. River",
+        "answer": "B",
+        "label": "PermanentCrop"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/AnnualCrop/AnnualCrop_1722.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. PermanentCrop B. AnnualCrop C. Highway D. Industrial",
+        "answer": "B",
+        "label": "AnnualCrop"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/SeaLake/SeaLake_339.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. River B. Forest C. SeaLake D. Residential",
+        "answer": "C",
+        "label": "SeaLake"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/HerbaceousVegetation/HerbaceousVegetation_964.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Residential B. River C. HerbaceousVegetation D. Forest",
+        "answer": "C",
+        "label": "HerbaceousVegetation"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Industrial/Industrial_874.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. River B. Highway C. PermanentCrop D. Industrial",
         "answer": "D",
         "label": "Industrial"
     },
     {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/HerbaceousVegetation/HerbaceousVegetation_2389.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. Residential B. HerbaceousVegetation C. River D. Pasture",
-        "answer": "B",
-        "label": "HerbaceousVegetation"
-    },
-    {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/PermanentCrop/PermanentCrop_183.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. Pasture B. SeaLake C. PermanentCrop D. AnnualCrop",
-        "answer": "C",
-        "label": "PermanentCrop"
-    },
-    {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/River/River_111.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. HerbaceousVegetation B. Highway C. Forest D. River",
-        "answer": "D",
-        "label": "River"
-    },
-    {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/PermanentCrop/PermanentCrop_222.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. Residential B. AnnualCrop C. HerbaceousVegetation D. PermanentCrop",
-        "answer": "D",
-        "label": "PermanentCrop"
-    },
-    {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/SeaLake/SeaLake_208.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. Residential B. Pasture C. SeaLake D. AnnualCrop",
-        "answer": "C",
-        "label": "SeaLake"
-    },
-    {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/HerbaceousVegetation/HerbaceousVegetation_1756.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. HerbaceousVegetation B. Pasture C. SeaLake D. River",
-        "answer": "A",
-        "label": "HerbaceousVegetation"
-    },
-    {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Forest/Forest_384.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. Residential B. Industrial C. Forest D. SeaLake",
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Forest/Forest_415.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Highway B. Industrial C. Forest D. PermanentCrop",
         "answer": "C",
         "label": "Forest"
     },
     {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/River/River_1286.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. River B. Forest C. PermanentCrop D. Highway",
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Highway/Highway_912.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Residential B. Highway C. PermanentCrop D. HerbaceousVegetation",
+        "answer": "B",
+        "label": "Highway"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Pasture/Pasture_1623.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Pasture B. Industrial C. Highway D. AnnualCrop",
         "answer": "A",
-        "label": "River"
+        "label": "Pasture"
     },
     {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/River/River_641.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. SeaLake B. AnnualCrop C. River D. Highway",
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Highway/Highway_636.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. AnnualCrop B. Forest C. River D. Highway",
+        "answer": "D",
+        "label": "Highway"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/SeaLake/SeaLake_764.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Industrial B. SeaLake C. River D. Forest",
+        "answer": "B",
+        "label": "SeaLake"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/AnnualCrop/AnnualCrop_1448.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Highway B. Forest C. AnnualCrop D. PermanentCrop",
         "answer": "C",
+        "label": "AnnualCrop"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Industrial/Industrial_1899.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Industrial B. Forest C. HerbaceousVegetation D. AnnualCrop",
+        "answer": "A",
+        "label": "Industrial"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/SeaLake/SeaLake_2725.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. SeaLake B. Industrial C. Residential D. AnnualCrop",
+        "answer": "A",
+        "label": "SeaLake"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Industrial/Industrial_564.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Highway B. Pasture C. River D. Industrial",
+        "answer": "D",
+        "label": "Industrial"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Highway/Highway_2115.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Highway B. HerbaceousVegetation C. SeaLake D. Residential",
+        "answer": "A",
+        "label": "Highway"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/HerbaceousVegetation/HerbaceousVegetation_213.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. HerbaceousVegetation B. Forest C. SeaLake D. Industrial",
+        "answer": "A",
+        "label": "HerbaceousVegetation"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Pasture/Pasture_735.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. River B. Residential C. Highway D. Pasture",
+        "answer": "D",
+        "label": "Pasture"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/HerbaceousVegetation/HerbaceousVegetation_1183.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Residential B. HerbaceousVegetation C. Forest D. PermanentCrop",
+        "answer": "B",
+        "label": "HerbaceousVegetation"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Residential/Residential_249.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Residential B. Highway C. HerbaceousVegetation D. PermanentCrop",
+        "answer": "A",
+        "label": "Residential"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/PermanentCrop/PermanentCrop_812.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Highway B. AnnualCrop C. Industrial D. PermanentCrop",
+        "answer": "D",
+        "label": "PermanentCrop"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Highway/Highway_684.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. SeaLake B. Industrial C. HerbaceousVegetation D. Highway",
+        "answer": "D",
+        "label": "Highway"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Residential/Residential_629.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. AnnualCrop B. SeaLake C. Industrial D. Residential",
+        "answer": "D",
+        "label": "Residential"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/River/River_1698.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Highway B. SeaLake C. AnnualCrop D. River",
+        "answer": "D",
         "label": "River"
     },
     {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Pasture/Pasture_749.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. Residential B. Pasture C. Industrial D. Forest",
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/PermanentCrop/PermanentCrop_2050.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Forest B. Pasture C. HerbaceousVegetation D. PermanentCrop",
+        "answer": "D",
+        "label": "PermanentCrop"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Pasture/Pasture_1891.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. AnnualCrop B. Pasture C. SeaLake D. HerbaceousVegetation",
         "answer": "B",
         "label": "Pasture"
     },
     {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/SeaLake/SeaLake_2953.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. Forest B. SeaLake C. Residential D. PermanentCrop",
-        "answer": "B",
-        "label": "SeaLake"
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/River/River_2455.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. River B. AnnualCrop C. Residential D. Pasture",
+        "answer": "A",
+        "label": "River"
     },
     {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/PermanentCrop/PermanentCrop_1803.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. River B. Residential C. Pasture D. PermanentCrop",
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Residential/Residential_468.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Residential B. HerbaceousVegetation C. Pasture D. Forest",
+        "answer": "A",
+        "label": "Residential"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/AnnualCrop/AnnualCrop_456.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. SeaLake B. AnnualCrop C. River D. HerbaceousVegetation",
+        "answer": "B",
+        "label": "AnnualCrop"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Industrial/Industrial_10.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Industrial B. SeaLake C. Highway D. PermanentCrop",
+        "answer": "A",
+        "label": "Industrial"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Forest/Forest_1551.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. AnnualCrop B. SeaLake C. Residential D. Forest",
         "answer": "D",
+        "label": "Forest"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/River/River_121.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Residential B. AnnualCrop C. River D. Pasture",
+        "answer": "C",
+        "label": "River"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Forest/Forest_1398.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. SeaLake B. Highway C. River D. Forest",
+        "answer": "D",
+        "label": "Forest"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Forest/Forest_1519.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. SeaLake B. Forest C. HerbaceousVegetation D. River",
+        "answer": "B",
+        "label": "Forest"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/PermanentCrop/PermanentCrop_425.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Highway B. PermanentCrop C. HerbaceousVegetation D. SeaLake",
+        "answer": "B",
         "label": "PermanentCrop"
     },
     {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/HerbaceousVegetation/HerbaceousVegetation_1131.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. HerbaceousVegetation B. Industrial C. Residential D. Pasture",
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Industrial/Industrial_1277.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Industrial B. HerbaceousVegetation C. Forest D. Pasture",
         "answer": "A",
+        "label": "Industrial"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/River/River_549.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. HerbaceousVegetation B. SeaLake C. River D. Industrial",
+        "answer": "C",
+        "label": "River"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/PermanentCrop/PermanentCrop_772.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Highway B. PermanentCrop C. Industrial D. SeaLake",
+        "answer": "B",
+        "label": "PermanentCrop"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Highway/Highway_1753.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Highway B. Residential C. River D. Pasture",
+        "answer": "A",
+        "label": "Highway"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/HerbaceousVegetation/HerbaceousVegetation_455.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Residential B. Forest C. River D. HerbaceousVegetation",
+        "answer": "D",
         "label": "HerbaceousVegetation"
     },
     {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/River/River_1337.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. Forest B. River C. PermanentCrop D. Industrial",
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/SeaLake/SeaLake_2544.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Residential B. AnnualCrop C. Industrial D. SeaLake",
+        "answer": "D",
+        "label": "SeaLake"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/HerbaceousVegetation/HerbaceousVegetation_2411.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. PermanentCrop B. HerbaceousVegetation C. River D. Highway",
+        "answer": "B",
+        "label": "HerbaceousVegetation"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/SeaLake/SeaLake_1975.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. AnnualCrop B. Industrial C. Residential D. SeaLake",
+        "answer": "D",
+        "label": "SeaLake"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/River/River_494.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Pasture B. Residential C. River D. SeaLake",
+        "answer": "C",
+        "label": "River"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Pasture/Pasture_884.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. SeaLake B. Forest C. PermanentCrop D. Pasture",
+        "answer": "D",
+        "label": "Pasture"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Forest/Forest_667.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Industrial B. Forest C. River D. SeaLake",
+        "answer": "B",
+        "label": "Forest"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Highway/Highway_1709.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. AnnualCrop B. Pasture C. HerbaceousVegetation D. Highway",
+        "answer": "D",
+        "label": "Highway"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/River/River_1267.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Pasture B. River C. AnnualCrop D. Forest",
         "answer": "B",
         "label": "River"
     },
     {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Forest/Forest_955.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. Forest B. Residential C. AnnualCrop D. PermanentCrop",
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Residential/Residential_1472.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Highway B. SeaLake C. Forest D. Residential",
+        "answer": "D",
+        "label": "Residential"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Forest/Forest_1428.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. HerbaceousVegetation B. Forest C. PermanentCrop D. River",
+        "answer": "B",
+        "label": "Forest"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Pasture/Pasture_651.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. AnnualCrop B. HerbaceousVegetation C. Pasture D. Highway",
+        "answer": "C",
+        "label": "Pasture"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Pasture/Pasture_1529.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Residential B. AnnualCrop C. Pasture D. PermanentCrop",
+        "answer": "C",
+        "label": "Pasture"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/River/River_1587.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Industrial B. Residential C. River D. Forest",
+        "answer": "C",
+        "label": "River"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Forest/Forest_2513.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Forest B. Industrial C. River D. SeaLake",
         "answer": "A",
         "label": "Forest"
     },
     {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/SeaLake/SeaLake_2821.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. River B. Highway C. Pasture D. SeaLake",
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/SeaLake/SeaLake_44.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. River B. HerbaceousVegetation C. Residential D. SeaLake",
         "answer": "D",
         "label": "SeaLake"
     },
     {
-        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Forest/Forest_2725.jpg",
-        "question": "What type of remote sensing image does the given image belong to?\nA. HerbaceousVegetation B. Residential C. Pasture D. Forest",
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Forest/Forest_2113.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Residential B. PermanentCrop C. AnnualCrop D. Forest",
         "answer": "D",
         "label": "Forest"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/SeaLake/SeaLake_626.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. SeaLake B. AnnualCrop C. Forest D. PermanentCrop",
+        "answer": "A",
+        "label": "SeaLake"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Highway/Highway_1739.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Highway B. HerbaceousVegetation C. PermanentCrop D. Pasture",
+        "answer": "A",
+        "label": "Highway"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Residential/Residential_1138.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Industrial B. HerbaceousVegetation C. Residential D. SeaLake",
+        "answer": "C",
+        "label": "Residential"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Industrial/Industrial_2058.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Forest B. River C. Residential D. Industrial",
+        "answer": "D",
+        "label": "Industrial"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Industrial/Industrial_1364.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Forest B. SeaLake C. Industrial D. HerbaceousVegetation",
+        "answer": "C",
+        "label": "Industrial"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Highway/Highway_1919.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. River B. Highway C. HerbaceousVegetation D. Industrial",
+        "answer": "B",
+        "label": "Highway"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Industrial/Industrial_2391.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Pasture B. SeaLake C. Industrial D. Highway",
+        "answer": "C",
+        "label": "Industrial"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/River/River_325.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Forest B. Highway C. AnnualCrop D. River",
+        "answer": "D",
+        "label": "River"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/HerbaceousVegetation/HerbaceousVegetation_2254.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. AnnualCrop B. SeaLake C. Forest D. HerbaceousVegetation",
+        "answer": "D",
+        "label": "HerbaceousVegetation"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Pasture/Pasture_572.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Pasture B. PermanentCrop C. River D. HerbaceousVegetation",
+        "answer": "A",
+        "label": "Pasture"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/River/River_1677.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Highway B. Residential C. AnnualCrop D. River",
+        "answer": "D",
+        "label": "River"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/SeaLake/SeaLake_302.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. SeaLake B. River C. HerbaceousVegetation D. PermanentCrop",
+        "answer": "A",
+        "label": "SeaLake"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/River/River_681.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Industrial B. PermanentCrop C. Highway D. River",
+        "answer": "D",
+        "label": "River"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Residential/Residential_2699.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. River B. Industrial C. SeaLake D. Residential",
+        "answer": "D",
+        "label": "Residential"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Industrial/Industrial_636.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. HerbaceousVegetation B. SeaLake C. Highway D. Industrial",
+        "answer": "D",
+        "label": "Industrial"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/SeaLake/SeaLake_983.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Residential B. AnnualCrop C. SeaLake D. Pasture",
+        "answer": "C",
+        "label": "SeaLake"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/PermanentCrop/PermanentCrop_2304.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Forest B. Highway C. PermanentCrop D. SeaLake",
+        "answer": "C",
+        "label": "PermanentCrop"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/River/River_2238.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. River B. Highway C. Pasture D. PermanentCrop",
+        "answer": "A",
+        "label": "River"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/HerbaceousVegetation/HerbaceousVegetation_1455.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Pasture B. Residential C. HerbaceousVegetation D. AnnualCrop",
+        "answer": "C",
+        "label": "HerbaceousVegetation"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/HerbaceousVegetation/HerbaceousVegetation_1313.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Pasture B. Forest C. Residential D. HerbaceousVegetation",
+        "answer": "D",
+        "label": "HerbaceousVegetation"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Pasture/Pasture_948.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Pasture B. PermanentCrop C. Industrial D. SeaLake",
+        "answer": "A",
+        "label": "Pasture"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Industrial/Industrial_2257.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Forest B. Industrial C. PermanentCrop D. River",
+        "answer": "B",
+        "label": "Industrial"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Pasture/Pasture_876.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Pasture B. PermanentCrop C. River D. SeaLake",
+        "answer": "A",
+        "label": "Pasture"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/AnnualCrop/AnnualCrop_897.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. HerbaceousVegetation B. AnnualCrop C. Residential D. Forest",
+        "answer": "B",
+        "label": "AnnualCrop"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Residential/Residential_1018.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Residential B. Highway C. PermanentCrop D. Forest",
+        "answer": "A",
+        "label": "Residential"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/AnnualCrop/AnnualCrop_2938.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. PermanentCrop B. Pasture C. SeaLake D. AnnualCrop",
+        "answer": "D",
+        "label": "AnnualCrop"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/HerbaceousVegetation/HerbaceousVegetation_1742.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Pasture B. SeaLake C. HerbaceousVegetation D. Highway",
+        "answer": "C",
+        "label": "HerbaceousVegetation"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/SeaLake/SeaLake_711.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Residential B. SeaLake C. Industrial D. HerbaceousVegetation",
+        "answer": "B",
+        "label": "SeaLake"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Residential/Residential_100.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. HerbaceousVegetation B. Residential C. Forest D. Industrial",
+        "answer": "B",
+        "label": "Residential"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/SeaLake/SeaLake_1335.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. Highway B. SeaLake C. Industrial D. Residential",
+        "answer": "B",
+        "label": "SeaLake"
+    },
+    {
+        "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Residential/Residential_765.jpg",
+        "question": "What type of remote sensing image does the given image belong to?\nA. PermanentCrop B. River C. Pasture D. Residential",
+        "answer": "D",
+        "label": "Residential"
     }
 ]
