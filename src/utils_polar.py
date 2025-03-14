@@ -9,11 +9,11 @@ import random
 from tqdm import tqdm
 from typing import Optional
 from transformers import AutoModelForCausalLM, AutoTokenizer, AutoProcessor, AutoModelForVision2Seq, logging
-import sys
+import os
 from collections import Counter
 logging.set_verbosity_warning()
 
-def load_model(model_name, cur_dataset, lora_path=None):
+def load_model(model_name, cur_dataset, lora_path=None, quantize=None):
 
     """
     A function that loads the model and a corresponding model_helper. Refer to model.py for more detail.
@@ -252,14 +252,18 @@ def record_head_performance(sample_activations, cur_activation, label, success_c
     
     """
     #TODO change similarity here
-    print(sample_activations.shape)
+    #print(sample_activations.shape)
     all_sample = []
     num_classes = sample_activations.shape[0]
     for i in range(sample_activations.shape[1]):
         scores = torch.nn.functional.cosine_similarity(sample_activations[:, i, :], cur_activation[i, :], dim=-1)
+        scores_hat = torch.zeros_like(scores)
         ### Substracting other classes' scores
-        scores += scores - (scores.sum(dim=0) / (num_classes - 1))
-        all_sample.append(scores.argmax(dim=0).item())
+        for j in range(num_classes):
+            other_classes_sum = scores.sum(dim=0) - scores[j]
+            scores_hat[j] = scores[j] - (other_classes_sum / (num_classes - 1))
+
+        all_sample.append(scores_hat.argmax(dim=0).item())
     #print(len(all_sample))
     for idx in range(len(all_sample)):
         if all_sample[idx] == label:
@@ -312,10 +316,10 @@ def mllm_encode(model, train_data, num_head):
     topk_indices = np.argsort(arr)[-k:][::-1]
 
     top_heads = []
-    print("Printing Top Heads and their classification accuracy")
+    #print("Printing Top Heads and their classification accuracy")
     for item in topk_indices.tolist():
         # TODO Map heads here
-        print(item, success_count[item])
+        #print(item, success_count[item])
         top_heads.append(all_heads[item])
 
     print("\nGet Top Heads' Activations \n")

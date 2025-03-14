@@ -1,3 +1,39 @@
+from .model import *
+from .preprocess import *
+from tqdm import tqdm
+import torch
+import argparse
+torch.set_grad_enabled(False)
+from transformers.utils import logging
+logging.set_verbosity_error() 
+
+#parser
+parser = argparse.ArgumentParser()
+parser.add_argument("--model_name", type=str, default="llava_ov")
+parser.add_argument("--num_head", type=int, default=20)
+parser.add_argument("--data_name", type=str, default="Mhalu")
+parser.add_argument("--train_path", type=str, default=None)
+parser.add_argument("--val_path", type=str, default=None)
+parser.add_argument("--utils", type=str, default='base',
+                    help='Which utils (thus head selection procedure) to chose')
+parser.add_argument("--eval_zeroshot", action="store_true", 
+                   help="Whether to run zero-shot evaluation")
+#new arg
+parser.add_argument('--quantize', type=int, default=None,
+                    help="number of bits to operate quantization on.")
+args = parser.parse_args()
+
+#pick selection procedure
+if args.utils == 'base':
+    from .utils import *
+elif args.utils == 'polar':
+    from .utils_polar import *
+elif args.utils == 'artanh':
+    from .utils_artanh import *
+else:
+    raise ValueError("""Utils argument should be one of 'base', 'polar' or 'artanh'.""")
+
+
 def eval_dataset(args):
    model = load_model(args.model_name, args.data_name)
    train_data = open_data(args.data_name, args.train_path)
@@ -62,15 +98,17 @@ def eval_dataset(args):
    print(f"Image Accuracy (I-Acc): {i_acc:.4f}") 
    print(f"Group Accuracy (G-Acc): {g_acc:.4f}")
    print(f"Raw Accuracy: {acc:.4f}")
+   with open('results/results.csv', 'a') as f:
+            f.write(','.join([
+                args.model_name,
+                args.data_name,
+                str(args.num_head),
+                args.utils,
+                str(acc),
+                str(q_acc),
+                str(i_acc),
+                str(g_acc)
+            ]) + '\n')
 
-if __name__ == "__main__":
-   parser = argparse.ArgumentParser()
-   parser.add_argument("--model_name", type=str, default="llava_ov")
-   parser.add_argument("--data_name", type=str, default="natural_ret")
-   parser.add_argument("--train_path", type=str, default=None)
-   parser.add_argument("--val_path", type=str, default=None)
-   parser.add_argument("--eval_zeroshot", action="store_true",
-                      help="Whether to run zero-shot evaluation")
-   
-   args = parser.parse_args()
-   eval_dataset(args)
+# Now run
+eval_dataset(args)

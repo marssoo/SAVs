@@ -171,7 +171,7 @@ def get_last_mean_head_activations(dataset, model_helper, N_TRIALS = 50, shot=4,
     activation_storage = None
 
     for n in range(N_TRIALS):
-        #print(model_helper)
+
         #text, image_list, _, _ = model_helper.format_func(dataset, None, num_shot=shot, model_helper=model_helper, split=split)
         text, image_list, _, _ = model_helper.format_func(None, dataset[0], num_shot=shot, model_helper=model_helper, split=split)
 
@@ -242,6 +242,13 @@ def get_query_activations(query_input, model_helper, common_heads):
     return head_act
 
 
+### CUSTOM
+def score_arctanh(x,y,alpha=0.45,beta=0.3):
+    """score with arctanh"""
+
+    score = ((1+torch.atanh(x))*alpha - torch.atanh(y)*beta)
+
+    return score
 def record_head_performance(sample_activations, cur_activation, label, success_count):
     """
     sample_activations: (num_sample, num_head, hidden_dim)
@@ -249,14 +256,26 @@ def record_head_performance(sample_activations, cur_activation, label, success_c
     
     """
     #TODO change similarity here
+    #print(sample_activations.shape)
     all_sample = []
+    num_classes = sample_activations.shape[0]
     for i in range(sample_activations.shape[1]):
         scores = torch.nn.functional.cosine_similarity(sample_activations[:, i, :], cur_activation[i, :], dim=-1)
-        all_sample.append(scores.argmax(dim=0).item())
+        scores_hat = torch.zeros_like(scores)
+        ### Substracting other classes' scores
+        #print(scores.shape)
+        for j in range(num_classes):
+            other_classes_sum = scores.sum(dim=0) - scores[j]
+            x = scores[j]
+            y = (other_classes_sum / (num_classes - 1))
+
+            scores_hat[j] = score_arctanh(x=x, y=y)
+
+        all_sample.append(scores_hat.argmax(dim=0).item())
+    #print(len(all_sample))
     for idx in range(len(all_sample)):
         if all_sample[idx] == label:
             success_count[idx] += 1
-
 
 def retrieve_examples(sample_activations, cur_activation):
 
