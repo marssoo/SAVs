@@ -1,4 +1,5 @@
 from .utils import *
+from .saving_utils import *
 from .model import *
 from .preprocess import *
 from tqdm import tqdm
@@ -9,8 +10,8 @@ from transformers.utils import logging
 logging.set_verbosity_error() 
 
 
+
 def eval_dataset(args):
-    # Load the model
     model = load_model(args.model_name, args.data_name)
 
     train_data = open_data(args.data_name, args.train_path)
@@ -32,21 +33,26 @@ def eval_dataset(args):
                 
         print("Zero-shot Accuracy:", zs_correct / len(test_data))
     else:
-        # Use optimized mllm_encode to generate embeddings and save top heads
-        multimodal_embeddings = optimized_mllm_encode(model, train_data, num_head=args.num_head)
+        # SAVs embeddings
+        multimodal_embeddings = save_mllm_encode(model, train_data, num_head=args.num_head)
+         
+        int_to_str = multimodal_embeddings['int_to_str']
+        top_heads = multimodal_embeddings['top_heads']
+        class_activations =  multimodal_embeddings["activations"]
 
-        # Save the top heads to file
-        save_top_heads(multimodal_embeddings['top_heads'], multimodal_embeddings['int_to_str'], args.file_path)
+        save_top_heads(top_heads, int_to_str, class_activations, args.file_path)
         print(f"Top heads saved to {args.file_path}")
 
+
         correct_count = 0
-        ### Checking how well it can classify a given query
+        ###Checking how well it can classify a given query
         for item in tqdm(test_data):
             cur_class = mllm_classify(item, model, multimodal_embeddings)
             if item['label'] == cur_class:
                 correct_count += 1
         print("SAVs Accuracy:", correct_count / len(test_data))
 
+    
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -59,6 +65,6 @@ if __name__ == "__main__":
                        help="Whether to run zero-shot evaluation")
     parser.add_argument("--file_path", type=str, required=True, 
                         help="File path to save the top heads")
-
+    
     args = parser.parse_args()
     eval_dataset(args)

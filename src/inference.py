@@ -1,3 +1,4 @@
+from .saving_utils import *
 from .utils import *
 from .model import *
 from .preprocess import *
@@ -21,24 +22,20 @@ def run_inference(args):
     model = load_model(args.model_name, args.data_name)
 
     # Load the saved top heads and label mappings
-    class_embed = load_top_heads(args.saved_heads_path)
-    top_heads = class_embed['top_heads']
-    int_to_str = class_embed['int_to_str']
+    embedding = load_top_heads(args.saved_heads_path)
+    
 
     # Load the input data (JSONL file)
     test_data = open_data(args.data_name, args.data_path)
 
-    # Precompute all activations
-    print("Precomputing activations...")
-    query_activations, class_activations, int_to_str = precompute_all_activations(test_data, model, top_heads)
-
+    
     # Run inference
     results = []
     correct_count = 0
 
     for idx, item in enumerate(tqdm(test_data, desc="Running Inference")):
         # Get the model prediction
-        cur_class = inference_mllm_classify(query_activations, class_activations, int_to_str, idx)
+        cur_class = mllm_classify(item, model, embedding)
 
         # Save the result
         result = {
