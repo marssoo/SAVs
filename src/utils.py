@@ -250,6 +250,8 @@ def record_head_performance(sample_activations, cur_activation, label, success_c
     """
     #TODO change similarity here
     all_sample = []
+    print(sample_activations.shape)
+    print(cur_activation.shape)
     for i in range(sample_activations.shape[1]):
         scores = torch.nn.functional.cosine_similarity(sample_activations[:, i, :], cur_activation[i, :], dim=-1)
         all_sample.append(scores.argmax(dim=0).item())
@@ -318,7 +320,9 @@ def mllm_encode(model, train_data, num_head):
 
 def mllm_classify(inputs, model, class_embed):
     cur_activations = get_query_activations([inputs], model, class_embed['top_heads']).squeeze(dim=0)
+    print(cur_activations.shape)
     top_k_examples = retrieve_examples(class_embed['activations'], cur_activations)
+    print(top_k_examples)
     cur_int_label = top_k_examples[0]
 
     # Convert cur_int_label to the correct type

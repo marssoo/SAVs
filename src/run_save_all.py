@@ -32,6 +32,9 @@ def eval_dataset(args):
 
     #train :
     acts, labels_to_indices = get_activations(train_data, model, model.all_heads)
+    #put on cpu before pickling
+    for act in acts:
+        acts[act] = acts[act].cpu()
 
     with open(sub_dir + "train_activations.pkl", "wb") as f:
         pickle.dump(acts, f)
@@ -41,12 +44,22 @@ def eval_dataset(args):
     
 
     test_labels_to_indices = dict()
-    for i in tqdm(range(0, len(test_data), 4)):
-        chunk = test_data[i:i+4]
+    for i in tqdm(range(0, len(test_data), 1000)):
+        chunk = test_data[i:i+1000]
 
         acts, chunks_labels_to_indices = get_activations(chunk, model, model.all_heads)
+        #adjust indices 
+        new_acts = dict()
+        for index in acts.keys():
+            new_acts[index + i] = acts[index]
+        acts = new_acts
+        for label in chunks_labels_to_indices:
+            chunks_labels_to_indices[label] = [x + i for x in chunks_labels_to_indices[label]]
+        #put on cpu
+        for act in acts:
+            acts[act] = acts[act].cpu()
         #save chunk's acts
-        with open(sub_dir + f"test_activations_{int(i/4)}.pkl", "wb") as f:
+        with open(sub_dir + f"test_activations_{int(i/1000)}.pkl", "wb") as f:
             pickle.dump(acts, f)
         #update label dict
         for key, value in chunks_labels_to_indices.items():
