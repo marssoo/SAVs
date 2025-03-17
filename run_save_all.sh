@@ -1,8 +1,8 @@
-python3 -m src.run_save_all \
-    --model_name llava_ov_0.5b \
-    --data_name MHalu \
-    --train_path data/MHalubench_train.json \
-    --val_path data/MHalubench_test.json\
+#python3 -m src.run_save_all \
+#    --model_name llava_ov_0.5b \
+#    --data_name MHalu \
+#    --train_path data/MHalubench_train.json \
+#    --val_path data/MHalubench_test.json\
 
 python3 -m src.run_save_all \
     --model_name llava_ov_0.5b \
