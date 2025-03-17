@@ -1,0 +1,42 @@
+[
+  {
+    "question": "<image>\nHow many blue floats are there? Select from the following choices. (A) 0 (B) 3 (C) 2 (D) 1",
+    "label": "(A)",
+    "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Counting_48_0.png",
+    "image_2": null,
+    "image_3": null,
+    "image_4": null
+  },
+  {
+    "question": "<image>\nHow many blue floats are there? Select from the following choices. (A) 0 (B) 3 (C) 2 (D) 1",
+    "label": "(A)",
+    "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Counting_98_0.png",
+    "image_2": null,
+    "image_3": null,
+    "image_4": null
+  },
+  {
+    "question": "<image>\nHow many blue floats are there? Select from the following choices. (A) 0 (B) 3 (C) 2 (D) 1",
+    "label": "(C)",
+    "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Counting_87_0.png",
+    "image_2": null,
+    "image_3": null,
+    "image_4": null
+  },
+  {
+    "question": "<image>\nHow many blue floats are there? Select from the following choices. (A) 0 (B) 3 (C) 2 (D) 1",
+    "label": "(A)",
+    "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Counting_33_0.png",
+    "image_2": null,
+    "image_3": null,
+    "image_4": null
+  },
+  {
+    "question": "<image>\nHow many blue floats are there? Select from the following choices. (A) 0 (B) 3 (C) 2 (D) 1",
+    "label": "(D)",
+    "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Counting_95_0.png",
+    "image_2": null,
+    "image_3": null,
+    "image_4": null
+  }
+]

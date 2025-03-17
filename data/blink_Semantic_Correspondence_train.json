@@ -1,0 +1,642 @@
+[
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_29_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_29_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_5_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_5_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_51_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_51_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_73_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_73_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_40_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_40_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_136_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_136_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_95_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_95_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_70_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_70_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_10_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_10_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_90_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_90_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_11_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_11_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_103_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_103_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_14_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_14_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_86_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_86_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_31_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_31_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_91_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_91_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_131_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_131_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_37_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_37_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_75_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_75_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_9_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_9_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_55_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_55_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_132_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_132_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_129_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_129_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_106_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_106_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_66_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_66_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_116_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_116_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_81_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_81_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_0_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_0_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_134_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_134_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_117_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_117_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_30_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_30_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_67_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_67_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_6_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_6_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_24_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_24_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_108_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_108_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_1_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_1_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_32_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_32_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_96_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_96_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_122_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_122_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_4_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_4_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_45_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_45_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_47_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_47_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_74_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_74_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_44_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_44_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_16_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_16_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_89_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_89_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_130_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_130_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_126_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_126_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_23_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_23_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_19_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_19_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_22_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_22_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_59_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_59_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_42_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_42_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_43_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_43_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_15_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_15_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_26_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_26_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_88_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_88_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_113_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_113_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_121_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_121_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_12_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_12_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_85_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_85_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_133_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_133_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_3_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_3_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_57_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_57_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_135_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_135_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_63_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_63_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_52_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_52_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_69_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_69_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_93_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_93_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_61_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_61_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_17_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_17_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_125_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_125_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_111_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_111_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_123_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_123_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_72_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_72_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_28_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_28_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_94_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_94_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_62_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_62_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_7_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_7_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_104_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_104_1.png",
+        "image_3": null,
+        "image_4": null
+    }
+]

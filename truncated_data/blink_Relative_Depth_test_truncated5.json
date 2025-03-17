@@ -1,0 +1,42 @@
+[
+  {
+    "question": "<image>\nWhich point is closer to the camera? Select from the following choices. (A) A is closer (B) B is closer",
+    "label": "(A)",
+    "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Depth_60_0.png",
+    "image_2": null,
+    "image_3": null,
+    "image_4": null
+  },
+  {
+    "question": "<image>\nWhich point is closer to the camera? Select from the following choices. (A) A is closer (B) B is closer",
+    "label": "(B)",
+    "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Depth_12_0.png",
+    "image_2": null,
+    "image_3": null,
+    "image_4": null
+  },
+  {
+    "question": "<image>\nWhich point is closer to the camera? Select from the following choices. (A) A is closer (B) B is closer",
+    "label": "(B)",
+    "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Depth_74_0.png",
+    "image_2": null,
+    "image_3": null,
+    "image_4": null
+  },
+  {
+    "question": "<image>\nWhich point is closer to the camera? Select from the following choices. (A) A is closer (B) B is closer",
+    "label": "(B)",
+    "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Depth_58_0.png",
+    "image_2": null,
+    "image_3": null,
+    "image_4": null
+  },
+  {
+    "question": "<image>\nWhich point is closer to the camera? Select from the following choices. (A) A is closer (B) B is closer",
+    "label": "(B)",
+    "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Depth_2_0.png",
+    "image_2": null,
+    "image_3": null,
+    "image_4": null
+  }
+]

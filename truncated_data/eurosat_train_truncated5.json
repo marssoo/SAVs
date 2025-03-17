@@ -1,0 +1,32 @@
+[
+  {
+    "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Pasture/Pasture_1307.jpg",
+    "question": "What type of remote sensing image does the given image belong to?\nA. Residential B. Pasture C. HerbaceousVegetation D. Forest",
+    "answer": "B",
+    "label": "Pasture"
+  },
+  {
+    "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Pasture/Pasture_563.jpg",
+    "question": "What type of remote sensing image does the given image belong to?\nA. Pasture B. HerbaceousVegetation C. AnnualCrop D. River",
+    "answer": "A",
+    "label": "Pasture"
+  },
+  {
+    "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/HerbaceousVegetation/HerbaceousVegetation_380.jpg",
+    "question": "What type of remote sensing image does the given image belong to?\nA. AnnualCrop B. Industrial C. Residential D. HerbaceousVegetation",
+    "answer": "D",
+    "label": "HerbaceousVegetation"
+  },
+  {
+    "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Residential/Residential_2552.jpg",
+    "question": "What type of remote sensing image does the given image belong to?\nA. Residential B. SeaLake C. AnnualCrop D. PermanentCrop",
+    "answer": "A",
+    "label": "Residential"
+  },
+  {
+    "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/EuroSAT/Pasture/Pasture_857.jpg",
+    "question": "What type of remote sensing image does the given image belong to?\nA. Pasture B. HerbaceousVegetation C. River D. AnnualCrop",
+    "answer": "A",
+    "label": "Pasture"
+  }
+]

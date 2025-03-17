@@ -1,0 +1,322 @@
+[
+    {
+        "question": "<image>\n<image>\n<image>\nWhich image is the missing part in the first image? Select from the following choices. (A) the second image (B) the third image",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_96_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_96_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_96_2.png",
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\n<image>\nWhich image is the missing part in the first image? Select from the following choices. (A) the second image (B) the third image",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_50_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_50_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_50_2.png",
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\n<image>\nWhich image is the missing part in the first image? Select from the following choices. (A) the second image (B) the third image",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_36_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_36_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_36_2.png",
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\n<image>\nWhich image is the missing part in the first image? Select from the following choices. (A) the second image (B) the third image",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_2_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_2_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_2_2.png",
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\n<image>\nWhich image is the missing part in the first image? Select from the following choices. (A) the second image (B) the third image",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_55_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_55_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_55_2.png",
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\n<image>\nWhich image is the missing part in the first image? Select from the following choices. (A) the second image (B) the third image",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_139_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_139_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_139_2.png",
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\n<image>\nWhich image is the missing part in the first image? Select from the following choices. (A) the second image (B) the third image",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_18_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_18_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_18_2.png",
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\n<image>\nWhich image is the missing part in the first image? Select from the following choices. (A) the second image (B) the third image",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_41_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_41_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_41_2.png",
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\n<image>\nWhich image is the missing part in the first image? Select from the following choices. (A) the second image (B) the third image",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_103_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_103_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_103_2.png",
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\n<image>\nWhich image is the missing part in the first image? Select from the following choices. (A) the second image (B) the third image",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_90_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_90_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_90_2.png",
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\n<image>\nWhich image is the missing part in the first image? Select from the following choices. (A) the second image (B) the third image",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_8_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_8_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_8_2.png",
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\n<image>\nWhich image is the missing part in the first image? Select from the following choices. (A) the second image (B) the third image",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_116_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_116_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_116_2.png",
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\n<image>\nWhich image is the missing part in the first image? Select from the following choices. (A) the second image (B) the third image",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_85_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_85_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_85_2.png",
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\n<image>\nWhich image is the missing part in the first image? Select from the following choices. (A) the second image (B) the third image",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_25_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_25_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_25_2.png",
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\n<image>\nWhich image is the missing part in the first image? Select from the following choices. (A) the second image (B) the third image",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_92_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_92_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_92_2.png",
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\n<image>\nWhich image is the missing part in the first image? Select from the following choices. (A) the second image (B) the third image",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_5_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_5_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_5_2.png",
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\n<image>\nWhich image is the missing part in the first image? Select from the following choices. (A) the second image (B) the third image",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_6_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_6_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_6_2.png",
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\n<image>\nWhich image is the missing part in the first image? Select from the following choices. (A) the second image (B) the third image",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_141_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_141_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_141_2.png",
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\n<image>\nWhich image is the missing part in the first image? Select from the following choices. (A) the second image (B) the third image",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_126_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_126_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_126_2.png",
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\n<image>\nWhich image is the missing part in the first image? Select from the following choices. (A) the second image (B) the third image",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_121_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_121_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_121_2.png",
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\n<image>\nWhich image is the missing part in the first image? Select from the following choices. (A) the second image (B) the third image",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_107_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_107_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_107_2.png",
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\n<image>\nWhich image is the missing part in the first image? Select from the following choices. (A) the second image (B) the third image",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_114_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_114_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_114_2.png",
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\n<image>\nWhich image is the missing part in the first image? Select from the following choices. (A) the second image (B) the third image",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_1_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_1_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_1_2.png",
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\n<image>\nWhich image is the missing part in the first image? Select from the following choices. (A) the second image (B) the third image",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_23_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_23_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_23_2.png",
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\n<image>\nWhich image is the missing part in the first image? Select from the following choices. (A) the second image (B) the third image",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_37_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_37_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_37_2.png",
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\n<image>\nWhich image is the missing part in the first image? Select from the following choices. (A) the second image (B) the third image",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_109_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_109_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_109_2.png",
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\n<image>\nWhich image is the missing part in the first image? Select from the following choices. (A) the second image (B) the third image",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_51_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_51_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_51_2.png",
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\n<image>\nWhich image is the missing part in the first image? Select from the following choices. (A) the second image (B) the third image",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_94_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_94_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_94_2.png",
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\n<image>\nWhich image is the missing part in the first image? Select from the following choices. (A) the second image (B) the third image",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_88_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_88_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_88_2.png",
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\n<image>\nWhich image is the missing part in the first image? Select from the following choices. (A) the second image (B) the third image",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_91_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_91_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_91_2.png",
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\n<image>\nWhich image is the missing part in the first image? Select from the following choices. (A) the second image (B) the third image",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_135_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_135_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_135_2.png",
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\n<image>\nWhich image is the missing part in the first image? Select from the following choices. (A) the second image (B) the third image",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_59_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_59_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_59_2.png",
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\n<image>\nWhich image is the missing part in the first image? Select from the following choices. (A) the second image (B) the third image",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_31_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_31_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_31_2.png",
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\n<image>\nWhich image is the missing part in the first image? Select from the following choices. (A) the second image (B) the third image",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_27_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_27_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_27_2.png",
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\n<image>\nWhich image is the missing part in the first image? Select from the following choices. (A) the second image (B) the third image",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_74_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_74_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_74_2.png",
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\n<image>\nWhich image is the missing part in the first image? Select from the following choices. (A) the second image (B) the third image",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_140_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_140_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_140_2.png",
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\n<image>\nWhich image is the missing part in the first image? Select from the following choices. (A) the second image (B) the third image",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_52_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_52_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_52_2.png",
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\n<image>\nWhich image is the missing part in the first image? Select from the following choices. (A) the second image (B) the third image",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_63_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_63_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_63_2.png",
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\n<image>\nWhich image is the missing part in the first image? Select from the following choices. (A) the second image (B) the third image",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_62_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_62_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_62_2.png",
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\n<image>\nWhich image is the missing part in the first image? Select from the following choices. (A) the second image (B) the third image",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_111_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_111_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Jigsaw_111_2.png",
+        "image_4": null
+    }
+]

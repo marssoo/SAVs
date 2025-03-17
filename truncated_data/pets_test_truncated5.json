@@ -1,0 +1,32 @@
+[
+  {
+    "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/pets/images/boxer_67.jpg",
+    "question": "What type of animal is in the image?\nA. Maine Coon B. Siamese C. boxer D. pug",
+    "answer": "C",
+    "label": "boxer"
+  },
+  {
+    "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/pets/images/staffordshire_bull_terrier_106.jpg",
+    "question": "What type of animal is in the image?\nA. shiba inu B. Bengal C. english setter D. staffordshire bull terrier",
+    "answer": "D",
+    "label": "staffordshire bull terrier"
+  },
+  {
+    "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/pets/images/wheaten_terrier_48.jpg",
+    "question": "What type of animal is in the image?\nA. Egyptian Mau B. wheaten terrier C. samoyed D. Bombay",
+    "answer": "B",
+    "label": "wheaten terrier"
+  },
+  {
+    "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/pets/images/chihuahua_138.jpg",
+    "question": "What type of animal is in the image?\nA. american bulldog B. havanese C. scottish terrier D. chihuahua",
+    "answer": "D",
+    "label": "chihuahua"
+  },
+  {
+    "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/pets/images/Birman_19.jpg",
+    "question": "What type of animal is in the image?\nA. chihuahua B. samoyed C. staffordshire bull terrier D. Birman",
+    "answer": "D",
+    "label": "Birman"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+    "label": "(A)",
+    "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Functional_Correspondence_109_0.png",
+    "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Functional_Correspondence_109_1.png",
+    "image_3": null,
+    "image_4": null
+  },
+  {
+    "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+    "label": "(D)",
+    "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Functional_Correspondence_106_0.png",
+    "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Functional_Correspondence_106_1.png",
+    "image_3": null,
+    "image_4": null
+  },
+  {
+    "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+    "label": "(A)",
+    "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Functional_Correspondence_0_0.png",
+    "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Functional_Correspondence_0_1.png",
+    "image_3": null,
+    "image_4": null
+  },
+  {
+    "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+    "label": "(A)",
+    "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Functional_Correspondence_28_0.png",
+    "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Functional_Correspondence_28_1.png",
+    "image_3": null,
+    "image_4": null
+  },
+  {
+    "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+    "label": "(B)",
+    "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Functional_Correspondence_127_0.png",
+    "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Functional_Correspondence_127_1.png",
+    "image_3": null,
+    "image_4": null
+  }
+]

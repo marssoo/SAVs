@@ -25,7 +25,16 @@ def eval_dataset(args):
     pth = 'activations'
     if not os.path.exists(pth):
         os.makedirs(pth)
-    sub_dir = f'{pth}/{args.data_name}_{args.model_name}/'
+
+    if args.data_name == 'blink':
+        splits = args.train_path.split('\.')[0]
+        name = splits.split('/')[-1]
+        name = name.split('_')[:-1]
+        name = '_'.join(name)
+        sub_dir = f'{pth}/{name}_{args.model_name}/'
+    else:
+        sub_dir = f'{pth}/{args.data_name}_{args.model_name}/'
+
     if not os.path.exists(sub_dir):
         os.makedirs(sub_dir)
 
@@ -82,4 +91,5 @@ if __name__ == "__main__":
     parser.add_argument('--quantize', type=int, default=None,
                         help="number of bits to operate quantization on.")
     args = parser.parse_args()
+    print(f'\n######## Running {args.model_name} on {args.data_name} ########\n')
     eval_dataset(args)

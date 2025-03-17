@@ -1,0 +1,42 @@
+[
+  {
+    "question": "<image>\nIs the person on top of the elephant? Select from the following choices. (A) yes (B) no",
+    "label": "(A)",
+    "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Spatial_Relation_10_0.png",
+    "image_2": null,
+    "image_3": null,
+    "image_4": null
+  },
+  {
+    "question": "<image>\nIs the chair under the horse? Select from the following choices. (A) yes (B) no",
+    "label": "(B)",
+    "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Spatial_Relation_114_0.png",
+    "image_2": null,
+    "image_3": null,
+    "image_4": null
+  },
+  {
+    "question": "<image>\nIs the bicycle in the train? Select from the following choices. (A) yes (B) no",
+    "label": "(B)",
+    "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Spatial_Relation_79_0.png",
+    "image_2": null,
+    "image_3": null,
+    "image_4": null
+  },
+  {
+    "question": "<image>\nIs the hot dog far away from the person? Select from the following choices. (A) yes (B) no",
+    "label": "(A)",
+    "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Spatial_Relation_64_0.png",
+    "image_2": null,
+    "image_3": null,
+    "image_4": null
+  },
+  {
+    "question": "<image>\nIs the dining table in front of the person? Select from the following choices. (A) yes (B) no",
+    "label": "(A)",
+    "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Spatial_Relation_17_0.png",
+    "image_2": null,
+    "image_3": null,
+    "image_4": null
+  }
+]

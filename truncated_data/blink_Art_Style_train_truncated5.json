@@ -1,0 +1,42 @@
+[
+  {
+    "question": "<image>\n<image>\n<image>\nWhich image shares the same style as the reference image? Select from the following choices. (A) the second image (B) the third image",
+    "label": "(B)",
+    "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Art_Style_16_0.png",
+    "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Art_Style_16_1.png",
+    "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Art_Style_16_2.png",
+    "image_4": null
+  },
+  {
+    "question": "<image>\n<image>\n<image>\nWhich image shares the same style as the reference image? Select from the following choices. (A) the second image (B) the third image",
+    "label": "(A)",
+    "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Art_Style_44_0.png",
+    "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Art_Style_44_1.png",
+    "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Art_Style_44_2.png",
+    "image_4": null
+  },
+  {
+    "question": "<image>\n<image>\n<image>\nWhich image shares the same style as the reference image? Select from the following choices. (A) the second image (B) the third image",
+    "label": "(A)",
+    "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Art_Style_76_0.png",
+    "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Art_Style_76_1.png",
+    "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Art_Style_76_2.png",
+    "image_4": null
+  },
+  {
+    "question": "<image>\n<image>\n<image>\nWhich image shares the same style as the reference image? Select from the following choices. (A) the second image (B) the third image",
+    "label": "(A)",
+    "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Art_Style_109_0.png",
+    "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Art_Style_109_1.png",
+    "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Art_Style_109_2.png",
+    "image_4": null
+  },
+  {
+    "question": "<image>\n<image>\n<image>\nWhich image shares the same style as the reference image? Select from the following choices. (A) the second image (B) the third image",
+    "label": "(A)",
+    "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Art_Style_49_0.png",
+    "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Art_Style_49_1.png",
+    "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Art_Style_49_2.png",
+    "image_4": null
+  }
+]

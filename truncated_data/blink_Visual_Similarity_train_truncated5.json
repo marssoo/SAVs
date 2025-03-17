@@ -1,0 +1,42 @@
+[
+  {
+    "question": "<image>\n<image>\n<image>\nWhich image is most similar to the reference image? Select from the following choices. (A) the second image (B) the third image",
+    "label": "(B)",
+    "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Similarity_83_0.png",
+    "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Similarity_83_1.png",
+    "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Similarity_83_2.png",
+    "image_4": null
+  },
+  {
+    "question": "<image>\n<image>\n<image>\nWhich image is most similar to the reference image? Select from the following choices. (A) the second image (B) the third image",
+    "label": "(B)",
+    "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Similarity_66_0.png",
+    "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Similarity_66_1.png",
+    "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Similarity_66_2.png",
+    "image_4": null
+  },
+  {
+    "question": "<image>\n<image>\n<image>\nWhich image is most similar to the reference image? Select from the following choices. (A) the second image (B) the third image",
+    "label": "(A)",
+    "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Similarity_59_0.png",
+    "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Similarity_59_1.png",
+    "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Similarity_59_2.png",
+    "image_4": null
+  },
+  {
+    "question": "<image>\n<image>\n<image>\nWhich image is most similar to the reference image? Select from the following choices. (A) the second image (B) the third image",
+    "label": "(A)",
+    "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Similarity_15_0.png",
+    "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Similarity_15_1.png",
+    "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Similarity_15_2.png",
+    "image_4": null
+  },
+  {
+    "question": "<image>\n<image>\n<image>\nWhich image is most similar to the reference image? Select from the following choices. (A) the second image (B) the third image",
+    "label": "(A)",
+    "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Similarity_26_0.png",
+    "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Similarity_26_1.png",
+    "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Similarity_26_2.png",
+    "image_4": null
+  }
+]

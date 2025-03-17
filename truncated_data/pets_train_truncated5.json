@@ -1,0 +1,32 @@
+[
+  {
+    "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/pets/images/wheaten_terrier_27.jpg",
+    "question": "What type of animal is in the image?\nA. wheaten terrier B. chihuahua C. British Shorthair D. english setter",
+    "answer": "A",
+    "label": "wheaten terrier"
+  },
+  {
+    "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/pets/images/shiba_inu_91.jpg",
+    "question": "What type of animal is in the image?\nA. pomeranian B. Birman C. shiba inu D. scottish terrier",
+    "answer": "C",
+    "label": "shiba inu"
+  },
+  {
+    "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/pets/images/chihuahua_173.jpg",
+    "question": "What type of animal is in the image?\nA. Bombay B. chihuahua C. miniature pinscher D. Persian",
+    "answer": "B",
+    "label": "chihuahua"
+  },
+  {
+    "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/pets/images/basset_hound_103.jpg",
+    "question": "What type of animal is in the image?\nA. samoyed B. British Shorthair C. basset hound D. Sphynx",
+    "answer": "C",
+    "label": "basset hound"
+  },
+  {
+    "image": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/pets/images/Ragdoll_105.jpg",
+    "question": "What type of animal is in the image?\nA. saint bernard B. Egyptian Mau C. Ragdoll D. samoyed",
+    "answer": "C",
+    "label": "Ragdoll"
+  }
+]

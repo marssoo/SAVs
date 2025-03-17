@@ -1,0 +1,27 @@
+[
+  {
+    "image_path": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/MHaluBench/data/COCO_val2014_000000536403.jpg",
+    "claim": "A cell phone is on the right side of the table",
+    "label": "hallucination"
+  },
+  {
+    "image_path": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/MHaluBench/data/191.jpg",
+    "claim": "A boat has a red flag.",
+    "label": "non-hallucination"
+  },
+  {
+    "image_path": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/MHaluBench/data/COCO_val2014_000000121503.jpg",
+    "claim": "The people standing in line are dressed in a variety of outfits",
+    "label": "non-hallucination"
+  },
+  {
+    "image_path": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/MHaluBench/data/COCO_val2014_000000354278.jpg",
+    "claim": "The fire hydrant is ready for use in case of a fire emergency",
+    "label": "non-hallucination"
+  },
+  {
+    "image_path": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/MHaluBench/data/COCO_val2014_000000577893.jpg",
+    "claim": "A water bottle is on the bench near the court's edge",
+    "label": "hallucination"
+  }
+]

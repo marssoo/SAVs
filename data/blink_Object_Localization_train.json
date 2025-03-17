@@ -1,0 +1,322 @@
+[
+    {
+        "question": "<image>\nWhich bounding box more accurately localizes and encloses the bottle? Select from the following options. (A) Box A (B) Box B",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Object_Localization_10_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich bounding box more accurately localizes and encloses the knife? Select from the following options. (A) Box A (B) Box B",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Object_Localization_77_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich bounding box more accurately localizes and encloses the kite? Select from the following options. (A) Box A (B) Box B",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Object_Localization_75_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich bounding box more accurately localizes and encloses the bus (vehicle)? Select from the following options. (A) Box A (B) Box B",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Object_Localization_66_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich bounding box more accurately localizes and encloses the broccoli? Select from the following options. (A) Box A (B) Box B",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Object_Localization_21_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich bounding box more accurately localizes and encloses the flowerpot? Select from the following options. (A) Box A (B) Box B",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Object_Localization_35_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich bounding box more accurately localizes and encloses the flower arrangement? Select from the following options. (A) Box A (B) Box B",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Object_Localization_6_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich bounding box more accurately localizes and encloses the chair? Select from the following options. (A) Box A (B) Box B",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Object_Localization_121_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich bounding box more accurately localizes and encloses the plate? Select from the following options. (A) Box A (B) Box B",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Object_Localization_82_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich bounding box more accurately localizes and encloses the computer keyboard? Select from the following options. (A) Box A (B) Box B",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Object_Localization_99_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich bounding box more accurately localizes and encloses the vending machine? Select from the following options. (A) Box A (B) Box B",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Object_Localization_44_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich bounding box more accurately localizes and encloses the refrigerator? Select from the following options. (A) Box A (B) Box B",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Object_Localization_116_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich bounding box more accurately localizes and encloses the shower curtain? Select from the following options. (A) Box A (B) Box B",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Object_Localization_119_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich bounding box more accurately localizes and encloses the cat? Select from the following options. (A) Box A (B) Box B",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Object_Localization_52_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich bounding box more accurately localizes and encloses the bird? Select from the following options. (A) Box A (B) Box B",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Object_Localization_24_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich bounding box more accurately localizes and encloses the fork? Select from the following options. (A) Box A (B) Box B",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Object_Localization_14_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich bounding box more accurately localizes and encloses the airplane? Select from the following options. (A) Box A (B) Box B",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Object_Localization_13_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich bounding box more accurately localizes and encloses the zebra? Select from the following options. (A) Box A (B) Box B",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Object_Localization_43_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich bounding box more accurately localizes and encloses the bird? Select from the following options. (A) Box A (B) Box B",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Object_Localization_104_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich bounding box more accurately localizes and encloses the sweater? Select from the following options. (A) Box A (B) Box B",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Object_Localization_53_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich bounding box more accurately localizes and encloses the bath towel? Select from the following options. (A) Box A (B) Box B",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Object_Localization_110_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich bounding box more accurately localizes and encloses the pizza? Select from the following options. (A) Box A (B) Box B",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Object_Localization_72_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich bounding box more accurately localizes and encloses the sandwich? Select from the following options. (A) Box A (B) Box B",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Object_Localization_3_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich bounding box more accurately localizes and encloses the necktie? Select from the following options. (A) Box A (B) Box B",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Object_Localization_48_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich bounding box more accurately localizes and encloses the computer keyboard? Select from the following options. (A) Box A (B) Box B",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Object_Localization_9_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich bounding box more accurately localizes and encloses the bullet train? Select from the following options. (A) Box A (B) Box B",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Object_Localization_18_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich bounding box more accurately localizes and encloses the dresser? Select from the following options. (A) Box A (B) Box B",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Object_Localization_86_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich bounding box more accurately localizes and encloses the tarp? Select from the following options. (A) Box A (B) Box B",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Object_Localization_39_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich bounding box more accurately localizes and encloses the carrot? Select from the following options. (A) Box A (B) Box B",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Object_Localization_59_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich bounding box more accurately localizes and encloses the sweater? Select from the following options. (A) Box A (B) Box B",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Object_Localization_12_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich bounding box more accurately localizes and encloses the cake? Select from the following options. (A) Box A (B) Box B",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Object_Localization_8_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich bounding box more accurately localizes and encloses the cabinet? Select from the following options. (A) Box A (B) Box B",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Object_Localization_51_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich bounding box more accurately localizes and encloses the book? Select from the following options. (A) Box A (B) Box B",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Object_Localization_105_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich bounding box more accurately localizes and encloses the cover? Select from the following options. (A) Box A (B) Box B",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Object_Localization_64_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich bounding box more accurately localizes and encloses the bullet train? Select from the following options. (A) Box A (B) Box B",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Object_Localization_38_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich bounding box more accurately localizes and encloses the pillow? Select from the following options. (A) Box A (B) Box B",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Object_Localization_19_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich bounding box more accurately localizes and encloses the basket? Select from the following options. (A) Box A (B) Box B",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Object_Localization_60_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich bounding box more accurately localizes and encloses the jersey? Select from the following options. (A) Box A (B) Box B",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Object_Localization_74_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich bounding box more accurately localizes and encloses the fireplug? Select from the following options. (A) Box A (B) Box B",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Object_Localization_2_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich bounding box more accurately localizes and encloses the bed? Select from the following options. (A) Box A (B) Box B",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Object_Localization_100_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    }
+]

@@ -1,0 +1,642 @@
+[
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_29_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_29_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_29_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_29_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_121_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_121_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_121_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_121_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_67_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_67_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_67_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_67_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_116_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_116_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_116_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_116_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_81_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_81_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_81_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_81_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_63_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_63_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_63_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_63_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_66_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_66_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_66_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_66_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_7_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_7_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_7_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_7_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_62_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_62_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_62_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_62_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_1_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_1_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_1_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_1_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_97_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_97_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_97_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_97_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_85_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_85_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_85_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_85_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_35_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_35_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_35_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_35_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_48_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_48_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_48_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_48_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_47_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_47_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_47_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_47_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_25_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_25_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_25_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_25_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_23_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_23_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_23_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_23_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_118_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_118_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_118_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_118_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_45_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_45_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_45_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_45_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_59_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_59_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_59_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_59_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_22_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_22_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_22_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_22_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_6_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_6_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_6_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_6_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_71_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_71_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_71_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_71_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_43_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_43_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_43_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_43_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_42_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_42_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_42_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_42_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_113_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_113_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_113_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_113_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_61_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_61_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_61_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_61_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_46_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_46_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_46_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_46_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_127_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_127_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_127_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_127_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_38_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_38_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_38_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_38_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_79_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_79_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_79_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_79_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_96_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_96_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_96_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_96_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_44_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_44_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_44_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_44_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_76_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_76_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_76_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_76_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_33_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_33_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_33_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_33_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_117_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_117_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_117_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_117_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_31_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_31_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_31_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_31_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_20_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_20_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_20_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_20_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_68_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_68_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_68_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_68_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_69_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_69_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_69_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_69_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_0_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_0_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_0_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_0_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_2_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_2_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_2_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_2_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_103_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_103_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_103_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_103_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_52_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_52_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_52_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_52_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_93_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_93_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_93_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_93_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_74_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_74_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_74_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_74_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_56_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_56_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_56_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_56_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_77_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_77_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_77_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_77_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_101_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_101_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_101_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_101_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_131_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_131_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_131_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_131_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_92_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_92_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_92_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_92_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_99_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_99_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_99_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_99_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_70_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_70_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_70_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_70_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_5_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_5_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_5_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_5_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_21_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_21_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_21_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_21_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_78_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_78_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_78_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_78_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_84_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_84_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_84_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_84_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_122_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_122_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_122_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_122_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_83_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_83_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_83_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_83_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_110_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_110_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_110_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_110_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_106_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_106_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_106_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_106_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_90_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_90_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_90_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_90_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_111_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_111_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_111_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_111_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_53_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_53_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_53_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_53_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_130_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_130_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_130_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_130_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_107_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_107_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_107_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_107_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_37_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_37_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_37_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_37_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_129_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_129_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_129_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_129_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_8_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_8_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_8_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_8_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_10_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_10_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_10_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_10_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_100_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_100_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_100_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_100_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_104_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_104_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_104_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_104_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_51_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_51_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_51_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_51_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_95_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_95_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_95_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_95_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_4_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_4_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_4_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_4_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_102_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_102_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_102_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_102_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_24_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_24_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_24_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_24_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_12_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_12_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_12_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_12_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_50_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_50_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_50_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_50_3.png"
+    },
+    {
+        "question": "<image>\n<image>\n<image>\n<image>\nWhich image is most likely to be a real photograph? Select from the following choices. (A) the first image (B) the second image (C) the third image (D) the fourth image",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_119_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_119_1.png",
+        "image_3": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_119_2.png",
+        "image_4": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Forensic_Detection_119_3.png"
+    }
+]

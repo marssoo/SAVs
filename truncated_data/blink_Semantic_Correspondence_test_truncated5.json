@@ -1,0 +1,42 @@
+[
+  {
+    "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+    "label": "(A)",
+    "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_8_0.png",
+    "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_8_1.png",
+    "image_3": null,
+    "image_4": null
+  },
+  {
+    "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+    "label": "(B)",
+    "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_97_0.png",
+    "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_97_1.png",
+    "image_3": null,
+    "image_4": null
+  },
+  {
+    "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+    "label": "(A)",
+    "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_115_0.png",
+    "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_115_1.png",
+    "image_3": null,
+    "image_4": null
+  },
+  {
+    "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+    "label": "(B)",
+    "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_138_0.png",
+    "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_138_1.png",
+    "image_3": null,
+    "image_4": null
+  },
+  {
+    "question": "<image>\n<image>\nWhich point is corresponding to the reference point? Select from the following choices. (A) Point A (B) Point B (C) Point C (D) Point D",
+    "label": "(A)",
+    "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_110_0.png",
+    "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Semantic_Correspondence_110_1.png",
+    "image_3": null,
+    "image_4": null
+  }
+]

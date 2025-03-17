@@ -1,0 +1,42 @@
+[
+  {
+    "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+    "label": "(C)",
+    "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_80_0.png",
+    "image_2": null,
+    "image_3": null,
+    "image_4": null
+  },
+  {
+    "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+    "label": "(A)",
+    "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_27_0.png",
+    "image_2": null,
+    "image_3": null,
+    "image_4": null
+  },
+  {
+    "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+    "label": "(D)",
+    "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_112_0.png",
+    "image_2": null,
+    "image_3": null,
+    "image_4": null
+  },
+  {
+    "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+    "label": "(D)",
+    "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_96_0.png",
+    "image_2": null,
+    "image_3": null,
+    "image_4": null
+  },
+  {
+    "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+    "label": "(B)",
+    "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_125_0.png",
+    "image_2": null,
+    "image_3": null,
+    "image_4": null
+  }
+]

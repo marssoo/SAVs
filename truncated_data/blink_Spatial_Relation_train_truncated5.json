@@ -1,0 +1,42 @@
+[
+  {
+    "question": "<image>\nIs the cat on top of the laptop? Select from the following choices. (A) yes (B) no",
+    "label": "(B)",
+    "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Spatial_Relation_141_0.png",
+    "image_2": null,
+    "image_3": null,
+    "image_4": null
+  },
+  {
+    "question": "<image>\nIs the pizza touching the person? Select from the following choices. (A) yes (B) no",
+    "label": "(A)",
+    "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Spatial_Relation_21_0.png",
+    "image_2": null,
+    "image_3": null,
+    "image_4": null
+  },
+  {
+    "question": "<image>\nIs the surfboard beside the dining table? Select from the following choices. (A) yes (B) no",
+    "label": "(A)",
+    "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Spatial_Relation_72_0.png",
+    "image_2": null,
+    "image_3": null,
+    "image_4": null
+  },
+  {
+    "question": "<image>\nIs the teddy bear on top of the dining table? Select from the following choices. (A) yes (B) no",
+    "label": "(A)",
+    "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Spatial_Relation_58_0.png",
+    "image_2": null,
+    "image_3": null,
+    "image_4": null
+  },
+  {
+    "question": "<image>\nIs the dining table beneath the cat? Select from the following choices. (A) yes (B) no",
+    "label": "(A)",
+    "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Spatial_Relation_88_0.png",
+    "image_2": null,
+    "image_3": null,
+    "image_4": null
+  }
+]

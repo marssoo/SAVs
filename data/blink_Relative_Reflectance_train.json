@@ -1,0 +1,482 @@
+[
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_111_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_82_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_47_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_128_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_100_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_10_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_51_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_62_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_108_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_132_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_3_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_64_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_1_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_70_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_116_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_53_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_50_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_55_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_37_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_54_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_125_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_2_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_123_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_44_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_34_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_73_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_112_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_74_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_101_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_25_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_129_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_67_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_84_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_99_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_88_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_75_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_103_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_0_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_97_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_86_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_117_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_109_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_11_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_85_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_59_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_115_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_30_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_46_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_79_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_13_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_31_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_80_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_32_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_41_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_68_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_81_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_91_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_18_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_14_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich point has darker surface color, or the colors is about the same? Select from the following choices. (A) A is darker (B) B is darker (C) About the same",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Relative_Reflectance_76_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    }
+]

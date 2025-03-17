@@ -1,0 +1,322 @@
+[
+    {
+        "question": "<image>\n<image>\nThe first image is from the beginning of the video and the second image is from the end. Is the camera moving left or right when shooting the video? Select from the following options. (A) left (B) right",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_121_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_121_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nThe first image is from the beginning of the video and the second image is from the end. Is the camera moving left or right when shooting the video? Select from the following options. (A) left (B) right",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_68_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_68_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nThe first image is from the beginning of the video and the second image is from the end. Is the camera moving left or right when shooting the video? Select from the following options. (A) left (B) right",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_53_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_53_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nThe first image is from the beginning of the video and the second image is from the end. Is the camera moving left or right when shooting the video? Select from the following options. (A) left (B) right",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_61_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_61_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nThe first image is from the beginning of the video and the second image is from the end. Is the camera moving left or right when shooting the video? Select from the following options. (A) left (B) right",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_5_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_5_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nThe first image is from the beginning of the video and the second image is from the end. Is the camera moving left or right when shooting the video? Select from the following options. (A) left (B) right",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_23_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_23_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nThe first image is from the beginning of the video and the second image is from the end. Is the camera moving left or right when shooting the video? Select from the following options. (A) left (B) right",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_70_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_70_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nThe first image is from the beginning of the video and the second image is from the end. Is the camera moving left or right when shooting the video? Select from the following options. (A) left (B) right",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_51_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_51_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nThe first image is from the beginning of the video and the second image is from the end. Is the camera moving left or right when shooting the video? Select from the following options. (A) left (B) right",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_118_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_118_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nThe first image is from the beginning of the video and the second image is from the end. Is the camera moving left or right when shooting the video? Select from the following options. (A) left (B) right",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_66_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_66_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nThe first image is from the beginning of the video and the second image is from the end. Is the camera moving left or right when shooting the video? Select from the following options. (A) left (B) right",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_13_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_13_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nThe first image is from the beginning of the video and the second image is from the end. Is the camera moving left or right when shooting the video? Select from the following options. (A) left (B) right",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_16_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_16_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nThe first image is from the beginning of the video and the second image is from the end. Is the camera moving left or right when shooting the video? Select from the following options. (A) left (B) right",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_40_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_40_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nThe first image is from the beginning of the video and the second image is from the end. Is the camera moving left or right when shooting the video? Select from the following options. (A) left (B) right",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_54_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_54_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nThe first image is from the beginning of the video and the second image is from the end. Is the camera moving left or right when shooting the video? Select from the following options. (A) left (B) right",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_87_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_87_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nThe first image is from the beginning of the video and the second image is from the end. Is the camera moving left or right when shooting the video? Select from the following options. (A) left (B) right",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_111_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_111_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nThe first image is from the beginning of the video and the second image is from the end. Is the camera moving left or right when shooting the video? Select from the following options. (A) left (B) right",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_64_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_64_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nThe first image is from the beginning of the video and the second image is from the end. Is the camera moving left or right when shooting the video? Select from the following options. (A) left (B) right",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_50_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_50_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nThe first image is from the beginning of the video and the second image is from the end. Is the camera moving left or right when shooting the video? Select from the following options. (A) left (B) right",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_104_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_104_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nThe first image is from the beginning of the video and the second image is from the end. Is the camera moving left or right when shooting the video? Select from the following options. (A) left (B) right",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_21_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_21_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nThe first image is from the beginning of the video and the second image is from the end. Is the camera moving left or right when shooting the video? Select from the following options. (A) left (B) right",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_98_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_98_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nThe first image is from the beginning of the video and the second image is from the end. Is the camera moving left or right when shooting the video? Select from the following options. (A) left (B) right",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_49_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_49_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nThe first image is from the beginning of the video and the second image is from the end. Is the camera moving left or right when shooting the video? Select from the following options. (A) left (B) right",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_79_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_79_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nThe first image is from the beginning of the video and the second image is from the end. Is the camera moving left or right when shooting the video? Select from the following options. (A) left (B) right",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_34_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_34_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nThe first image is from the beginning of the video and the second image is from the end. Is the camera moving left or right when shooting the video? Select from the following options. (A) left (B) right",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_102_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_102_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nThe first image is from the beginning of the video and the second image is from the end. Is the camera moving left or right when shooting the video? Select from the following options. (A) left (B) right",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_56_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_56_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nThe first image is from the beginning of the video and the second image is from the end. Is the camera moving left or right when shooting the video? Select from the following options. (A) left (B) right",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_33_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_33_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nThe first image is from the beginning of the video and the second image is from the end. Is the camera moving left or right when shooting the video? Select from the following options. (A) left (B) right",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_2_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_2_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nThe first image is from the beginning of the video and the second image is from the end. Is the camera moving left or right when shooting the video? Select from the following options. (A) left (B) right",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_125_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_125_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nThe first image is from the beginning of the video and the second image is from the end. Is the camera moving left or right when shooting the video? Select from the following options. (A) left (B) right",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_97_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_97_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nThe first image is from the beginning of the video and the second image is from the end. Is the camera moving left or right when shooting the video? Select from the following options. (A) left (B) right",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_76_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_76_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nThe first image is from the beginning of the video and the second image is from the end. Is the camera moving left or right when shooting the video? Select from the following options. (A) left (B) right",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_99_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_99_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nThe first image is from the beginning of the video and the second image is from the end. Is the camera moving left or right when shooting the video? Select from the following options. (A) left (B) right",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_124_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_124_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nThe first image is from the beginning of the video and the second image is from the end. Is the camera moving left or right when shooting the video? Select from the following options. (A) left (B) right",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_85_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_85_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nThe first image is from the beginning of the video and the second image is from the end. Is the camera moving left or right when shooting the video? Select from the following options. (A) left (B) right",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_35_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_35_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nThe first image is from the beginning of the video and the second image is from the end. Is the camera moving left or right when shooting the video? Select from the following options. (A) left (B) right",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_52_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_52_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nThe first image is from the beginning of the video and the second image is from the end. Is the camera moving left or right when shooting the video? Select from the following options. (A) left (B) right",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_65_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_65_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nThe first image is from the beginning of the video and the second image is from the end. Is the camera moving left or right when shooting the video? Select from the following options. (A) left (B) right",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_132_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_132_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nThe first image is from the beginning of the video and the second image is from the end. Is the camera moving left or right when shooting the video? Select from the following options. (A) left (B) right",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_72_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_72_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nThe first image is from the beginning of the video and the second image is from the end. Is the camera moving left or right when shooting the video? Select from the following options. (A) left (B) right",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_3_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Multi-view_Reasoning_3_1.png",
+        "image_3": null,
+        "image_4": null
+    }
+]

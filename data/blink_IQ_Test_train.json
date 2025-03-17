@@ -1,0 +1,642 @@
+[
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_108_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_78_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_107_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_11_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_131_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_122_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_93_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_17_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_139_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_0_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_72_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_142_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_85_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_23_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_22_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_44_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_38_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_82_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_56_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_111_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_3_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_88_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_70_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_133_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_109_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_87_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_49_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_117_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_147_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_48_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_97_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_6_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_126_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_119_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_18_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_92_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_110_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_21_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_32_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_20_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_120_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_35_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_99_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_34_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_4_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_40_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_8_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_12_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_62_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_106_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_28_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_60_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_84_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_2_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_76_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_57_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_86_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_74_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_135_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_36_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_89_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_137_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_124_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_145_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_83_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_94_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_33_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_103_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_144_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_115_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_29_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_61_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_95_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_101_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_5_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_132_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_65_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_26_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_138_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\nWhich one picture follows the same pattern or rule established by the previous pictures? Select from the following choices. (A) picture A (B) picture B (C) picture C (D) picture D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_IQ_Test_127_0.png",
+        "image_2": null,
+        "image_3": null,
+        "image_4": null
+    }
+]

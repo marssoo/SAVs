@@ -1,0 +1,27 @@
+[
+  {
+    "image_path": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/MHaluBench/data/e5da05c26c90070a.jpg",
+    "claim": "The number 22 is on the plane's tail",
+    "label": "hallucination"
+  },
+  {
+    "image_path": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/MHaluBench/data/COCO_val2014_000000424289.jpg",
+    "claim": "The field is enclosed by a wooden fence",
+    "label": "hallucination"
+  },
+  {
+    "image_path": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/MHaluBench/data/COCO_val2014_000000101703.jpg",
+    "claim": "A red double-decker bus is driving down the street in front of the clock tower",
+    "label": "non-hallucination"
+  },
+  {
+    "image_path": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/MHaluBench/data/184.jpg",
+    "claim": "The number 700 is on the red tractor.",
+    "label": "hallucination"
+  },
+  {
+    "image_path": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/MHaluBench/data/COCO_val2014_000000386187.jpg",
+    "claim": "A man and a woman are in a wine shop holding a wine glass each",
+    "label": "non-hallucination"
+  }
+]

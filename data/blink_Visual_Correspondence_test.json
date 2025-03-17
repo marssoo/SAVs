@@ -1,0 +1,738 @@
+[
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_115_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_115_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_118_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_118_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_117_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_117_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_142_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_142_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_14_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_14_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_20_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_20_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_8_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_8_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_151_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_151_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_16_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_16_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_5_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_5_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_171_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_171_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_170_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_170_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_47_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_47_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_147_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_147_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_73_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_73_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_124_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_124_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_162_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_162_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_91_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_91_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_132_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_132_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_52_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_52_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_104_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_104_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_110_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_110_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_116_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_116_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_108_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_108_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_166_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_166_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_67_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_67_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_93_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_93_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_76_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_76_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_57_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_57_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_84_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_84_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_44_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_44_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_169_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_169_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_94_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_94_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_134_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_134_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_165_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_165_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_138_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_138_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_133_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_133_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_72_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_72_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_157_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_157_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_111_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_111_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_148_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_148_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_163_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_163_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_33_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_33_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_39_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_39_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_128_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_128_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_113_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_113_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_121_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_121_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_83_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_83_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_125_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_125_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_88_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_88_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_3_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_3_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_80_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_80_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_152_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_152_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_143_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_143_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_18_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_18_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_75_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_75_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_82_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_82_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_158_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_158_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_19_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_19_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_105_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_105_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_70_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_70_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_46_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_46_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_34_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_34_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_97_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_97_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_101_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_101_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_31_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_31_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_168_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_168_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_164_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_164_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_140_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_140_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_2_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_2_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_10_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_10_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_156_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_156_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_40_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_40_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_141_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_141_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_30_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_30_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_90_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_90_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_79_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_79_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_56_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_56_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_126_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_126_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_145_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_145_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_160_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_160_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_50_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_50_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_63_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_63_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_159_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_159_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_161_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_161_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_136_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_136_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_66_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_66_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(A)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_137_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_137_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_129_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_129_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(B)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_36_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_36_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(D)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_85_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_85_1.png",
+        "image_3": null,
+        "image_4": null
+    },
+    {
+        "question": "<image>\n<image>\nWhich point on the second image corresponds to the point in the first image? Select from the following options. (A) Point A (B) Point B (C) Point C (D) Point D",
+        "label": "(C)",
+        "image_1": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_123_0.png",
+        "image_2": "/home/marceau/Documents/COURS/M2/MLseminar/datasets/blink/images/val_Visual_Correspondence_123_1.png",
+        "image_3": null,
+        "image_4": null
+    }
+]
