@@ -54,7 +54,7 @@ def eval_dataset(args):
        group_preds = []
        
        # Get predictions for the group
-       print(i)
+       #print(i)
        for item in group:
            if args.eval_zeroshot:
                # Zero-shot evaluation
