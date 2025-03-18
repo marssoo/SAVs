@@ -3,6 +3,8 @@ import torch
 import copy
 import requests
 from .preprocess import *
+import warnings
+warnings.simplefilter("ignore", UserWarning)
 
 
 from llava.constants import IMAGE_TOKEN_INDEX, DEFAULT_IMAGE_TOKEN, DEFAULT_IM_START_TOKEN, DEFAULT_IM_END_TOKEN, IGNORE_INDEX

@@ -151,7 +151,8 @@ def format_blink(all_data, cur_item=None, num_shot=0, model_helper=None, split="
         cur_item['question'] = all_data['question'][rand_int]
 
     image_list = [cur_item['image_1'], cur_item['image_2'], cur_item['image_3'], cur_item['image_4']]
-    image_list = [os.path.join('/home/zhaobin/Qwen-VL/data/blink/images', image) for image in image_list if image]
+    image_list = [image for image in image_list if image]
+    #image_list = [os.path.join('/home/zhaobin/Qwen-VL/data/blink/images', image) for image in image_list if image]
 
     # Prompts Used for All BLINK Splits:
 

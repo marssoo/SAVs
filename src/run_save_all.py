@@ -13,6 +13,9 @@ logging.set_verbosity_error()
 import os
 import pickle
 from tqdm import tqdm
+import warnings
+warnings.simplefilter("ignore", UserWarning)
+
 
 
 def eval_dataset(args):
