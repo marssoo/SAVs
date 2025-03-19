@@ -249,6 +249,7 @@ def score_arctanh(x,y,alpha=0.45,beta=0.3):
     score = ((1+torch.atanh(x))*alpha - torch.atanh(y)*beta)
 
     return score
+    
 def record_head_performance(sample_activations, cur_activation, label, success_count):
     """
     sample_activations: (num_sample, num_head, hidden_dim)
