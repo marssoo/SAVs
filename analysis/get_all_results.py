@@ -15,11 +15,11 @@ validation_threshold = 1600
 activation_paths = '../activations/'
 
 #Grid parameter
-num_heads_grid = [3, 5, 10, 15, 20, 25, 30, 40, 50]
+num_heads_grid = [5, 10, 15, 20, 25, 30, 40, 50]
 scores_grid = ['base', 'polar', 'artanh']
 #for hyper parameters : 
 artanh_grid = np.linspace(0.3, 1.5, 6)
-empty_grid = [None, None]
+empty_grid = [None]
 
 # intiate dict of dicts for the results (keys : model\tnum_heads\tscore\thyper_param1\thyper_param2, values : {benchmark : [acc, std]})
 result_dict = {}
@@ -76,7 +76,7 @@ for folder in tqdm(os.listdir(activation_paths)):
         else:
             hyper_param_grid_1,  hyper_param_grid_2 = empty_grid, empty_grid
         
-        for hp1 in hyper_param_grid_1:
+        for hp1 in tqdm(hyper_param_grid_1):
             for hp2 in hyper_param_grid_2:
                 
                 #get success counts
@@ -87,7 +87,7 @@ for folder in tqdm(os.listdir(activation_paths)):
                 for num_heads in num_heads_grid:
                     #set key for result dictionnary
                     result_key = '\t'.join([str(e) for e in [model, num_heads, score, hp1, hp2]])
-                    #print(f'Running {result_key} on {benchmark}')
+                    print(f'Running {result_key} on {benchmark}')
                     if result_key not in result_dict.keys():
                         result_dict[result_key] = {} #init dict if not done yet
 
