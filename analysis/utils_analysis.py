@@ -5,6 +5,7 @@ import os
 import matplotlib.pyplot as plt
 from tqdm import tqdm
 from collections import Counter
+import torch.nn.functional as F
 
 np.random.seed(0)
 
@@ -65,13 +66,8 @@ def record_head_performance_base(class_activations, cur_activation, label, succe
         if all_sample[idx] == label:
             success_count[idx] += 1
     return success_count
-
+"""
 def record_head_performance_polar(class_activations, cur_activation, label, success_count, hp1_useless, hp2_useless):
-    """
-    class_activations: (num_sample, num_head, hidden_dim)
-    cur_activation: (num_head, hidden_dim)
-    success_count is dynamically updated
-    """
     all_sample = []
 
     all_sample = []
@@ -90,20 +86,40 @@ def record_head_performance_polar(class_activations, cur_activation, label, succ
         if all_sample[idx] == label:
             success_count[idx] += 1
 
+    return success_count"""
+
+
+def record_head_performance_polar(class_activations, cur_activation, label, success_count, hp1_useless, hp2_useless):
+    all_sample = []
+    num_classes = class_activations.shape[0]
+    num_classes = class_activations.shape[0]
+
+    # Compute cosine similarity for all classes and indices.
+    # We unsqueeze cur_activation so that it broadcasts along the num_classes dimension.
+    cos_sim = F.cosine_similarity(class_activations, cur_activation.unsqueeze(0), dim=-1)  # shape: (num_classes, n)
+
+    # Vectorized computation of adjusted scores.
+    # For each sample (i.e. each column), total is the sum of scores over all classes.
+    total = cos_sim.sum(dim=0, keepdim=True)  # shape: (1, n)
+    scores_hat = (num_classes * cos_sim - total) / (num_classes - 1)  # shape: (num_classes, n)
+
+    # For each sample, pick the class with the highest adjusted score.
+    all_sample = scores_hat.argmax(dim=0)  # shape: (n,)
+
+    all_sample = all_sample.tolist()
+    for idx in range(len(all_sample)):
+        if all_sample[idx] == label:
+            success_count[idx] += 1
+
     return success_count
 
 
 def score_arctanh(x, y, alpha=0.45, beta=0.3):
         """score with arctanh"""
-        score = ((1+torch.atanh(x))*alpha - torch.atanh(y)*beta)
+        score = ((1 + torch.atanh(x))  *alpha - torch.atanh(y) * beta)
         return score
-
+"""
 def record_head_performance_artanh(class_activations, cur_activation, label, success_count, alpha, beta):
-    """
-    class_activations: (num_sample, num_head, hidden_dim)
-    cur_activation: (num_head, hidden_dim)
-    success_count is dynamically updated
-    """
     all_sample = []
     num_classes = class_activations.shape[0]
     for i in range(class_activations.shape[1]):
@@ -123,7 +139,49 @@ def record_head_performance_artanh(class_activations, cur_activation, label, suc
         if all_sample[idx] == label:
             success_count[idx] += 1
 
+    return success_count"""
+def record_head_performance_artanh(class_activations, cur_activation, label, success_count, alpha, beta):
+    """
+    Vectorized version of record_head_performance_artanh.
+
+    Args:
+        class_activations (torch.Tensor): Tensor of shape (num_classes, num_heads, hidden_dim).
+        cur_activation (torch.Tensor): Tensor of shape (num_heads, hidden_dim).
+        label (int): The target class label.
+        success_count (torch.Tensor): Tensor of shape (num_heads,) that holds the current success counts.
+        alpha (float): The alpha parameter for scoring.
+        beta (float): The beta parameter for scoring.
+
+    Returns:
+        torch.Tensor: Updated success_count tensor.
+    """
+    num_classes = class_activations.shape[0]
+
+    # Compute cosine similarity for all classes and heads at once.
+    # cur_activation.unsqueeze(0) gives shape (1, num_heads, hidden_dim) which broadcasts over classes.
+    scores = F.cosine_similarity(class_activations, cur_activation.unsqueeze(0), dim=-1)  
+    # scores has shape (num_classes, num_heads).
+
+    # For each head, compute the total over classes.
+    total = scores.sum(dim=0)  # shape: (num_heads,)
+
+    # Compute the mean of the other classes for each class and head.
+    # This uses broadcasting: total (shape (num_heads,)) is subtracted from each row of scores.
+    y = (total - scores) / (num_classes - 1)  # shape: (num_classes, num_heads)
+
+    # Compute the adjusted score using the arctanh scoring function.
+    scores_hat = score_arctanh(scores, y, alpha, beta)  # shape: (num_classes, num_heads)
+
+    # For each head, select the class with the highest adjusted score.
+    predictions = scores_hat.argmax(dim=0)  # shape: (num_heads,)
+
+    # Update the success_count vector where the prediction equals the target label.
+    # Assumes success_count is a torch.Tensor.
+    success_count = np.array(success_count)
+    success_count[predictions == label] += 1
+    
     return success_count
+
 
 
 ##################################################

@@ -10,7 +10,7 @@ from utils_analysis import *
 
 np.random.seed(0)
 validation = True
-validation_threshold = 1600
+validation_threshold = 1000
 
 activation_paths = '../activations/'
 
@@ -76,7 +76,7 @@ for folder in tqdm(os.listdir(activation_paths)):
         else:
             hyper_param_grid_1,  hyper_param_grid_2 = empty_grid, empty_grid
         
-        for hp1 in tqdm(hyper_param_grid_1):
+        for hp1 in hyper_param_grid_1:
             for hp2 in hyper_param_grid_2:
                 
                 #get success counts
@@ -123,6 +123,6 @@ for index, (key, value) in enumerate(result_dict.items()):
         new_dict[index][columns_str[i]] = columns[i]
         new_dict[index].update(value)
 
-print(new_dict)
+#print(new_dict)
 df = pd.DataFrame.from_dict(new_dict, orient='index')
-df.to_csv('all_results.csv', sep=',')
+df.to_csv('val_vlguard.csv', sep=',')
