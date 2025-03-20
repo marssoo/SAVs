@@ -51,43 +51,25 @@ def load_or_skip(path, validation, validation_threshold=1600):
             
 #### scores ######################################
 
+
 def record_head_performance_base(class_activations, cur_activation, label, success_count, hp1_useless, hp2_useless):
     """
     class_activations: (num_sample, num_head, hidden_dim)
     cur_activation: (num_head, hidden_dim)
-    success_count is dynamically updated
+    success_count is dynamically updated (expected shape: (num_head,))
     """
-    all_sample = []
+    # Compute cosine similarities for all samples and heads at once.
+    # cur_activation.unsqueeze(0) broadcasts over the sample dimension.
+    scores = F.cosine_similarity(class_activations, cur_activation.unsqueeze(0), dim=-1)  # shape: (num_sample, num_head)
 
-    for i in range(class_activations.shape[1]):
-        scores = torch.nn.functional.cosine_similarity(class_activations[:, i, :], cur_activation[i, :], dim=-1)
-        all_sample.append(scores.argmax(dim=0).item())
-    for idx in range(len(all_sample)):
-        if all_sample[idx] == label:
-            success_count[idx] += 1
+    # For each head (along dimension 1), find the sample index with the maximum cosine similarity.
+    max_indices = scores.argmax(dim=0)  # shape: (num_head,)
+
+    # Update success_count: increment for heads where the max index equals the label.
+    success_count = np.array(success_count)
+    success_count[max_indices == label] += 1
+
     return success_count
-"""
-def record_head_performance_polar(class_activations, cur_activation, label, success_count, hp1_useless, hp2_useless):
-    all_sample = []
-
-    all_sample = []
-    num_classes = class_activations.shape[0]
-    for i in range(class_activations.shape[1]):
-        scores = torch.nn.functional.cosine_similarity(class_activations[:, i, :], cur_activation[i, :], dim=-1)
-        scores_hat = torch.zeros_like(scores)
-        ### Substracting other classes' scores
-        for j in range(num_classes):
-            other_classes_sum = scores.sum(dim=0) - scores[j]
-            scores_hat[j] = scores[j] - (other_classes_sum / (num_classes - 1))
-
-        all_sample.append(scores_hat.argmax(dim=0).item())
-    #print(len(all_sample))
-    for idx in range(len(all_sample)):
-        if all_sample[idx] == label:
-            success_count[idx] += 1
-
-    return success_count"""
-
 
 def record_head_performance_polar(class_activations, cur_activation, label, success_count, hp1_useless, hp2_useless):
     all_sample = []
@@ -118,28 +100,7 @@ def score_arctanh(x, y, alpha=0.45, beta=0.3):
         """score with arctanh"""
         score = ((1 + torch.atanh(x))  *alpha - torch.atanh(y) * beta)
         return score
-"""
-def record_head_performance_artanh(class_activations, cur_activation, label, success_count, alpha, beta):
-    all_sample = []
-    num_classes = class_activations.shape[0]
-    for i in range(class_activations.shape[1]):
-        scores = torch.nn.functional.cosine_similarity(class_activations[:, i, :], cur_activation[i, :], dim=-1)
-        scores_hat = torch.zeros_like(scores)
-        ### Substracting other classes' scores
-        #print(scores.shape)
-        for j in range(num_classes):
-            other_classes_sum = scores.sum(dim=0) - scores[j]
-            x = scores[j]
-            y = (other_classes_sum / (num_classes - 1))
-            scores_hat[j] = score_arctanh(x, y, alpha, beta)
 
-        all_sample.append(scores_hat.argmax(dim=0).item())
-    #print(len(all_sample))
-    for idx in range(len(all_sample)):
-        if all_sample[idx] == label:
-            success_count[idx] += 1
-
-    return success_count"""
 def record_head_performance_artanh(class_activations, cur_activation, label, success_count, alpha, beta):
     """
     Vectorized version of record_head_performance_artanh.
@@ -182,7 +143,22 @@ def record_head_performance_artanh(class_activations, cur_activation, label, suc
     
     return success_count
 
-
+def record_head_performance_l2(class_activations, cur_activation, label, success_count, hp1_useless, hp2_useless):
+    # Compute Euclidean distances between each sample's activation and the current activation for each head.
+    # cur_activation.unsqueeze(0) broadcasts over the sample dimension.
+    distances = torch.norm(class_activations - cur_activation.unsqueeze(0), p=2, dim=-1)  # shape: (num_sample, num_head)
+    
+    # Convert distances to similarity scores (smaller distances yield higher scores)
+    scores = -distances  # shape: (num_sample, num_head)
+    
+    # For each head, select the sample index with the maximum similarity (i.e., the smallest Euclidean distance)
+    max_indices = scores.argmax(dim=0)  # shape: (num_head,)
+    
+    # Update success_count for heads where the best matching sample's index equals the label.
+    success_count = np.array(success_count)
+    success_count[max_indices == label] += 1
+    
+    return success_count
 
 ##################################################
 
@@ -195,6 +171,8 @@ def get_success_counts(class_activations, all_activations, str_to_int, indices_t
         record_head_performance = record_head_performance_polar
     elif score == 'artanh':
         record_head_performance = record_head_performance_artanh
+    elif score == 'l2':
+        record_head_performance = record_head_performance_l2
 
     #go through training data
     for index, activation in all_activations.items():
