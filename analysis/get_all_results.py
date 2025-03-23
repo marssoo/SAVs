@@ -16,8 +16,8 @@ activation_paths = '../activations/'
 
 #Grid parameter
 num_heads_grid = [5, 10, 15, 20, 25, 30, 40, 50]
-#scores_grid = ['base', 'polar', 'artanh']
-scores_grid = ['l2']
+scores_grid = ['base', 'polar', 'artanh']
+#scores_grid = ['l2']
 #for hyper parameters : 
 artanh_grid = np.linspace(0.3, 1.5, 6)
 empty_grid = [None]
