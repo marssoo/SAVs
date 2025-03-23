@@ -7,6 +7,13 @@ from tqdm import tqdm
 from collections import Counter
 import torch.nn.functional as F
 
+from sklearn.preprocessing import LabelEncoder
+from sklearn.linear_model import LogisticRegression
+from sklearn.model_selection import GridSearchCV
+from sklearn.metrics import accuracy_score
+
+from groupyr import LogisticSGL  # pip install groupyr, needs to downgrade sklearn to 1.4 (--force-reinstall)
+
 np.random.seed(0)
 
 #### Loading or skipping test
@@ -283,3 +290,123 @@ def evaluate(test, benchmark, activations, topk_indices, top_class_activations, 
     accuracy = results.mean()
     std = results.std()
     return accuracy, std
+
+############# Utils for the Lasso experiments
+
+def get_indices_to_labels(labels_to_indices):
+    indices_to_labels = dict()
+    for key, values in labels_to_indices.items():
+        for value in values:
+            indices_to_labels[value] = key
+    return indices_to_labels
+
+def act_dict_to_array(d):
+    """
+    converts a dict of torch tensors to a numpy array of shape (num_samples_dim)
+    returns:
+         - X : the array (numpy)
+         - tensor_shapes : the shape information of the original tensors
+         - indices_correspondance : numpy array containing the indices of the 
+                    corresponding dict keys (to not lose this information)
+    """
+    tensor_shapes = d[list(d.keys())[0]].shape #shape of first tensor
+    n_samples = len(d)
+    total_dim = tensor_shapes[0] * tensor_shapes[1] # n_heads * dim
+    X = np.zeros((n_samples, total_dim))
+    indices_correspondence = np.zeros(n_samples) #array that will hold the true indices of tensors
+
+    for row_index, (tensor_index, tensor) in enumerate(d.items()):
+        indices_correspondence[row_index] = tensor_index
+        X[row_index] = d[tensor_index].float().flatten().numpy()
+
+    return X, tensor_shapes, indices_correspondence
+
+def retain_L_last_layers(X, L=2):
+    """for both 7B models, we have 28 heads of dim 128 per layer"""
+    if L is None: # condition to skip in order to facilitate gridsearch
+        return X
+    n_last_features = 128 * 28 * L
+    return X[:, - n_last_features:]
+
+def get_y(indices_correspondence, indices_to_labels):
+    """returns y associated to X, keeping the labels as strings (to use before a label encoder)"""
+    y = []
+    for i, tensor_ix in enumerate(indices_correspondence):
+        y.append(indices_to_labels[tensor_ix])
+    return np.array(y)
+
+def evaluate_sklearn(clf, X_val, y_val):
+    y_val_pred = clf.predict(X_val)
+    acc = accuracy_score(y_val, y_val_pred)
+    std = (y_val == y_val_pred).std()
+    return acc, std
+
+def evaluate_sklearn_natural_ret(clf, X_val, y_val):
+
+    y_val_pred = clf.predict(X_val)
+    results = (y_val_pred == y_val).astype(int)
+    # Reshape results into groups of 4 (assumes len(results) is a multiple of 4)
+    group_results = results.reshape(-1, 4)
+    total_groups = group_results.shape[0]
+    # Raw accuracy: average correctness across all samples
+    raw_acc = results.mean()
+    raw_std = results.std()
+    # Question accuracy:
+    # For each group:
+    #   - The first question is considered correct if both samples 0 and 1 are correct.
+    #   - The second question is correct if both samples 2 and 3 are correct.
+    q_first = group_results[:, 0] * group_results[:, 1]
+    q_second = group_results[:, 2] * group_results[:, 3]
+    q_correct = np.sum(q_first) + np.sum(q_second)
+    q_acc = q_correct / (total_groups * 2)  # Two questions per group
+    q_outcomes = np.concatenate((q_first, q_second))
+    q_std = q_outcomes.std()
+    # Image accuracy:
+    # For each group:
+    #   - The first image is correct if samples 0 and 2 are correct.
+    #   - The second image is correct if samples 1 and 3 are correct.
+    i_first = group_results[:, 0] * group_results[:, 2]
+    i_second = group_results[:, 1] * group_results[:, 3]
+    i_correct = np.sum(i_first) + np.sum(i_second)
+    i_acc = i_correct / (total_groups * 2)  # Two images per group
+    i_outcomes = np.concatenate((i_first, i_second))
+    i_std = i_outcomes.std()
+    # Group accuracy: a group is correct if all four predictions are correct.
+    g_outcomes = np.all(group_results == 1, axis=1).astype(float)
+    g_acc = g_outcomes.mean()
+    g_std = g_outcomes.std()
+    
+    return raw_acc, raw_std, q_acc, q_std, i_acc, i_std, g_acc, g_std
+
+def fit_predict_lasso(X_train, y_train, hp1, hp2_useless):
+    # Train a logistic regression model
+    clf = LogisticRegression(solver='liblinear', C=hp1, penalty='l1')
+    clf.fit(X_train, y_train)
+    return clf
+
+def fit_predict_block_lasso(X_train, y_train, hp1, hp2_useless):
+    # Define block structure:
+    n_features = X_train.shape[1]
+    block_size = 128  # based on heads
+    n_groups = n_features // block_size
+    # Create a 1D array with group assignments
+    group_array = np.repeat(np.arange(n_groups), block_size)
+    # If there are remaining features, assign them to an additional group.
+    if n_features % block_size:
+        group_array = np.concatenate([group_array, 
+                                      np.full(n_features % block_size, n_groups)])
+    # Convert the 1D group_array into a list of arrays, each containing the indices for that group.
+    groups = [np.where(group_array == g)[0] for g in np.unique(group_array)]
+
+    # Instantiate a Logistic Regression estimator with Sparse Group Lasso penalty.
+    clf = LogisticSGL(l1_ratio=.5, alpha=hp1, groups=groups, max_iter=1000)
+    clf.fit(X_train, y_train)
+    return clf
+
+def match_clf_function(key):
+    if key == "lasso":
+        return fit_predict_lasso
+    elif key == "block_lasso":
+        return fit_predict_block_lasso
+    else:
+        raise ValueError("Unimplemented method")
