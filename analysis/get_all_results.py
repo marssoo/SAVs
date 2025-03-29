@@ -9,19 +9,20 @@ import pandas as pd
 from utils_analysis import *
 
 np.random.seed(0)
-validation = True
+validation = False
 validation_threshold = 1000
 
 activation_paths = '../activations/'
 
 #Grid parameter
 num_heads_grid = [5, 10, 15, 20, 25, 30, 40, 50]
-scores_grid = ['base', 'polar', 'artanh']
-#scores_grid = ['l2']
+#scores_grid = ['base', 'polar', 'artanh']
+scores_grid = ['gaussian', 'laplacian', 'sigmoid', 'l2']
 #for hyper parameters : 
-artanh_grid = np.linspace(0.3, 1.5, 6)
+#artanh_grid = np.linspace(0.3, 1.5, 6)
 empty_grid = [None]
-
+hp1_grid = [1]
+hp2_grid = [0]
 # intiate dict of dicts for the results (keys : model\tnum_heads\tscore\thyper_param1\thyper_param2, values : {benchmark : [acc, std]})
 result_dict = {}
 
@@ -75,7 +76,7 @@ for folder in tqdm(os.listdir(activation_paths)):
         if score == 'artanh':
             hyper_param_grid_1,  hyper_param_grid_2 = artanh_grid, artanh_grid
         else:
-            hyper_param_grid_1,  hyper_param_grid_2 = empty_grid, empty_grid
+            hyper_param_grid_1,  hyper_param_grid_2 = hp1_grid, hp2_grid
         
         for hp1 in hyper_param_grid_1:
             for hp2 in hyper_param_grid_2:
@@ -126,4 +127,4 @@ for index, (key, value) in enumerate(result_dict.items()):
 
 #print(new_dict)
 df = pd.DataFrame.from_dict(new_dict, orient='index')
-df.to_csv('result_csvs/l2_val.csv', sep=',', index=False)
+df.to_csv('result_csvs/kernel_test.csv', sep=',', index=False)

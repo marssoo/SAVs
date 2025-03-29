@@ -34,9 +34,9 @@ for folder in tqdm(os.listdir(activation_paths)):
     path = os.path.join(activation_paths, folder)
     #We start by loading the test because we might skip
     #Load the test and val data
-    if benchmark == 'eurosat':
+    if benchmark != 'eurosat':
         continue
-    test, test_labels_to_indices, skipping = load_or_skip(path, validation, validation_threshold)
+    test, test_labels_to_indices, skipping = load_or_skip_eurosat(path, validation, validation_threshold)
     if skipping:
         print(f'Skipping {benchmark} because too small for validation')
         continue

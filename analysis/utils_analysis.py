@@ -46,9 +46,12 @@ def load_or_skip(path, validation, validation_threshold=1600):
         else:
             selected_keys = range(num_to_keep, len(test))
 
-    new_test = {key: test[key] for key in selected_keys}
-    test = new_test
-    del new_test
+    for key in list(test.keys()):
+        if key not in selected_keys:
+            del test[key]
+    #new_test = {key: test[key] for key in selected_keys}
+    #test = new_test
+    #del new_test
     
     #load ground_truth once and for all
     with open(path + '/test_classes.pkl', 'rb') as f:
@@ -56,6 +59,54 @@ def load_or_skip(path, validation, validation_threshold=1600):
     
     return test, test_labels_to_indices, False
             
+#### Eurosat
+
+def load_or_skip_eurosat(path, validation, validation_threshold=1600):
+    number_of_chunks = 0
+    for file in os.listdir(path):
+        if 'test_activations' in file:
+            number_of_chunks += 1
+    test = {}
+    for i in range(number_of_chunks):
+        # load chunk
+        with open(path + f'/test_activations_{i}.pkl', 'rb') as f:
+            test_chunk = pickle.load(f)
+            test.update(test_chunk)
+
+    #if we're doing validation and the dataset is big enough :
+    if validation:
+        if len(test) < validation_threshold:
+            return None, None, True #if too small we skip
+        num_to_keep = int(0.25 * len(test)) #else we go on with the first 25%
+
+        if 'natural_ret' in path: #if it's natural ret we need to keep groups together
+            selected_keys = range(num_to_keep // 4 * 4)
+        else:
+            selected_keys = range(num_to_keep)
+    else:
+        num_to_keep = int(0.25 * len(test))
+        if 'natural_ret' in path: 
+            selected_keys = range(num_to_keep // 4 * 4, len(test))
+        else:
+            selected_keys = range(num_to_keep, len(test))
+
+    for key in list(test.keys()):
+        if key not in selected_keys:
+            del test[key]
+        else:
+            #print(test[key].shape)
+            test[key] = test[key][-28*4:] # only last 4 layers
+    #new_test = {key: test[key] for key in selected_keys}
+    #test = new_test
+    #del new_test
+    
+    #load ground_truth once and for all
+    with open(path + '/test_classes.pkl', 'rb') as f:
+        test_labels_to_indices = pickle.load(f)
+    
+    return test, test_labels_to_indices, False
+
+
 #### scores ######################################
 
 
@@ -105,7 +156,7 @@ def record_head_performance_polar(class_activations, cur_activation, label, succ
 
 def score_arctanh(x, y, alpha=0.45, beta=0.3):
         """score with arctanh"""
-        score = ((1 + torch.atanh(x))  *alpha - torch.atanh(y) * beta)
+        score = ((1 + torch.atanh(x))  * alpha - torch.atanh(y) * beta)
         return score
 
 def record_head_performance_artanh(class_activations, cur_activation, label, success_count, alpha, beta):
@@ -167,6 +218,102 @@ def record_head_performance_l2(class_activations, cur_activation, label, success
     
     return success_count
 
+def record_head_performance_gaussian(class_activations, cur_activation, label, success_count, hp1=1, hp2_useless=0):
+    """
+    Compute similarity using the Gaussian (RBF) kernel:
+        k(v,u) = exp(-hp1 * ||v-u||^2)
+    
+    Args:
+        class_activations: Tensor of shape (num_sample, num_head, hidden_dim)
+        cur_activation: Tensor of shape (num_head, hidden_dim)
+        label: Target sample index (int) for checking performance.
+        success_count: Array-like, tracking success counts per head.
+        hp1: Hyperparameter gamma for the Gaussian kernel.
+        hp2: Unused for Gaussian kernel.
+    
+    Returns:
+        Updated success_count as a numpy array.
+    """
+    # Compute squared Euclidean distances between each sample's activation and the current activation.
+    diff = class_activations - cur_activation.unsqueeze(0)  # (num_sample, num_head, hidden_dim)
+    sq_distances = torch.sum(diff ** 2, dim=-1)               # (num_sample, num_head)
+    
+    # Apply the Gaussian kernel.
+    scores = torch.exp(-hp1 * sq_distances)                   # (num_sample, num_head)
+    
+    # For each head, select the sample index with the maximum similarity.
+    max_indices = scores.argmax(dim=0)                        # (num_head,)
+    
+    # Update success_count for heads where the selected sample index equals the label.
+    success_count = np.array(success_count)
+    success_count[max_indices == label] += 1
+    
+    return success_count
+
+def record_head_performance_laplacian(class_activations, cur_activation, label, success_count, hp1=1, hp2_useless=0):
+    """
+    Compute similarity using the Laplacian kernel:
+        k(v,u) = exp(-hp1 * ||v-u||_1)
+    
+    Args:
+        class_activations: Tensor of shape (num_sample, num_head, hidden_dim)
+        cur_activation: Tensor of shape (num_head, hidden_dim)
+        label: Target sample index (int) for checking performance.
+        success_count: Array-like, tracking success counts per head.
+        hp1: Hyperparameter gamma for the Laplacian kernel.
+        hp2: Unused for Laplacian kernel.
+    
+    Returns:
+        Updated success_count as a numpy array.
+    """
+    # Compute L1 distances between each sample's activation and the current activation.
+    diff = class_activations - cur_activation.unsqueeze(0)  # (num_sample, num_head, hidden_dim)
+    l1_distances = torch.sum(torch.abs(diff), dim=-1)         # (num_sample, num_head)
+    
+    # Apply the Laplacian kernel.
+    scores = torch.exp(-hp1 * l1_distances)                   # (num_sample, num_head)
+    
+    # For each head, select the sample index with the maximum similarity.
+    max_indices = scores.argmax(dim=0)                        # (num_head,)
+    
+    # Update success_count for heads where the selected sample index equals the label.
+    success_count = np.array(success_count)
+    success_count[max_indices == label] += 1
+    
+    return success_count
+
+def record_head_performance_sigmoid(class_activations, cur_activation, label, success_count, hp1=1, hp2=0):
+    """
+    Compute similarity using the Sigmoid kernel:
+        k(v,u) = tanh(hp1 * (v^T u) + hp2)
+    
+    Args:
+        class_activations: Tensor of shape (num_sample, num_head, hidden_dim)
+        cur_activation: Tensor of shape (num_head, hidden_dim)
+        label: Target sample index (int) for checking performance.
+        success_count: Array-like, tracking success counts per head.
+        hp1: Hyperparameter alpha for the Sigmoid kernel.
+        hp2: Hyperparameter constant c for the Sigmoid kernel.
+    
+    Returns:
+        Updated success_count as a numpy array.
+    """
+    # Compute dot products between each sample's activation and the current activation.
+    # Broadcasting cur_activation to (num_sample, num_head, hidden_dim).
+    dot_products = torch.sum(class_activations * cur_activation.unsqueeze(0), dim=-1)  # (num_sample, num_head)
+    
+    # Apply the Sigmoid kernel.
+    scores = torch.tanh(hp1 * dot_products + hp2)           # (num_sample, num_head)
+    
+    # For each head, select the sample index with the maximum similarity.
+    max_indices = scores.argmax(dim=0)                      # (num_head,)
+    
+    # Update success_count for heads where the selected sample index equals the label.
+    success_count = np.array(success_count)
+    success_count[max_indices == label] += 1
+    
+    return success_count
+    
 ##################################################
 
 def get_success_counts(class_activations, all_activations, str_to_int, indices_to_labels, score, hp1, hp2):
@@ -180,7 +327,13 @@ def get_success_counts(class_activations, all_activations, str_to_int, indices_t
         record_head_performance = record_head_performance_artanh
     elif score == 'l2':
         record_head_performance = record_head_performance_l2
-
+    elif score == 'gaussian':
+        record_head_performance = record_head_performance_gaussian
+    elif score == 'laplacian':
+        record_head_performance = record_head_performance_laplacian
+    elif score == 'sigmoid':
+        record_head_performance = record_head_performance_sigmoid
+    
     #go through training data
     for index, activation in all_activations.items():
         int_label = str_to_int[indices_to_labels[index]]
