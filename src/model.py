@@ -299,3 +299,80 @@ class Qwen2Helper(ModelHelper):
             generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
         )
         return output_text[0]
+
+
+class IVYHelper(ModelHelper):
+    def __init__(self, model, tokenizer, processor, cur_dataset):
+        self.model = model
+        self.tokenizer = tokenizer
+        self.processor = processor
+        self.model_config = {
+            "n_heads": model.model.config.num_attention_heads,
+            "n_layers": model.model.config.num_hidden_layers,
+            "resid_dim": model.model.config.hidden_size,
+            "name_or_path": model.model.config._name_or_path,
+            "attn_hook_names": [f'model.layers.{layer}.self_attn.o_proj' for layer in range(model.model.config.num_hidden_layers)],
+            "layer_hook_names": [f'model.layers.{layer}' for layer in range(model.model.config.num_hidden_layers)],
+            "mlp_hook_names": [f'model.layers.{layer}.mlp.down_proj' for layer in range(model.model.config.num_hidden_layers)]
+        }
+        self.cur_dataset = cur_dataset
+        self.format_func = get_format_func(cur_dataset)
+        self.split_idx = 2
+
+        self.all_heads = []
+        for layer in range(28):
+            for head in range(28):
+                self.all_heads.append((layer, head, -1))
+
+    def insert_image(self, text, image_list):
+        """
+        Processes the input image and text to create the appropriate inputs
+        for the model.
+        """
+        conv_template = "qwen_1_5"  # Adjust based on how IVY uses prompts, could be "ivy_1_5" if specific for IVY
+        conv = copy.deepcopy(conv_templates[conv_template])
+        conv.append_message(conv.roles[0], text)
+        conv.append_message(conv.roles[1], None)
+        prompt_question = conv.get_prompt()
+
+        # Tokenize the text prompt
+        input_ids = tokenizer_image_token(prompt_question, self.tokenizer, IMAGE_TOKEN_INDEX, return_tensors="pt").unsqueeze(0).to(self.model.device)
+
+        # Process the image list
+        if image_list == []:
+            return (input_ids, None, None)
+
+        image_list = load_images(image_list)
+        image_sizes = [image.size for image in image_list]
+
+        # Convert images to tensors and move them to the correct device
+        image_tensors = process_images(image_list, self.processor, self.model.config)
+        image_tensors = [_image.to(dtype=torch.float16, device=self.model.device) for _image in image_tensors]
+
+        return (input_ids, image_tensors, image_sizes)
+
+    def forward(self, model_input, labels=None):
+        """
+        Perform a forward pass through the model.
+        """
+        result = self.model(model_input[0], 
+                            images=model_input[1], 
+                            image_sizes=model_input[2], 
+                            labels=labels)
+        return result
+
+    def generate(self, model_input, max_new_tokens):
+        """
+        Generate text based on the input model input and return the generated text.
+        """
+        cont = self.model.generate(
+            model_input[0],
+            images=model_input[1],
+            image_sizes=model_input[2],
+            do_sample=False,
+            temperature=0,
+            max_new_tokens=max_new_tokens,
+        )
+
+        # Decode the generated output
+        return self.tokenizer.batch_decode(cont, skip_special_tokens=True)[0]

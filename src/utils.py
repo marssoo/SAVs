@@ -11,6 +11,9 @@ from typing import Optional
 from transformers import AutoModelForCausalLM, AutoTokenizer, AutoProcessor, AutoModelForVision2Seq, logging
 import os
 from collections import Counter
+import warnings
+warnings.filterwarnings("ignore")
+
 logging.set_verbosity_warning()
 
 def load_model(model_name, cur_dataset, lora_path=None):
@@ -109,7 +112,23 @@ def load_model(model_name, cur_dataset, lora_path=None):
         processor = AutoProcessor.from_pretrained("Qwen/Qwen2-VL-7B-Instruct")
 
         model_helper = Qwen2Helper(model, processor, cur_dataset)
+        
+    elif model_name == "ivy":
+        # Load the IVY model
+        from llava.model.builder import load_pretrained_model
+        model_name_or_path = "AI-Safeguard/Ivy-VL-llava"  # Replace with the correct model ID
+        tokenizer, model, image_processor, max_length = load_pretrained_model(
+            model_name_or_path,
+            None,
+            "llava_qwen",
+            device_map="cuda" if torch.cuda.is_available() else "cpu"
+            )
 
+
+        model.eval()
+        model.requires_grad_(False)
+
+        model_helper = IVYHelper(model, tokenizer, image_processor, cur_dataset)
     return model_helper
 
 

@@ -1,8 +1,8 @@
 python3 -m src.save_run \
-    --model_name llava_ov_0.5b \
-    --num_head 20\
+    --model_name ivy \
+    --num_head 25\
     --data_name compare \
-    --train_path comp_data/comp_train.jsonl \
-    --val_path comp_data/comp_val_small.jsonl\
-    --file_path runs/comp_20_heads.json
+    --train_path fma_data/fma_train.jsonl \
+    --val_path fma_data/fma_small_val.jsonl\
+    --file_path runs/05b_fma_25_heads.json
     
